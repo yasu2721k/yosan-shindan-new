@@ -1189,5 +1189,133 @@ h1, h2, h3 {
     left: 30px;
     left: 1.875rem;
 }
-    
+
+}
+
+/*===========================================
+ SPA ステップ切替
+========================================== */
+.step {
+    display: none;
+}
+
+.step.active {
+    display: block;
+}
+
+/* ステップボタンエリア */
+.step-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    gap: 0.9375rem;
+    margin-top: 30px;
+    margin-top: 1.875rem;
+    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
+}
+
+/* 次へボタン */
+.sn-next-button {
+    border: none;
+    width: 80%;
+    max-width: 380px;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+    background: none;
+}
+
+.sn-next-button img {
+}
+
+/* 戻るボタン */
+.sn-back-button {
+    border: 2px solid #65441A;
+    border: 0.125rem solid #65441A;
+    background-color: #fff;
+    color: #65441A;
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 14px 40px;
+    padding: 0.875rem 2.5rem;
+    border-radius: 50px;
+    border-radius: 3.125rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    letter-spacing: .1em;
+}
+
+.sn-back-button:hover {
+    background-color: #65441A;
+    color: #fff;
+}
+
+/* チェックボックス (アンケート用) */
+.sn-q-list__checkbox {
+    display: none;
+}
+
+/* テキストエリア */
+.sn-textarea-wrap {
+    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
+}
+
+.sn-textarea {
+    width: 100%;
+    padding: 18px;
+    padding: 1.125rem;
+    border: 2px solid #65441A;
+    border: 0.125rem solid #65441A;
+    border-radius: 8px;
+    border-radius: 0.5rem;
+    font-size: 15px;
+    font-size: 0.9375rem;
+    font-family: 'Noto Sans JP', sans-serif;
+    resize: vertical;
+    background-color: #fff;
+}
+
+.sn-textarea:focus {
+    border-color: #57852A;
+    outline: none;
+}
+
+/* 予算金額表示 (6a) */
+.sn-budget-display {
+    text-align: center;
+    margin: 30px 0;
+    margin: 1.875rem 0;
+    padding: 20px;
+    padding: 1.25rem;
+    background-color: #fff;
+    border-radius: 16px;
+    border-radius: 1rem;
+    border: 3px solid #57852A;
+    border: 0.1875rem solid #57852A;
+}
+
+.sn-budget-yen {
+    font-size: 24px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #57852A;
+}
+
+.sn-budget-amount {
+    font-size: 40px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #57852A;
+    letter-spacing: 0.05em;
+}
+
+.sn-budget-unit {
+    font-size: 20px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #57852A;
 }
