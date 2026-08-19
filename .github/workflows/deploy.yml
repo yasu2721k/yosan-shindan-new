@@ -48,7 +48,9 @@ jobs:
             exit 1
           fi
 
-          ssh-keyscan -p 10022 -H "$HOST" >> ~/.ssh/known_hosts 2>/dev/null
+          # known_hosts への登録は失敗してもデプロイは止めない
+          # （取れなかった場合は rsync 側の accept-new で拾う）
+          ssh-keyscan -T 10 -p 10022 -H "$HOST" >> ~/.ssh/known_hosts 2>/dev/null || echo "ssh-keyscan は取得できず（accept-new にフォールバック）"
 
       - name: rsync で配信ディレクトリへ同期
         env:
@@ -57,7 +59,7 @@ jobs:
           DEST_PATH: ${{ secrets.XSERVER_PATH }}
         run: |
           rsync -rlvz --delete \
-            -e "ssh -i ~/.ssh/id_deploy -p 10022" \
+            -e "ssh -i ~/.ssh/id_deploy -p 10022 -o StrictHostKeyChecking=accept-new -o ConnectTimeout=20" \
             --exclude '.git/' \
             --exclude '.github/' \
             --exclude '.claude/' \
