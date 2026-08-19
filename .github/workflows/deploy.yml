@@ -24,8 +24,23 @@ jobs:
           HOST: ${{ secrets.XSERVER_HOST }}
         run: |
           mkdir -p ~/.ssh
-          printf '%s\n' "$SSH_KEY" > ~/.ssh/id_deploy
+
+          # GitHubのテキストエリア経由でCRが混ざる/末尾改行が落ちることがあるので正規化する
+          printf '%s' "$SSH_KEY" | tr -d '\r' > ~/.ssh/id_deploy
+          if [ -n "$(tail -c1 ~/.ssh/id_deploy)" ]; then echo >> ~/.ssh/id_deploy; fi
           chmod 600 ~/.ssh/id_deploy
+
+          # 鍵の中身は出さず、形だけ検査する（ヘッダ/フッタ行は秘密情報ではない）
+          echo "行数: $(wc -l < ~/.ssh/id_deploy)"
+          echo "先頭: $(head -n1 ~/.ssh/id_deploy)"
+          echo "末尾: $(tail -n1 ~/.ssh/id_deploy)"
+          if ssh-keygen -y -f ~/.ssh/id_deploy > /dev/null 2>&1; then
+            echo "鍵の形式: OK"
+          else
+            echo "::error::XSERVER_SSH_KEY が正しい秘密鍵として読めません。GitHubのSecretに貼り直してください"
+            exit 1
+          fi
+
           ssh-keyscan -p 10022 -H "$HOST" >> ~/.ssh/known_hosts 2>/dev/null
 
       - name: rsync で配信ディレクトリへ同期
