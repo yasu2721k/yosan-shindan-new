@@ -25,8 +25,15 @@ jobs:
         run: |
           mkdir -p ~/.ssh
 
-          # GitHubのテキストエリア経由でCRが混ざる/末尾改行が落ちることがあるので正規化する
-          printf '%s' "$SSH_KEY" | tr -d '\r' > ~/.ssh/id_deploy
+          # XSERVER_SSH_KEY は base64（1行）でも生の秘密鍵でも受け付ける。
+          # GitHubのSecret欄に貼ると改行が失われることがあるため base64 を推奨。
+          if printf '%s' "$SSH_KEY" | tr -d '\r\n' | base64 -d 2>/dev/null | grep -q "PRIVATE KEY"; then
+            echo "入力形式: base64"
+            printf '%s' "$SSH_KEY" | tr -d '\r\n' | base64 -d > ~/.ssh/id_deploy
+          else
+            echo "入力形式: 生のPEM"
+            printf '%s' "$SSH_KEY" | tr -d '\r' > ~/.ssh/id_deploy
+          fi
           if [ -n "$(tail -c1 ~/.ssh/id_deploy)" ]; then echo >> ~/.ssh/id_deploy; fi
           chmod 600 ~/.ssh/id_deploy
 
