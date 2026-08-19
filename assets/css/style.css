@@ -604,11 +604,15 @@ h1, h2, h3 {
 }
 
 .sn-header h1 {
-    width: 170px;
-    width: 14.625rem;
+    /* ARCHISTロゴ（603x101 / 比6:1）に合わせた幅。180px幅で高さ約30px */
+    width: 180px;
+    width: 11.25rem;
 }
 
 .sn-header h1 img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .sn-step {

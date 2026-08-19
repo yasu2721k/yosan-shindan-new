@@ -2,16 +2,16 @@ let currentStep = 1;
 
 // LINE URL マッピング
 const budgetRanges = [
-  { min: 2250, max: 2400, url: 'https://s.lmes.jp/landing-qr/2006477439-oNGlmxx1?uLand=ca7JuS' },
-  { min: 2400, max: 2550, url: 'https://s.lmes.jp/landing-qr/2006477439-oNGlmxx1?uLand=Y9C0Pa' },
-  { min: 2550, max: 2700, url: 'https://s.lmes.jp/landing-qr/2006477439-oNGlmxx1?uLand=fSRwxT' },
-  { min: 2700, max: 2850, url: 'https://s.lmes.jp/landing-qr/2006477439-oNGlmxx1?uLand=cqtjEz' },
-  { min: 2850, max: 3000, url: 'https://s.lmes.jp/landing-qr/2006477439-oNGlmxx1?uLand=nQVLS2' },
-  { min: 3000, max: 3150, url: 'https://s.lmes.jp/landing-qr/2006477439-oNGlmxx1?uLand=dDxxuw' },
-  { min: 3150, max: 3300, url: 'https://s.lmes.jp/landing-qr/2006477439-oNGlmxx1?uLand=BZCF5V' },
-  { min: 3300, max: 3450, url: 'https://s.lmes.jp/landing-qr/2006477439-oNGlmxx1?uLand=fTgnnP' },
-  { min: 3450, max: 3600, url: 'https://s.lmes.jp/landing-qr/2006477439-oNGlmxx1?uLand=G9ezW8' },
-  { min: 3600, max: 3900, url: 'https://s.lmes.jp/landing-qr/2006477439-oNGlmxx1?uLand=8N58H3' }
+  { min: 2250, max: 2400, url: 'https://s.lmes.jp/landing-qr/2011005017-SIvucnKL?uLand=vwC0lc' },
+  { min: 2400, max: 2550, url: 'https://s.lmes.jp/landing-qr/2011005017-SIvucnKL?uLand=Ym4BE3' },
+  { min: 2550, max: 2700, url: 'https://s.lmes.jp/landing-qr/2011005017-SIvucnKL?uLand=hyAVcO' },
+  { min: 2700, max: 2850, url: 'https://s.lmes.jp/landing-qr/2011005017-SIvucnKL?uLand=XhNF26' },
+  { min: 2850, max: 3000, url: 'https://s.lmes.jp/landing-qr/2011005017-SIvucnKL?uLand=WlnyhE' },
+  { min: 3000, max: 3150, url: 'https://s.lmes.jp/landing-qr/2011005017-SIvucnKL?uLand=VkTClJ' },
+  { min: 3150, max: 3300, url: 'https://s.lmes.jp/landing-qr/2011005017-SIvucnKL?uLand=wxcyPn' },
+  { min: 3300, max: 3450, url: 'https://s.lmes.jp/landing-qr/2011005017-SIvucnKL?uLand=3G3M7h' },
+  { min: 3450, max: 3600, url: 'https://s.lmes.jp/landing-qr/2011005017-SIvucnKL?uLand=04GvgB' },
+  { min: 3600, max: 3900, url: 'https://s.lmes.jp/landing-qr/2011005017-SIvucnKL?uLand=tHM7vx' }
 ];
 
 // ステップ表示切替

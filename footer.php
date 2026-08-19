@@ -1,9 +1,9 @@
 <footer class="footer">
   <div class="footer__list">
-    <a href="https://crie-tochi.com/ig-company/" target="_blank">
+    <a href="company.html" target="_blank">
       会社概要
     </a>
-    <a href=" https://crie-tochi.com/ig-privacy/" target="_blank">
+    <a href="privacy.html" target="_blank">
       プライバシーポリシー
     </a>
   </div>

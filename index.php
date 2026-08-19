@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
-  <title>新サービス（仮）｜完全無料で住宅予算診断テスト！住みたいお家の予算がわかる</title>
+  <title>ARCHIST（アーキスト）｜完全無料で住宅予算診断テスト！住みたいお家の予算がわかる</title>
 
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -33,7 +33,7 @@
     <div class="sn top-main">
 
       <header class="sn-header">
-        <h1><img src="assets/img/logo.png" alt="logo"></h1>
+        <h1><img src="assets/img/logo-archist.png" alt="ARCHIST"></h1>
       </header>
 
       <!-- ===== Step 1: リビング ===== -->
@@ -767,8 +767,8 @@
 
     <footer class="footer">
       <div class="footer__list">
-        <a href="https://crie-tochi.com/ig-company/" target="_blank">会社概要</a>
-        <a href="https://crie-tochi.com/ig-privacy/" target="_blank">プライバシーポリシー</a>
+        <a href="company.html">会社概要</a>
+        <a href="privacy.html">プライバシーポリシー</a>
       </div>
     </footer>
   </div>

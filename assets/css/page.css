@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+/* 会社概要・プライバシーポリシー共通スタイル
+   予算診断LP（style.css）のカラーに合わせている
+   緑 #57852A / #8CB238・茶 #65441A・クリーム #FFFEED */
+
+.pg {
+  font-family: "Yu Gothic", "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN",
+    "メイリオ", Meiryo, sans-serif;
+  color: #3a3a3a;
+  background: #FFFEED;
+  line-height: 1.9;
+  margin: 0;
+  -webkit-text-size-adjust: 100%;
+}
+
+.pg__header {
+  background: #fff;
+  border-bottom: 1px solid #e6e4cf;
+  padding: 18px 20px;
+  text-align: center;
+}
+
+.pg__header img {
+  width: 150px;
+  max-width: 52vw;
+  height: auto;
+  vertical-align: middle;
+}
+
+.pg__main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 20px 56px;
+}
+
+.pg__title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #57852A;
+  margin: 0 0 6px;
+  letter-spacing: 0.04em;
+}
+
+.pg__lead {
+  font-size: 14px;
+  color: #6b6b6b;
+  margin: 0 0 28px;
+}
+
+/* 会社概要テーブル */
+.pg__table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border: 1px solid #e6e4cf;
+  font-size: 15px;
+}
+
+.pg__table th,
+.pg__table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #eeecd8;
+  text-align: left;
+  vertical-align: top;
+}
+
+.pg__table tr:last-child th,
+.pg__table tr:last-child td {
+  border-bottom: none;
+}
+
+.pg__table th {
+  width: 34%;
+  background: #F1F0DE;
+  color: #65441A;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .pg__table,
+  .pg__table tbody,
+  .pg__table tr,
+  .pg__table th,
+  .pg__table td {
+    display: block;
+    width: auto;
+  }
+  .pg__table th {
+    border-bottom: none;
+    padding-bottom: 4px;
+    white-space: normal;
+  }
+  .pg__table td {
+    padding-top: 4px;
+  }
+}
+
+/* プライバシーポリシー本文 */
+.pg__sec {
+  margin: 0 0 26px;
+}
+
+.pg__sec h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #65441A;
+  margin: 0 0 8px;
+  padding-left: 12px;
+  border-left: 4px solid #8CB238;
+  line-height: 1.5;
+}
+
+.pg__sec p {
+  margin: 0 0 10px;
+  font-size: 15px;
+}
+
+.pg__sec ul {
+  margin: 0 0 10px;
+  padding-left: 1.2em;
+  font-size: 15px;
+}
+
+.pg__sec li {
+  margin-bottom: 4px;
+}
+
+.pg__addr {
+  background: #fff;
+  border: 1px solid #e6e4cf;
+  padding: 16px;
+  font-size: 15px;
+}
+
+.pg__date {
+  text-align: right;
+  font-size: 13px;
+  color: #6b6b6b;
+  margin-top: 24px;
+}
+
+/* フッター（LP本体と同じ見た目） */
+.footer {
+  background-color: #8CB238;
+  color: #fff;
+  padding: 2.5rem 0;
+}
+
+.footer__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.footer__list a {
+  color: #fff;
+  margin: 0 0.625rem;
+}
+
+.pg__back {
+  display: inline-block;
+  margin-top: 28px;
+  font-size: 14px;
+  color: #57852A;
+}
