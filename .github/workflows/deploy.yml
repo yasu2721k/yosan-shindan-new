@@ -65,6 +65,8 @@ jobs:
             --exclude '.claude/' \
             --exclude '.gitignore' \
             --exclude '.DS_Store' \
+            --exclude '.htaccess' \
+            --exclude '.user.ini' \
             --exclude '参考サイト/' \
             --exclude 'screenshot-*.png' \
             --exclude '*.md' \
