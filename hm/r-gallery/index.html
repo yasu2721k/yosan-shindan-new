@@ -1,0 +1,1413 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>アールギャラリー 徹底解説｜坪単価・構造・断熱・口コミ【2026年版】｜ARCHIST</title>
+<!-- カラーテーマ: アールギャラリー（黒×ゴールド系の上質デザイン路線）-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+/* ========================================
+   JIN Theme Style — CSS変数でカラーテーマ切替
+   変更は :root だけでOK（全体に反映）
+   ======================================== */
+:root {
+  --color-primary: #1a1a1a;
+  --color-primary-dark: #000000;
+  --color-primary-light: #d4cdb8;
+  --color-accent: #b8924a;
+  --color-heading-bg: #f0ece2;
+  --color-hover-bg: #e3dccb;
+  --color-stripe-bg: #f8f6f0;
+  --color-highlight-bg: #ece5d3;
+  --color-highlight-dark: #d4c8a3;
+  --color-text: #1a1a1a;
+  --color-text-light: #5a5040;
+  --color-bg-site: #fbfaf6;
+  --color-bg-article: #ffffff;
+  --color-link: #8a6a30;
+  --color-border: #c9c0a8;
+}
+
+/* Reset & Base */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Noto Sans JP', '游ゴシック', 'Yu Gothic', 'YuGothic', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--color-text);
+  background: var(--color-bg-site);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Header */
+.site-header {
+  background: var(--color-primary-light);
+  padding: 16px 0;
+  text-align: center;
+}
+.site-header .site-title {
+  color: var(--color-primary);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Article Container */
+.article-wrap {
+  max-width: 740px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+
+.article-card {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  overflow: hidden;
+}
+
+/* Article Header */
+.article-header {
+  padding: 30px 30px 20px;
+}
+.article-header .category-label {
+  display: inline-block;
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 12px;
+  border-radius: 2px;
+  margin-bottom: 12px;
+}
+.article-header .article-title {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--color-primary);
+}
+.article-header .article-meta {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #999;
+}
+
+/* Article Body */
+.article-body {
+  padding: 0 30px 40px;
+}
+
+/* =====================
+   Table of Contents
+   ===================== */
+.toc-box {
+  background: #fafafa;
+  border: 2px solid var(--color-primary);
+  border-radius: 4px;
+  padding: 20px 25px;
+  margin: 20px 0 35px;
+}
+.toc-box .toc-title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 15px;
+  position: relative;
+}
+.toc-box .toc-title::after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: var(--color-accent);
+  margin: 8px auto 0;
+}
+.toc-box ol {
+  padding-left: 22px;
+  counter-reset: toc-counter;
+}
+.toc-box ol li {
+  list-style: none;
+  counter-increment: toc-counter;
+  margin-bottom: 6px;
+  line-height: 1.6;
+}
+.toc-box ol li::before {
+  content: counter(toc-counter) ".";
+  color: var(--color-primary);
+  font-weight: 700;
+  margin-right: 6px;
+}
+.toc-box ol li a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: 15px;
+}
+.toc-box ol li a:hover {
+  text-decoration: underline;
+}
+
+/* =====================
+   H2 Heading (JIN style)
+   ===================== */
+.article-body h2 {
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 14px 20px;
+  margin: 50px 0 25px;
+  border-radius: 4px;
+  position: relative;
+  line-height: 1.5;
+}
+.article-body h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 30px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid var(--color-primary);
+}
+
+/* =====================
+   H3 Heading (JIN style)
+   ===================== */
+.article-body h3 {
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--color-primary);
+  padding: 12px 16px;
+  margin: 35px 0 20px;
+  border-left: 4px solid var(--color-primary);
+  background: var(--color-heading-bg);
+  border-radius: 0 4px 4px 0;
+  line-height: 1.5;
+}
+
+/* =====================
+   H4 Heading
+   ===================== */
+.article-body h4 {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--color-primary);
+  padding: 8px 0;
+  margin: 25px 0 15px;
+  border-bottom: 2px dotted var(--color-primary);
+}
+
+/* =====================
+   Paragraphs & Text
+   ===================== */
+.article-body p {
+  margin: 15px 0;
+  line-height: 1.9;
+}
+
+.article-body strong {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+.article-body a {
+  color: var(--color-link);
+  text-decoration: underline;
+}
+
+/* Marker / Highlight */
+.marker-yellow {
+  background: linear-gradient(transparent 60%, var(--color-accent) 60%);
+  font-weight: 700;
+}
+
+/* Section Divider */
+.article-body hr {
+  border: none;
+  border-top: 2px dashed #ddd;
+  margin: 40px 0;
+}
+
+/* =====================
+   Image Styles
+   ===================== */
+.article-body .section-image {
+  width: 100%;
+  border-radius: 4px;
+  margin: 15px 0;
+}
+.image-row {
+  display: flex;
+  gap: 15px;
+  margin: 15px 0;
+}
+.image-row .image-col {
+  flex: 1;
+}
+.image-row .image-col img {
+  width: 100%;
+  border-radius: 4px;
+}
+.image-row .image-col p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* =====================
+   Tables (JIN style)
+   ===================== */
+.jin-table-wrap {
+  overflow-x: auto;
+  margin: 20px 0;
+  -webkit-overflow-scrolling: touch;
+}
+.jin-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 15px;
+}
+.jin-table th {
+  background: var(--color-primary);
+  color: #fff;
+  font-weight: 700;
+  padding: 12px 14px;
+  text-align: left;
+  border: 1px solid var(--color-primary-dark);
+  white-space: nowrap;
+}
+.jin-table td {
+  padding: 11px 14px;
+  border: 1px solid var(--color-border);
+  vertical-align: top;
+}
+.jin-table tr:nth-child(even) td {
+  background: var(--color-stripe-bg);
+}
+.jin-table tr:hover td {
+  background: var(--color-hover-bg);
+}
+
+/* Comparison table with fixed first column */
+.compare-table th:first-child,
+.compare-table td:first-child {
+  background: var(--color-heading-bg);
+  font-weight: 700;
+  color: var(--color-primary);
+  white-space: nowrap;
+  position: sticky;
+  left: 0;
+  z-index: 1;
+}
+.compare-table td:first-child {
+  border-right: 2px solid var(--color-primary);
+}
+.compare-table th:nth-child(2),
+.compare-table td:nth-child(2) {
+  background: var(--color-highlight-bg);
+}
+.compare-table th:nth-child(2) {
+  background: var(--color-primary-dark);
+  color: #fff;
+}
+.compare-table tr:nth-child(even) td:nth-child(2) {
+  background: var(--color-highlight-dark);
+}
+
+/* =====================
+   Concept Box (JIN style)
+   ===================== */
+/* Point Box (Green) */
+.concept-box--point {
+  border: 2px solid #85db8f;
+  border-radius: 6px;
+  padding: 25px 20px 18px;
+  margin: 25px 0;
+  position: relative;
+  background: #f6fff7;
+}
+.concept-box--point::before {
+  content: 'POINT';
+  position: absolute;
+  top: -13px;
+  left: 16px;
+  background: #85db8f;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px 12px;
+  border-radius: 3px;
+  letter-spacing: 1px;
+}
+
+/* Caution Box (Red) */
+.concept-box--caution {
+  border: 2px solid #ed8989;
+  border-radius: 6px;
+  padding: 25px 20px 18px;
+  margin: 25px 0;
+  position: relative;
+  background: #fff6f6;
+}
+.concept-box--caution::before {
+  content: 'NOTE';
+  position: absolute;
+  top: -13px;
+  left: 16px;
+  background: #ed8989;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px 12px;
+  border-radius: 3px;
+  letter-spacing: 1px;
+}
+
+/* Tip Box (Blue) */
+.concept-box--tip {
+  border: 2px solid #86cee8;
+  border-radius: 6px;
+  padding: 25px 20px 18px;
+  margin: 25px 0;
+  position: relative;
+  background: #f4faff;
+}
+.concept-box--tip::before {
+  content: 'TIPS';
+  position: absolute;
+  top: -13px;
+  left: 16px;
+  background: #86cee8;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px 12px;
+  border-radius: 3px;
+  letter-spacing: 1px;
+}
+
+/* Warning Box (Yellow) */
+.concept-box--warning {
+  border: 2px solid #f7cf6a;
+  border-radius: 6px;
+  padding: 25px 20px 18px;
+  margin: 25px 0;
+  position: relative;
+  background: #fffdf3;
+}
+.concept-box--warning::before {
+  content: 'WARNING';
+  position: absolute;
+  top: -13px;
+  left: 16px;
+  background: #f7cf6a;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px 12px;
+  border-radius: 3px;
+  letter-spacing: 1px;
+}
+
+/* Highlight Box (Accent) */
+.concept-box--highlight {
+  border: 2px solid var(--color-primary);
+  border-radius: 6px;
+  padding: 25px 20px 18px;
+  margin: 25px 0;
+  position: relative;
+  background: var(--color-heading-bg);
+}
+.concept-box--highlight::before {
+  content: 'CHECK';
+  position: absolute;
+  top: -13px;
+  left: 16px;
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px 12px;
+  border-radius: 3px;
+  letter-spacing: 1px;
+}
+
+/* =====================
+   Simple Box (JIN style)
+   ===================== */
+.simple-box {
+  border: 2px solid var(--color-border);
+  border-radius: 4px;
+  padding: 18px 20px;
+  margin: 25px 0;
+  background: #fff;
+}
+.simple-box--blue {
+  border-color: #7badd8;
+  background: #f7faff;
+}
+.simple-box--yellow {
+  border-color: #f2bf7d;
+  background: #fffdf5;
+}
+
+/* =====================
+   Kaisetsu Box (JIN style)
+   ===================== */
+.kaisetsu-box {
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  margin: 25px 0;
+  overflow: hidden;
+}
+.kaisetsu-box .kaisetsu-title {
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px 18px;
+}
+.kaisetsu-box .kaisetsu-content {
+  padding: 18px 20px;
+  background: #fff;
+}
+
+/* =====================
+   Lists
+   ===================== */
+.article-body ul {
+  margin: 15px 0;
+  padding-left: 24px;
+}
+.article-body ul li {
+  margin-bottom: 8px;
+  line-height: 1.7;
+  position: relative;
+}
+.article-body ul li::marker {
+  color: var(--color-primary);
+}
+.article-body ol {
+  margin: 15px 0;
+  padding-left: 24px;
+}
+.article-body ol li {
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+.article-body ol li::marker {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+/* Column Layout (merit/demerit) */
+.two-col {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+}
+.two-col .col {
+  flex: 1;
+  padding: 18px;
+  border-radius: 6px;
+}
+.two-col .col--merit {
+  background: #f0f9f4;
+  border: 2px solid #85db8f;
+}
+.two-col .col--demerit {
+  background: #fff5f5;
+  border: 2px solid #ed8989;
+}
+.two-col .col h4 {
+  margin-top: 0;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+/* Product Cards */
+.product-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin: 20px 0;
+}
+.product-card {
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+}
+.product-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.product-card .product-info {
+  padding: 12px 14px;
+}
+.product-card .product-info .product-name {
+  font-weight: 700;
+  color: var(--color-primary);
+  font-size: 15px;
+}
+.product-card .product-info .product-price {
+  font-size: 14px;
+  color: #e74c3c;
+  font-weight: 700;
+  margin-top: 4px;
+}
+.product-card .product-info .product-desc {
+  font-size: 13px;
+  color: #777;
+  margin-top: 2px;
+}
+
+/* =====================
+   FAQ Accordion (JIN style)
+   ===================== */
+.faq-section {
+  margin: 25px 0;
+}
+.faq-item {
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  background: #fff;
+}
+.faq-item summary {
+  display: flex;
+  align-items: center;
+  padding: 15px 18px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--color-primary);
+  list-style: none;
+  position: relative;
+  line-height: 1.6;
+}
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+.faq-item summary::before {
+  content: 'Q';
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  min-width: 28px;
+  background: var(--color-primary);
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+.faq-item summary::after {
+  content: '+';
+  position: absolute;
+  right: 18px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #999;
+  transition: transform 0.2s;
+}
+.faq-item[open] summary::after {
+  content: '-';
+}
+.faq-item .faq-answer {
+  padding: 0 18px 18px 58px;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #555;
+  border-top: 1px dashed #e0e0e0;
+}
+.faq-item .faq-answer::before {
+  content: 'A.';
+  font-weight: 700;
+  color: #ed8989;
+  margin-right: 6px;
+}
+
+/* =====================
+   Footer
+   ===================== */
+.site-footer {
+  background: var(--color-primary-light);
+  color: var(--color-primary);
+  text-align: center;
+  padding: 20px;
+  font-size: 13px;
+  margin-top: 30px;
+}
+
+/* =====================
+   Responsive
+   ===================== */
+@media screen and (max-width: 768px) {
+  .article-body {
+    padding: 0 18px 30px;
+  }
+  .article-header {
+    padding: 20px 18px 15px;
+  }
+  .article-header .article-title {
+    font-size: 21px;
+  }
+  .article-body h2 {
+    font-size: 19px;
+    padding: 12px 16px;
+    margin: 40px -18px 20px;
+    border-radius: 0;
+  }
+  .article-body h2::after {
+    left: 28px;
+  }
+  .article-body h3 {
+    font-size: 17px;
+  }
+  .jin-table {
+    font-size: 13px;
+  }
+  .jin-table th, .jin-table td {
+    padding: 8px 10px;
+  }
+  .two-col {
+    flex-direction: column;
+  }
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+  .image-row {
+    flex-direction: column;
+  }
+}
+</style>
+
+<style>
+/* ARCHIST 統合用の上書き（ヘッダー/フッターのリンク化とパンくず） */
+a.site-title{color:inherit;text-decoration:none;display:inline-block}
+a.site-title:hover{opacity:.8}
+.archist-crumb{max-width:820px;margin:14px auto 0;padding:0 16px;font-size:13px;color:#8a8a8a}
+.archist-crumb a{color:#8a8a8a;text-decoration:none}
+.archist-crumb a:hover{text-decoration:underline}
+.site-footer a{color:inherit}
+</style>
+<meta name="description" content="アールギャラリー（arr gallery）は、2003年創業の株式会社アールプランナーが手がける注文住宅ブランド。本社は愛知県名古屋市。東海エリア（愛知・岐阜・三重）と首都圏（東京・神奈川・埼玉）を主戦場とし、デザイン性と性能の両立を掲…">
+<link rel="canonical" href="https://archist.jp/hm/r-gallery/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="ARCHIST（アーキスト）">
+<meta property="og:title" content="アールギャラリー 徹底解説｜坪単価・構造・断熱・口コミ【2026年版】｜ARCHIST">
+<meta property="og:description" content="アールギャラリー（arr gallery）は、2003年創業の株式会社アールプランナーが手がける注文住宅ブランド。本社は愛知県名古屋市。東海エリア（愛知・岐阜・三重）と首都圏（東京・神奈川・埼玉）を主戦場とし、デザイン性と性能の両立を掲…">
+<meta property="og:url" content="https://archist.jp/hm/r-gallery/">
+<meta property="og:image" content="https://archist.jp/hm/r-gallery/images/001-fv-pc.jpg">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+
+<!-- ========== Header ========== -->
+<header class="site-header">
+  <a class="site-title" href="../">ARCHIST（アーキスト）</a>
+</header>
+
+<!-- ========== Article ========== -->
+<nav class="archist-crumb"><a href="/">ARCHIST</a> ＞ <a href="../">ハウスメーカー徹底解説</a> ＞ アールギャラリー</nav>
+<main class="article-wrap">
+<article class="article-card">
+
+<!-- Article Header -->
+<div class="article-header">
+  <span class="category-label">ハウスメーカー</span>
+  <h1 class="article-title">アールギャラリー 徹底解説｜坪単価・構造・断熱・保証・口コミまで完全ガイド【2026年版】</h1>
+  <div class="article-meta">2026年 更新</div>
+</div>
+
+<!-- Hero Image -->
+<figure style="margin: 0 0 20px; text-align: center;">
+  <img src="images/001-fv-pc.jpg" loading="lazy" decoding="async" alt="アールギャラリー 高性能・デザイン住宅のブランドビジュアル" style="max-width: 100%; height: auto; display: block;">
+  <figcaption style="font-size: 13px; color: #666; margin-top: 8px;">出典: アールギャラリー（株式会社アールプランナー）公式サイト</figcaption>
+</figure>
+
+<!-- Article Body -->
+<div class="article-body">
+<!-- =====================
+     Table of Contents
+     ===================== -->
+<div class="toc-box">
+  <div class="toc-title">もくじ</div>
+  <ol>
+    <li><a href="#sec1">会社・基本データ（規模・エリア・対応工法）</a></li>
+    <li><a href="#sec2">商品ラインナップと価格</a></li>
+    <li><a href="#sec3">構造・耐震性能</a></li>
+    <li><a href="#sec4">断熱性能</a></li>
+    <li><a href="#sec5">気密性能</a></li>
+    <li><a href="#sec6">換気・空調</a></li>
+    <li><a href="#sec7">デザイン</a></li>
+    <li><a href="#sec8">保証・メンテナンス</a></li>
+    <li><a href="#sec9">建築期間</a></li>
+    <li><a href="#sec10">客層・向き不向き</a></li>
+    <li><a href="#sec11">他社との比較表</a></li>
+    <li><a href="#sec12">よくある後悔・失敗事例</a></li>
+    <li><a href="#sec13">まとめ</a></li>
+    <li><a href="#sec14">よくある質問（FAQ）</a></li>
+  </ol>
+</div>
+
+<!-- Section 1 -->
+<h2 id="sec1">① 会社・基本データ（規模・エリア・対応工法）</h2>
+
+<p>アールギャラリー（arr gallery）は、2003年創業の<strong>株式会社アールプランナー</strong>が手がける注文住宅ブランド。本社は愛知県名古屋市。東海エリア（愛知・岐阜・三重）と首都圏（東京・神奈川・埼玉）を主戦場とし、デザイン性と性能の両立を掲げる中堅HMとしてポジションを確立している。</p>
+
+<p>ブランドコンセプトは<strong>"Find Your Only One Style"</strong>。完全自由設計のセミオーダー〜フルオーダーで、画一的な「○○シリーズ」を量産する大手HMとは一線を画す。</p>
+
+<p>最大の特徴は<span class="marker-yellow">大手HM出身の建築士・インテリアコーディネーターが在籍するデザインチーム</span>と、<span class="marker-yellow">全棟「許容応力度計算」＋制振ダンパー標準</span>という構造への踏み込み。坪70〜100万円帯では珍しい高耐震・自由設計の組み合わせを実現している。</p>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>項目</th><th>内容</th></tr>
+<tr><td>会社名</td><td>株式会社アールプランナー</td></tr>
+<tr><td>主力ブランド</td><td>アールギャラリー（arr gallery）／ Fの家／ arr style</td></tr>
+<tr><td>創業</td><td>2003年</td></tr>
+<tr><td>本社</td><td>愛知県名古屋市</td></tr>
+<tr><td>事業内容</td><td>注文住宅・分譲住宅・リフォーム・不動産仲介</td></tr>
+<tr><td>売上高</td><td>非公表（中堅地域HM規模／公式IRなし）</td></tr>
+<tr><td>年間着工棟数</td><td>非公表</td></tr>
+<tr><td>対応エリア</td><td>愛知・岐阜・三重・東京・神奈川・埼玉の<strong>6都県</strong>（一部地域除外）</td></tr>
+<tr><td>取扱工法</td><td>木造軸組工法＋集成材金物工法（高精度ドリフトピン接合）</td></tr>
+<tr><td>主な認定</td><td>建設業許可／一級建築士事務所登録／長期優良住宅標準対応</td></tr>
+</table>
+</div>
+
+<h3>「アールプランナー」と「アールギャラリー」の関係</h3>
+
+<p>運営会社が<strong>株式会社アールプランナー</strong>、注文住宅事業のブランド名が<strong>アールギャラリー</strong>。SUUMO等の住宅情報サイトでは「アールギャラリー（アールプランナー）」と併記されることが多い。<span class="marker-yellow">"R+house"・"アールプラスハウス"とは別会社</span>なので混同注意。</p>
+
+<h3>商品ブランドの整理</h3>
+
+<ul>
+  <li><strong>アールギャラリー（arr gallery）</strong>: 注文住宅の主力。フルオーダーのデザイン住宅</li>
+  <li><strong>arr basic</strong>: スタンダード自由設計</li>
+  <li><strong>arr style（アールスタイル）</strong>: コスト重視のセミオーダー寄りプラン</li>
+  <li><strong>Fの家</strong>: "暮らしづくり"がテーマのコンセプト住宅。最廉価帯</li>
+  <li><strong>arr gallery リフォーム</strong>: リノベーション部門</li>
+  <li><strong>アールプランナー不動産</strong>: 分譲住宅・建売・土地仲介</li>
+</ul>
+
+<h3>顧客満足度</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>指標</th><th>数値</th></tr>
+<tr><td>第三者調査（不動産売却マイスター集計）</td><td><strong>4.81 / 5.0点</strong></td></tr>
+<tr><td>SUUMOカウンター展示場ランキング</td><td>東海エリアで上位常連</td></tr>
+<tr><td>オリコン顧客満足度ランキング</td><td>未掲載（対応エリア限定のため対象外と推測）</td></tr>
+</table>
+</div>
+
+
+<figure style="margin: 20px 0; text-align: center;">
+  <img src="images/002-about-image1.jpg" loading="lazy" decoding="async" alt="アールギャラリー 注文住宅のコンセプトイメージ" style="max-width: 100%; height: auto; border-radius: 4px;" referrerpolicy="no-referrer">
+  <figcaption style="font-size: 13px; color: #666; margin-top: 8px;">出典: アールギャラリー公式サイト</figcaption>
+</figure>
+
+<figure style="margin: 20px 0; text-align: center;">
+  <img src="images/003-area-aichi-img.jpg" loading="lazy" decoding="async" alt="愛知（東海エリア）の対応エリアビジュアル" style="max-width: 100%; height: auto; border-radius: 4px;" referrerpolicy="no-referrer">
+  <figcaption style="font-size: 13px; color: #666; margin-top: 8px;">出典: アールギャラリー公式サイト</figcaption>
+</figure>
+
+<div class="concept-box--caution">
+  <p><strong>情報の限界について</strong>：アールギャラリーは非上場・地域中堅HMのため、IR情報や公式売上・着工棟数が公開されていない。本記事は2026年4月時点のWebリサーチおよび二次情報（不動産売却マイスター・SUUMO・HOME4U等）に基づく推定値を含む。最新の数値は資料請求または各スタジオへの直接確認を推奨する。</p>
+</div>
+
+<hr>
+
+<!-- Section 2 -->
+<h2 id="sec2">② 商品ラインナップと価格</h2>
+
+<p>アールギャラリーは商品名を分けつつ、<strong>基本は完全自由設計（フルオーダー〜セミオーダー）</strong>。建物規模・仕様グレードで坪単価が大きく動くため、レンジでの理解が前提。</p>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>商品名</th><th>坪単価目安（2026年）</th><th>主な特徴</th></tr>
+<tr><td>arr gallery（フラッグシップ）</td><td>85〜100万円</td><td>デザイン性最上位。ハイグレード仕様。大手HM出身デザイナー設計</td></tr>
+<tr><td>arr basic</td><td>70〜85万円</td><td>スタンダード自由設計。標準仕様で長期優良＋制震ダンパー標準</td></tr>
+<tr><td>arr style（アールスタイル）</td><td>55〜70万円</td><td>コスト重視のセミオーダー寄りプラン。打合せ短縮型</td></tr>
+<tr><td>Fの家</td><td>50〜65万円</td><td>"暮らしづくり"テーマ。最廉価帯。子育て家庭向けコンセプト</td></tr>
+<tr><td>平屋プラン（arr gallery系）</td><td>90〜110万円</td><td>建物規模が小さいため坪単価上昇。需要は近年増加</td></tr>
+</table>
+</div>
+
+<h3>建物規模別 実勢坪単価（不動産売却マイスター集計／2025年版）</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>建物規模</th><th>実勢坪単価</th><th>本体価格</th><th>建築総額目安（諸費用込）</th></tr>
+<tr><td>25坪</td><td>約84万円</td><td>約2,100万円</td><td>約2,730万円</td></tr>
+<tr><td>30坪</td><td>約83万円</td><td>約2,490万円</td><td>約3,237万円</td></tr>
+<tr><td>40坪</td><td>約82万円</td><td>約3,280万円</td><td>約4,264万円</td></tr>
+<tr><td>平屋（30坪）</td><td>約96万円</td><td>約2,880万円</td><td>約3,744万円</td></tr>
+</table>
+<p style="font-size:13px;color:#666;">※諸費用は本体価格の30%相当を加算。地盤改良費・外構費・土地代は別途。</p>
+</div>
+
+
+<figure style="margin: 20px 0; text-align: center;">
+  <img src="images/004-housing-slide16.jpg" loading="lazy" decoding="async" alt="アールギャラリーの施工事例（モダンデザイン住宅）" style="max-width: 100%; height: auto; border-radius: 4px;" referrerpolicy="no-referrer">
+  <figcaption style="font-size: 13px; color: #666; margin-top: 8px;">出典: アールギャラリー公式サイト 施工事例</figcaption>
+</figure>
+
+<h3>実勢平均</h3>
+
+<div class="concept-box--point">
+  <ul>
+    <li>2026年時点の<strong>全体平均坪単価は約86万円</strong>（不動産売却マイスター調べ）</li>
+    <li>建物規模が小さいほど坪単価は上昇（25坪≒84万、40坪≒82万、平屋30坪≒96万）</li>
+    <li>arr galleryグレード＋平屋＋ハイ標準仕様の組み合わせで坪100万円超は普通に発生</li>
+    <li>arr style／Fの家を選べば坪50万円台から到達可能だが、デザイン自由度は下がる</li>
+  </ul>
+</div>
+
+<h3>標準装備</h3>
+
+<ul>
+  <li>制振ダンパー全棟搭載（バイリニア特性）</li>
+  <li>ベタ基礎（地盤保証20年）</li>
+  <li>吹付発泡ウレタンフォーム断熱</li>
+  <li>アルミ×樹脂複合サッシ（アルゴンガス充填はオプション）</li>
+  <li>24時間換気システム</li>
+  <li>長期優良住宅基準・省令準耐火構造</li>
+</ul>
+
+<div class="concept-box--caution">
+  <p><strong>注意</strong>: 公式サイトに坪単価の明示はない。本セクションの数値は二次情報（不動産売却マイスター・HOME4U・SUUMO）の集計値ベース。商品グレードと仕様により実額は大きく前後する。</p>
+</div>
+
+<hr>
+
+<!-- Section 3 -->
+<h2 id="sec3">③ 構造・耐震性能</h2>
+
+<p>アールギャラリーは<strong>木造軸組工法＋集成材金物工法</strong>のハイブリッド。在来木造の自由度を保ちつつ、接合部は金物（ドリフトピン）で剛性を確保する。<span class="marker-yellow">坪70〜100万円帯では珍しく、全棟で「許容応力度計算」を実施</span>している点が最大の構造的特徴。</p>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>項目</th><th>内容</th></tr>
+<tr><td>主要工法</td><td>木造軸組（在来）＋集成材金物工法</td></tr>
+<tr><td>接合方式</td><td>ドリフトピン＋高精度プレカット集成材</td></tr>
+<tr><td>基礎</td><td>ベタ基礎（地盤保証20年）</td></tr>
+<tr><td>耐震等級</td><td><strong>3</strong>（許容応力度計算で立証）</td></tr>
+<tr><td>構造計算</td><td><strong>全棟「許容応力度計算」実施</strong></td></tr>
+<tr><td>制振</td><td><strong>制振ダンパー全棟標準</strong>（バイリニア特性）</td></tr>
+<tr><td>準耐火</td><td>省令準耐火構造を標準</td></tr>
+<tr><td>長期優良</td><td>長期優良住宅認定基準を標準でクリア</td></tr>
+</table>
+</div>
+
+
+<figure style="margin: 20px 0; text-align: center;">
+  <img src="images/005-tab1-block1-image01-pc.jpg" loading="lazy" decoding="async" alt="全棟「許容応力度計算」の構造設計イメージ" style="max-width: 100%; height: auto; border-radius: 4px;" referrerpolicy="no-referrer">
+  <figcaption style="font-size: 13px; color: #666; margin-top: 8px;">出典: アールギャラリー公式 高性能ページ</figcaption>
+</figure>
+
+<h3>「許容応力度計算」の意味</h3>
+
+<p>木造2階建てでは法律上「壁量計算」だけで建てられるが、それは簡易的な確認。許容応力度計算は<strong>柱・梁・接合部一本一本の応力を立体的に検証する精緻な構造計算</strong>で、3階建てや非住宅建築物では必須となる。アールギャラリーは2階建ての標準仕様でもこれを全棟実施している。</p>
+
+<div class="concept-box--point">
+  <p><strong>同価格帯での全棟構造計算は希少</strong>: タマホーム・アイ工務店等の同価格帯では「希望者のみオプション」または「壁量計算のみ」が一般的。アールギャラリーが標準で対応している点は、同帯の中で構造への踏み込みが大きい。</p>
+</div>
+
+
+<figure style="margin: 20px 0; text-align: center;">
+  <img src="images/006-tab1-block1-image02.jpg" loading="lazy" decoding="async" alt="制振ダンパー（バイリニア特性）" style="max-width: 100%; height: auto; border-radius: 4px;" referrerpolicy="no-referrer">
+  <figcaption style="font-size: 13px; color: #666; margin-top: 8px;">出典: アールギャラリー公式 高性能ページ</figcaption>
+</figure>
+
+<h3>制振ダンパー</h3>
+
+<p>住友ゴム製・トキ製などのバイリニア特性ダンパーを全棟搭載。地震の揺れを吸収して建物変形を抑え、繰り返し地震に対しても性能を維持する。アールギャラリーは<strong>無償提供</strong>の扱いで、別途オプション費用は発生しない。</p>
+
+<div class="concept-box--caution">
+  
+<figure style="margin: 20px 0; text-align: center;">
+  <img src="images/007-tab1-block3-image07.png" loading="lazy" decoding="async" alt="集成材金物工法（高精度ドリフトピン接合）" style="max-width: 100%; height: auto; border-radius: 4px;" referrerpolicy="no-referrer">
+  <figcaption style="font-size: 13px; color: #666; margin-top: 8px;">出典: アールギャラリー公式 高性能ページ</figcaption>
+</figure>
+
+<p><strong>限界</strong>: 大手HMのような実大振動実験データ（積水ハウス・ヘーベルハウス等が公開）はアールギャラリーには存在しない。性能は構造計算と部材スペックでの担保となる。</p>
+</div>
+
+<hr>
+
+<!-- Section 4 -->
+<h2 id="sec4">④ 断熱性能</h2>
+
+<p>アールギャラリーの断熱仕様は<strong>吹付発泡ウレタンフォーム断熱</strong>を全棟採用。家全体を隙間なく覆う形で施工し、熱橋（ヒートブリッジ）を抑える。サッシは<strong>アルミ×樹脂複合サッシ</strong>標準（アルゴンガス充填はオプション）。</p>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>項目</th><th>仕様</th></tr>
+<tr><td>断熱材（壁・屋根）</td><td>吹付発泡ウレタンフォーム（連続気泡）</td></tr>
+<tr><td>サッシ</td><td>アルミ×樹脂複合サッシ／アルゴンガス充填はオプション</td></tr>
+<tr><td>ガラス</td><td>Low-E複層</td></tr>
+<tr><td>外壁通気工法</td><td>標準採用</td></tr>
+<tr><td>UA値</td><td><strong>非公表</strong></td></tr>
+<tr><td>断熱等級</td><td>非公表（断熱等級5相当と推定／地域区分5・6ベース）</td></tr>
+</table>
+</div>
+
+
+<figure style="margin: 20px 0; text-align: center;">
+  <img src="images/008-tab2-block1-image01-pc.jpg" loading="lazy" decoding="async" alt="吹付発泡ウレタンフォーム断熱（家全体を覆う連続断熱）" style="max-width: 100%; height: auto; border-radius: 4px;" referrerpolicy="no-referrer">
+  <figcaption style="font-size: 13px; color: #666; margin-top: 8px;">出典: アールギャラリー公式 高性能ページ</figcaption>
+</figure>
+
+<h3>UA値・断熱等級が非公表という現実</h3>
+
+<div class="concept-box--caution">
+  <p><strong>性能数値が出てこない問題</strong>: 公式サイト・カタログ・各種比較サイトを総当たりで調査しても、アールギャラリーは<span class="marker-yellow">UA値・断熱等級ともに具体的な数値を公表していない</span>。「高気密・高断熱仕様」「外壁通気工法」など定性的な表現のみ。一条工務店のUA値0.25、住友林業のUA値0.41、スウェーデンハウスのUA値0.34と比較すると、性能訴求の弱さが目立つ。</p>
+</div>
+
+<p>実際の性能はおそらく<strong>断熱等級5（HEAT20 G1相当）</strong>あたりに着地する仕様だが、これは推定であり保証されたものではない。性能を最重視するなら、契約前に「設計地域でのUA値計算結果」を書面で出してもらうのが必須。</p>
+
+<h3>同価格帯との断熱比較</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>HM</th><th>UA値</th><th>断熱等級</th><th>サッシ</th></tr>
+<tr><td><strong>アールギャラリー</strong></td><td><strong>非公表</strong></td><td>非公表</td><td>アルミ樹脂複合</td></tr>
+<tr><td>住友林業</td><td>0.41</td><td>5</td><td>アルミ樹脂複合</td></tr>
+<tr><td>一条工務店</td><td>0.25</td><td>7</td><td>樹脂サッシ（4枚ガラス）</td></tr>
+<tr><td>スウェーデンハウス</td><td>0.34</td><td>5</td><td>木製3層</td></tr>
+<tr><td>タマホーム</td><td>0.46</td><td>5</td><td>アルミ樹脂複合</td></tr>
+<tr><td>ウィズダム</td><td>0.40前後</td><td>6</td><td>樹脂</td></tr>
+</table>
+</div>
+
+<hr>
+
+<!-- Section 5 -->
+<h2 id="sec5">⑤ 気密性能</h2>
+
+<p>気密性能（C値）についても<strong>非公表</strong>。全棟C値測定は実施しておらず、保証値もない。吹付発泡ウレタンによる連続断熱施工で<strong>結果として高気密になりやすい</strong>仕様だが、数値での担保はされていない点を理解する必要がある。</p>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>HM</th><th>C値</th><th>全棟測定</th></tr>
+<tr><td><strong>アールギャラリー</strong></td><td><strong>非公表</strong></td><td>なし</td></tr>
+<tr><td>一条工務店</td><td>0.59保証</td><td>あり</td></tr>
+<tr><td>ウィズダム</td><td>0.4以下保証</td><td>あり</td></tr>
+<tr><td>スウェーデンハウス</td><td>0.7前後</td><td>抜き取り</td></tr>
+<tr><td>住友林業</td><td>非公表</td><td>なし</td></tr>
+</table>
+</div>
+
+
+<figure style="margin: 20px 0; text-align: center;">
+  <img src="images/009-tab2-block2-image02.png" loading="lazy" decoding="async" alt="アルミ×樹脂複合サッシの機能イラスト" style="max-width: 100%; height: auto; border-radius: 4px;" referrerpolicy="no-referrer">
+  <figcaption style="font-size: 13px; color: #666; margin-top: 8px;">出典: アールギャラリー公式 高性能ページ</figcaption>
+</figure>
+
+<div class="concept-box--caution">
+  <p><strong>気密重視ならアールギャラリーは選ばない</strong>: C値0.5以下を保証するHMは限られており、その筆頭が一条工務店とウィズダム。アールギャラリーは数値保証がないため、気密絶対主義の人には不向き。デザイン重視の妥協ラインとして許容する人向け。</p>
+</div>
+
+<hr>
+
+<!-- Section 6 -->
+<h2 id="sec6">⑥ 換気・空調</h2>
+
+<p>換気は<strong>24時間換気システム</strong>を全棟標準。第3種換気が一般的だが、詳細仕様は非公表。<span class="marker-yellow">全館空調はオプション扱い</span>で標準ではない。</p>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>項目</th><th>仕様</th></tr>
+<tr><td>換気方式</td><td>24時間換気（詳細グレード非公表）</td></tr>
+<tr><td>全館空調</td><td>オプション（標準ではない）</td></tr>
+<tr><td>第1種熱交換</td><td>オプション対応</td></tr>
+<tr><td>床暖房</td><td>オプション</td></tr>
+</table>
+</div>
+
+<p>同価格帯のアイ工務店・桧家住宅では「Z空調」「全館空調込み」が標準化しつつあるトレンドの中で、アールギャラリーの全館空調オプション扱いはやや出遅れの印象。デザイン優先のスタンスゆえ、空調体験よりインテリア設計に重きを置く戦略と読める。</p>
+
+<hr>
+
+<!-- Section 7 -->
+<h2 id="sec7">⑦ デザイン</h2>
+
+<p>アールギャラリー最大の武器が<strong>デザイン力</strong>。"Find Your Only One Style"を理念に、<span class="marker-yellow">大手HM出身の建築士・インテリアコーディネーター</span>がワンチームで担当する。雑誌掲載歴も多く、「黒×木×ガラス」のモダン高級住宅が代表的なテイスト。</p>
+
+
+<figure style="margin: 20px 0; text-align: center;">
+  <img src="images/010-housing-slide20.jpg" loading="lazy" decoding="async" alt="アールギャラリー デザイン住宅 施工事例（モダン×木の融合）" style="max-width: 100%; height: auto; border-radius: 4px;" referrerpolicy="no-referrer">
+  <figcaption style="font-size: 13px; color: #666; margin-top: 8px;">出典: アールギャラリー公式サイト 施工事例</figcaption>
+</figure>
+
+<figure style="margin: 20px 0; text-align: center;">
+  <img src="images/011-interview-slide01.jpg" loading="lazy" decoding="async" alt="建築士・コーディネーターとの打ち合わせシーン" style="max-width: 100%; height: auto; border-radius: 4px;" referrerpolicy="no-referrer">
+  <figcaption style="font-size: 13px; color: #666; margin-top: 8px;">出典: アールギャラリー公式サイト</figcaption>
+</figure>
+
+<h3>デザインの傾向</h3>
+
+<ul>
+  <li><strong>モダン×和モダン</strong>: ガルバリウム鋼板・塗り壁・大開口サッシで都市部の上質感</li>
+  <li><strong>勾配天井・吹抜け</strong>: LDKに高さを取る設計が得意</li>
+  <li><strong>造作家具・ニッチ</strong>: 家具と建築の境界を曖昧にする提案</li>
+  <li><strong>外構＋建物の一体提案</strong>: 不動産・分譲事業も持つため土地〜外構までワンストップ</li>
+</ul>
+
+<h3>標準で選べる仕様</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>項目</th><th>標準仕様の選択肢</th></tr>
+<tr><td>外壁</td><td>窯業系サイディング／ガルバリウム鋼板／塗り壁（一部オプション）</td></tr>
+<tr><td>屋根</td><td>ガルバリウム鋼板／陶器瓦</td></tr>
+<tr><td>床材</td><td>挽板・複合フローリング（樹種選択可）</td></tr>
+<tr><td>キッチン</td><td>主要メーカー横断（LIXIL／Panasonic／TOTO／クリナップ等）</td></tr>
+<tr><td>浴室</td><td>主要メーカー横断</td></tr>
+</table>
+</div>
+
+<div class="concept-box--point">
+  <p><strong>デザイン重視層には強い</strong>: 大手HMの「カタログから選ぶ」スタイルではなく、施主の好みに合わせた一棟一棟の個別設計が特徴。SNS・施工事例集を見て「このテイストが好き」と感じる人にはハマる。</p>
+</div>
+
+<hr>
+
+<!-- Section 8 -->
+<h2 id="sec8">⑧ 保証・メンテナンス</h2>
+
+<p>保証は<strong>最大60年</strong>の長期保証システム。条件付き（定期点検＋有償メンテナンス実施）で延長される構造。地盤保証は20年。</p>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>項目</th><th>内容</th></tr>
+<tr><td>構造躯体保証</td><td>初期10年／最大60年（条件付き延長）</td></tr>
+<tr><td>雨水浸入防止</td><td>初期10年／最大60年（条件付き延長）</td></tr>
+<tr><td>防蟻保証</td><td>最大60年（条件付き延長）</td></tr>
+<tr><td>設備機器保証</td><td>10年</td></tr>
+<tr><td>地盤保証</td><td>20年</td></tr>
+<tr><td>定期点検</td><td>1年・2年・5年・10年（以降は条件付き継続）</td></tr>
+<tr><td>アフターコール</td><td>24時間対応</td></tr>
+</table>
+</div>
+
+<h3>同価格帯との比較</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>HM</th><th>初期保証</th><th>最大延長</th></tr>
+<tr><td><strong>アールギャラリー</strong></td><td>10年</td><td><strong>60年</strong></td></tr>
+<tr><td>一条工務店</td><td>30年</td><td>30年</td></tr>
+<tr><td>住友林業</td><td>30年</td><td>60年</td></tr>
+<tr><td>積水ハウス</td><td>30年</td><td>60年</td></tr>
+<tr><td>タマホーム</td><td>10年</td><td>30年</td></tr>
+<tr><td>クレバリーホーム</td><td>30年</td><td>30年</td></tr>
+</table>
+</div>
+
+<p>初期保証10年は法定最低水準で、大手HMの30年初期保証と比較すると見劣りする。<strong>延長後の60年</strong>は大手と同等水準だが、有償メンテナンス前提なので実質コストは別途。</p>
+
+<hr>
+
+<!-- Section 9 -->
+<h2 id="sec9">⑨ 建築期間</h2>
+
+<p>初回来場〜引渡しまで<strong>約9〜12ヶ月</strong>が目安。完全自由設計のため打ち合わせ回数は他社比で多くなりがち。</p>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>フェーズ</th><th>期間</th></tr>
+<tr><td>初回来場〜プラン確定</td><td>2〜3ヶ月</td></tr>
+<tr><td>プラン確定〜仕様確定</td><td>2ヶ月</td></tr>
+<tr><td>契約〜着工</td><td>2ヶ月（確認申請含む）</td></tr>
+<tr><td>着工〜引渡し</td><td>5〜6ヶ月</td></tr>
+<tr><td>合計</td><td>約9〜12ヶ月</td></tr>
+</table>
+</div>
+
+<div class="concept-box--caution">
+  <p><strong>共働き家庭は要覚悟</strong>: 完全自由設計ゆえ打合せが密になり、平日夜＋土日のスケジュール調整が必要。簡易プランから進めたい人は arr style／Fの家での短縮も検討。</p>
+</div>
+
+<hr>
+
+<!-- Section 10 -->
+<h2 id="sec10">⑩ 客層・向き不向き</h2>
+
+
+<figure style="margin: 20px 0; text-align: center;">
+  <img src="images/003-area-aichi-img.jpg" loading="lazy" decoding="async" alt="東海エリア（愛知・岐阜・三重）の対応マップ" style="max-width: 100%; height: auto; border-radius: 4px;" referrerpolicy="no-referrer">
+  <figcaption style="font-size: 13px; color: #666; margin-top: 8px;">出典: アールギャラリー公式サイト</figcaption>
+</figure>
+
+<figure style="margin: 20px 0; text-align: center;">
+  <img src="images/013-area-tokyo-img.jpg" loading="lazy" decoding="async" alt="首都圏エリア（東京・神奈川・埼玉）の対応マップ" style="max-width: 100%; height: auto; border-radius: 4px;" referrerpolicy="no-referrer">
+  <figcaption style="font-size: 13px; color: #666; margin-top: 8px;">出典: アールギャラリー公式サイト</figcaption>
+</figure>
+
+<h3>想定される客層</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>項目</th><th>傾向</th></tr>
+<tr><td>世帯年収</td><td>700〜1,200万円（中央値900万円前後）</td></tr>
+<tr><td>世代</td><td>30代後半〜40代の子育て世帯がボリューム層／50代の建て替え層も一定数</td></tr>
+<tr><td>建物規模</td><td>30〜40坪が中心。平屋需要も増加</td></tr>
+<tr><td>志向</td><td>「大手HMより自由度・コスパ／地場工務店より品質・安心感」</td></tr>
+</table>
+</div>
+
+<h3>向いている人</h3>
+
+<div class="kaisetsu-box">
+  <div class="kaisetsu-title">アールギャラリーが向いている人</div>
+  <div class="kaisetsu-content">
+    <ul>
+      <li>東海エリア・首都圏一部で<strong>デザイン性の高い注文住宅</strong>を建てたい人</li>
+      <li>大手HMの画一的なプランより<strong>自分だけの一棟設計</strong>を求める人</li>
+      <li>坪70〜100万円の予算帯で<strong>耐震＋制震＋自由設計</strong>を全部欲しい人</li>
+      <li>建築士・インテリアコーディネーターと<strong>密に打ち合わせ</strong>できる時間がある人</li>
+      <li>土地探しから外構・分譲まで<strong>ワンストップ</strong>で任せたい人</li>
+    </ul>
+  </div>
+</div>
+
+<h3>向いていない人</h3>
+
+<div class="kaisetsu-box">
+  <div class="kaisetsu-title" style="background:#ed8989;">アールギャラリーが向いていない人</div>
+  <div class="kaisetsu-content">
+    <ul>
+      <li><strong>UA値・C値の数値で性能比較</strong>したい人 → 一条工務店・ウィズダムへ</li>
+      <li><strong>気密絶対主義</strong>の人（C値0.5以下保証が欲しい人）→ 一条工務店</li>
+      <li><strong>全館空調を標準で欲しい</strong>人 → 桧家住宅・三井ホーム・三菱地所ホーム</li>
+      <li><strong>東北・北陸・関西・九州エリア</strong>で建てたい人 → 対応エリア外</li>
+      <li><strong>大手HMの安心感とブランド力</strong>を最優先する人 → 積水ハウス・住友林業</li>
+      <li><strong>打ち合わせ最小・短納期</strong>が欲しい人 → 規格住宅HMへ</li>
+    </ul>
+  </div>
+</div>
+
+<hr>
+
+<!-- Section 11 -->
+<h2 id="sec11">⑪ 他社との比較表</h2>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>項目</th><th>アールギャラリー</th><th>住友林業</th><th>積水ハウス</th><th>一条工務店</th><th>タマホーム</th><th>クレバリーホーム</th><th>スウェーデンハウス</th></tr>
+<tr><td>坪単価</td><td><strong>70〜100万円</strong></td><td>110〜130万円</td><td>100〜140万円</td><td>80〜100万円</td><td>50〜75万円</td><td>55〜80万円</td><td>90〜120万円</td></tr>
+<tr><td>UA値</td><td>非公表</td><td>0.41</td><td>0.46</td><td>0.25</td><td>0.46</td><td>0.46</td><td>0.34</td></tr>
+<tr><td>C値</td><td>非公表</td><td>非公表</td><td>非公表</td><td>0.59</td><td>非公表</td><td>非公表</td><td>非公表</td></tr>
+<tr><td>構造</td><td>木造軸組＋金物</td><td>BF構法</td><td>鉄骨／シャーウッド</td><td>I-HEAD／2×6</td><td>木造軸組</td><td>木造軸組</td><td>木造2×4＋パネル</td></tr>
+<tr><td>耐震等級</td><td>3（許容応力度）</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td></tr>
+<tr><td>制震標準</td><td><strong>あり</strong></td><td>オプション</td><td>シーカス（標準）</td><td>2倍耐震</td><td>オプション</td><td>オプション</td><td>あり</td></tr>
+<tr><td>初期保証</td><td>10年</td><td>30年</td><td>30年</td><td>30年</td><td>10年</td><td>30年</td><td>10年</td></tr>
+<tr><td>最大保証</td><td>60年</td><td>60年</td><td>60年</td><td>30年</td><td>30年</td><td>30年</td><td>50年</td></tr>
+<tr><td>対応エリア</td><td>東海＋首都圏一部</td><td>全国</td><td>全国</td><td>全国</td><td>全国</td><td>全国（FC）</td><td>全国一部</td></tr>
+<tr><td>設計自由度</td><td>◎</td><td>◎</td><td>○</td><td>△</td><td>○</td><td>△</td><td>△</td></tr>
+</table>
+</div>
+
+<h3>ポジショニングの整理</h3>
+
+<div class="concept-box--point">
+  <ul>
+    <li><strong>vs 住友林業</strong>: 設計自由度は同等、坪単価はアールギャラリーが2〜3割安い。性能数値は住友林業に軍配</li>
+    <li><strong>vs 一条工務店</strong>: 性能では一条が圧勝。デザイン自由度ではアールギャラリーが圧勝</li>
+    <li><strong>vs タマホーム</strong>: 価格ではタマが安い。構造（許容応力度計算）と制震標準ではアールギャラリーが上</li>
+    <li><strong>vs クレバリーホーム</strong>: 同価格帯。クレバリーはタイル外壁、アールギャラリーはデザイン提案力で差別化</li>
+  </ul>
+</div>
+
+<hr>
+
+<!-- Section 12 -->
+<h2 id="sec12">⑫ よくある後悔・失敗事例</h2>
+
+<p>SNS・口コミサイトから抽出した代表的な後悔事例を5+1件にまとめた。<strong>正直に書く</strong>ことを優先し、ネガティブも省略しない。</p>
+
+<h3>後悔①：UA値・C値が非公表で他社と性能比較ができない</h3>
+
+<p>「契約後に他社のUA値0.4台・C値0.5以下といった具体数値を見て、自分の家の性能がどれくらいなのか分からないことに気づいた」という声が複数ある。アールギャラリーは性能数値を表に出さないため、契約前に「自宅プランでのUA値計算結果」を書面で出させる対応が必須。</p>
+
+<h3>後悔②：自由設計ゆえ打ち合わせ回数が膨大</h3>
+
+<p>「平日夜＋土日が打ち合わせで埋まり、半年以上かかった。共働きで子育て中だと体力的にきつい」。完全自由設計の代償として、決定事項が多く決断疲れに陥りやすい。短納期希望なら arr style／Fの家を選ぶか、他社を検討する選択肢もある。</p>
+
+<h3>後悔③：営業担当との相性差が大きい（担当ガチャ）</h3>
+
+<p>「担当者によって提案力・スピード・気配りが違いすぎる。途中で担当変更を申し出た」という声が複数。SNS上でも「担当ガチャ」のワードで言及される頻度が高い。最初の打ち合わせ時点で違和感を感じたら、早めに変更交渉するのが無難。</p>
+
+<h3>後悔④：標準仕様グレードを上げると総額が一気に跳ねる</h3>
+
+<p>「arr basicで進めていたが、デザインに惹かれて arr gallery グレード仕様にUPしたら、坪単価が15〜20万円上がった」。ハイグレード方向のアップセル幅が大きく、最終的に坪100万円超は珍しくない。予算は最初に上限を明確にすべき。</p>
+
+<h3>後悔⑤：施工エリア限定でアフターが遠隔になりがち</h3>
+
+<p>「転勤で関西に引っ越したら、アフター対応は名古屋本社からの遠隔になった」。対応エリアは6都県に限定されており、エリア外への引越しは想定外のコスト・時間がかかる。長期保証の延長メンテも拠点都市での対応が前提。</p>
+
+<h3>後悔⑥：第三者の性能データが少ない（実大振動実験等）</h3>
+
+<p>大手HMが公開している実大振動実験動画やZEH実証データのような<strong>第三者性能データ</strong>がアールギャラリーには存在しない。性能オタクには物足りない情報量で、「カタログに数字が無いと不安」と感じる人には向かない。</p>
+
+<hr>
+
+<!-- Section 13 -->
+<h2 id="sec13">⑬ まとめ</h2>
+
+<div class="kaisetsu-box">
+  <div class="kaisetsu-title">アールギャラリーの強み</div>
+  <div class="kaisetsu-content">
+    <ul>
+      <li><strong>大手HM出身の建築士／コーディネーター</strong>による完全自由設計のデザイン力</li>
+      <li><strong>全棟「許容応力度計算」＋制振ダンパー標準</strong>（同価格帯では希少）</li>
+      <li>長期優良住宅・省令準耐火を標準クリア</li>
+      <li>最大60年保証、地盤保証20年、24時間アフターコール</li>
+      <li>土地探しから外構・分譲までワンストップ対応</li>
+      <li>第三者調査での顧客満足度4.81 / 5.0点</li>
+    </ul>
+  </div>
+</div>
+
+<div class="kaisetsu-box">
+  <div class="kaisetsu-title" style="background:#ed8989;">アールギャラリーの弱み</div>
+  <div class="kaisetsu-content">
+    <ul>
+      <li><strong>UA値・C値が非公表</strong>（性能数値で比較したい層に不向き）</li>
+      <li>初期保証10年は大手HMの30年比で短い</li>
+      <li>全館空調はオプション扱い</li>
+      <li>施工エリアが東海＋首都圏一部に限定</li>
+      <li>営業担当者の品質バラツキ（担当ガチャ）</li>
+      <li>実大振動実験など第三者性能データが乏しい</li>
+    </ul>
+  </div>
+</div>
+
+<div class="concept-box--highlight">
+  <p><strong>こんな人に向く</strong></p>
+  <p>「東海・首都圏一部で、坪70〜100万円帯で、大手HMの画一プランは嫌だが地場工務店の品質も不安。デザインと安心感を両立した自由設計の家が欲しい」という人にとって、アールギャラリーは有力な選択肢。性能の数値訴求が弱い点は、契約前に書面で性能計算結果を出させて補うのが現実的。</p>
+</div>
+
+<hr>
+
+<!-- Section 14 -->
+<h2 id="sec14">⑭ よくある質問（FAQ）</h2>
+
+<div class="faq-section">
+
+<details class="faq-item">
+  <summary>アールギャラリーの坪単価はいくらですか？</summary>
+  <div class="faq-answer">2026年時点で全体平均約86万円。商品グレード別では Fの家 50〜65万円／arr style 55〜70万円／arr basic 70〜85万円／arr gallery 85〜100万円が目安。平屋は90〜110万円。</div>
+</details>
+
+<details class="faq-item">
+  <summary>UA値・C値はいくらですか？</summary>
+  <div class="faq-answer">公式に数値非公表。「高気密・高断熱」「外壁通気工法」など定性的な記載のみ。性能を最重視するなら、契約前に「自宅プランでのUA値計算結果」を書面で出してもらうことを推奨。</div>
+</details>
+
+<details class="faq-item">
+  <summary>全棟構造計算をしていますか？</summary>
+  <div class="faq-answer">はい。木造2階建てでも全棟「許容応力度計算」を実施。同価格帯では希少。</div>
+</details>
+
+<details class="faq-item">
+  <summary>制震ダンパーは標準ですか？</summary>
+  <div class="faq-answer">はい。全棟標準搭載（バイリニア特性）。オプション費用なし。</div>
+</details>
+
+<details class="faq-item">
+  <summary>保証は何年ですか？</summary>
+  <div class="faq-answer">構造躯体・雨水浸入防止・防蟻ともに初期10年／最大60年（条件付き延長）。地盤保証は20年。</div>
+</details>
+
+<details class="faq-item">
+  <summary>平屋には対応していますか？</summary>
+  <div class="faq-answer">対応。坪単価は2階建てより上がり90〜110万円が目安。デザイン提案も豊富。</div>
+</details>
+
+<details class="faq-item">
+  <summary>全館空調はありますか？</summary>
+  <div class="faq-answer">標準ではなくオプション。第1種熱交換換気・床暖房も同様にオプション扱い。</div>
+</details>
+
+<details class="faq-item">
+  <summary>値引きはできますか？</summary>
+  <div class="faq-answer">キャンペーン期や決算月に交渉余地あり。完全自由設計のため、仕様グレード調整での実質値引きが現実的なルート。</div>
+</details>
+
+<details class="faq-item">
+  <summary>アフターサービスは？</summary>
+  <div class="faq-answer">24時間アフターコール対応。1年・2年・5年・10年の定期点検実施。長期保証延長は有償メンテナンス込み。</div>
+</details>
+
+<details class="faq-item">
+  <summary>一条工務店との違いは？</summary>
+  <div class="faq-answer">一条は性能特化（UA値0.25・C値0.59保証）、アールギャラリーはデザイン特化（完全自由設計＋大手HM出身デザイナー）。性能で選ぶなら一条、デザインで選ぶならアールギャラリー。</div>
+</details>
+
+<details class="faq-item">
+  <summary>大手HMとの違いは？</summary>
+  <div class="faq-answer">価格は2〜3割安く、設計自由度・スピード感は強み。一方で実大振動実験などの第三者性能データ・全国対応・初期保証年数では大手に劣る。</div>
+</details>
+
+<details class="faq-item">
+  <summary>建築期間はどのくらい？</summary>
+  <div class="faq-answer">初回来場から引渡しまで約9〜12ヶ月。着工後は5〜6ヶ月。完全自由設計のため打ち合わせ回数は多め。</div>
+</details>
+
+<details class="faq-item">
+  <summary>Fの家とアールギャラリーの違いは？</summary>
+  <div class="faq-answer">Fの家は"暮らしづくり"テーマの最廉価帯（坪50〜65万円）、アールギャラリーは大手HM出身デザイナーが担当する高級ライン（坪85〜100万円）。標準仕様・デザイン提案幅が大きく異なる。</div>
+</details>
+
+<details class="faq-item">
+  <summary>地盤保証はありますか？</summary>
+  <div class="faq-answer">あり。20年保証。ベタ基礎標準で耐久性・耐震性を確保。</div>
+</details>
+
+<details class="faq-item">
+  <summary>関東でも建てられますか？</summary>
+  <div class="faq-answer">東京・神奈川・埼玉の一部で対応可能。市区町村によっては対応外のため、事前に営業窓口で確認推奨。茨城・千葉・群馬・栃木・山梨は基本対象外。</div>
+</details>
+
+<details class="faq-item">
+  <summary>R+house・アールプラスハウスと同じ会社ですか？</summary>
+  <div class="faq-answer">いいえ。<strong>別会社</strong>です。アールギャラリーは株式会社アールプランナー（名古屋）のブランド。R+houseはハイアスアンドカンパニー系のフランチャイズで全く別の会社。混同に注意。</div>
+</details>
+
+</div>
+
+
+</div><!-- /article-body -->
+</article>
+</main>
+
+<!-- ========== Footer ========== -->
+<footer class="site-footer">
+  &copy; ARCHIST（アーキスト）　<a href="../">ハウスメーカー徹底解説 一覧</a>　<a href="/">予算診断</a>
+</footer>
+
+</body>
+</html>

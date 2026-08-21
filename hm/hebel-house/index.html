@@ -1,0 +1,1917 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ヘーベルハウス 徹底解説｜坪単価・構造・断熱・口コミ【2026年版】｜ARCHIST</title>
+<!-- カラーテーマ: 堅牢・鉄骨・グレー+レッド系 -->
+<!-- :root 変数を変えるだけで全体のカラーが変わります -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+/* ========================================
+   JIN Theme Style — CSS変数でカラーテーマ切替
+   変更は :root だけでOK（全体に反映）
+   ======================================== */
+:root {
+  --color-primary: #555555;
+  --color-primary-dark: #3a3a3a;
+  --color-primary-light: #c9c9c9;
+  --color-accent: #c0392b;
+  --color-heading-bg: #f0f0f0;
+  --color-hover-bg: #e5e5e5;
+  --color-stripe-bg: #f8f8f8;
+  --color-highlight-bg: #fdeeee;
+  --color-highlight-dark: #f5d5d5;
+  --color-text: #2a2a2a;
+  --color-text-light: #666666;
+  --color-bg-site: #fbfbfb;
+  --color-bg-article: #ffffff;
+  --color-link: #1f76af;
+  --color-border: #d5d5d5;
+}
+
+/* Reset & Base */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Noto Sans JP', '游ゴシック', 'Yu Gothic', 'YuGothic', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--color-text);
+  background: var(--color-bg-site);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Header */
+.site-header {
+  background: var(--color-primary-light);
+  padding: 16px 0;
+  text-align: center;
+}
+.site-header .site-title {
+  color: var(--color-primary);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Article Container */
+.article-wrap {
+  max-width: 740px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+
+.article-card {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  overflow: hidden;
+}
+
+/* Article Header */
+.article-header {
+  padding: 30px 30px 20px;
+}
+.article-header .category-label {
+  display: inline-block;
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 12px;
+  border-radius: 2px;
+  margin-bottom: 12px;
+}
+.article-header .article-title {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--color-primary);
+}
+.article-header .article-meta {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #999;
+}
+
+/* Article Body */
+.article-body {
+  padding: 0 30px 40px;
+}
+
+/* =====================
+   Table of Contents
+   ===================== */
+.toc-box {
+  background: #fafafa;
+  border: 2px solid var(--color-primary);
+  border-radius: 4px;
+  padding: 20px 25px;
+  margin: 20px 0 35px;
+}
+.toc-box .toc-title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 15px;
+  position: relative;
+}
+.toc-box .toc-title::after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: var(--color-accent);
+  margin: 8px auto 0;
+}
+.toc-box ol {
+  padding-left: 22px;
+  counter-reset: toc-counter;
+}
+.toc-box ol li {
+  list-style: none;
+  counter-increment: toc-counter;
+  margin-bottom: 6px;
+  line-height: 1.6;
+}
+.toc-box ol li::before {
+  content: counter(toc-counter) ".";
+  color: var(--color-primary);
+  font-weight: 700;
+  margin-right: 6px;
+}
+.toc-box ol li a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: 15px;
+}
+.toc-box ol li a:hover {
+  text-decoration: underline;
+}
+
+/* =====================
+   H2 Heading (JIN style)
+   ===================== */
+.article-body h2 {
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  padding: 14px 20px;
+  margin: 50px 0 25px;
+  border-radius: 4px;
+  position: relative;
+  line-height: 1.5;
+}
+.article-body h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 30px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid var(--color-primary);
+}
+
+/* =====================
+   H3 Heading (JIN style)
+   ===================== */
+.article-body h3 {
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--color-primary);
+  padding: 12px 16px;
+  margin: 35px 0 20px;
+  border-left: 4px solid var(--color-primary);
+  background: var(--color-heading-bg);
+  border-radius: 0 4px 4px 0;
+  line-height: 1.5;
+}
+
+/* =====================
+   H4 Heading
+   ===================== */
+.article-body h4 {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--color-primary);
+  padding: 8px 0;
+  margin: 25px 0 15px;
+  border-bottom: 2px dotted var(--color-primary);
+}
+
+/* =====================
+   Paragraphs & Text
+   ===================== */
+.article-body p {
+  margin: 15px 0;
+  line-height: 1.9;
+}
+
+.article-body strong {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+.article-body a {
+  color: var(--color-link);
+  text-decoration: underline;
+}
+
+/* Marker / Highlight */
+.marker-yellow {
+  background: linear-gradient(transparent 60%, var(--color-accent) 60%);
+  font-weight: 700;
+}
+
+/* Section Divider */
+.article-body hr {
+  border: none;
+  border-top: 2px dashed #ddd;
+  margin: 40px 0;
+}
+
+/* =====================
+   Image Styles
+   ===================== */
+.article-body .section-image {
+  width: 100%;
+  border-radius: 4px;
+  margin: 15px 0;
+}
+.image-row {
+  display: flex;
+  gap: 15px;
+  margin: 15px 0;
+}
+.image-row .image-col {
+  flex: 1;
+}
+.image-row .image-col img {
+  width: 100%;
+  border-radius: 4px;
+}
+.image-row .image-col p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* =====================
+   Tables (JIN style)
+   ===================== */
+.jin-table-wrap {
+  overflow-x: auto;
+  margin: 20px 0;
+  -webkit-overflow-scrolling: touch;
+}
+.jin-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 15px;
+}
+.jin-table th {
+  background: var(--color-primary);
+  color: #fff;
+  font-weight: 700;
+  padding: 12px 14px;
+  text-align: left;
+  border: 1px solid var(--color-primary-dark);
+  white-space: nowrap;
+}
+.jin-table td {
+  padding: 11px 14px;
+  border: 1px solid var(--color-border);
+  vertical-align: top;
+}
+.jin-table tr:nth-child(even) td {
+  background: var(--color-stripe-bg);
+}
+.jin-table tr:hover td {
+  background: var(--color-hover-bg);
+}
+
+/* Comparison table with fixed first column */
+.compare-table th:first-child,
+.compare-table td:first-child {
+  background: var(--color-heading-bg);
+  font-weight: 700;
+  color: var(--color-primary);
+  white-space: nowrap;
+  position: sticky;
+  left: 0;
+  z-index: 1;
+}
+.compare-table td:first-child {
+  border-right: 2px solid var(--color-primary);
+}
+.compare-table th:nth-child(2),
+.compare-table td:nth-child(2) {
+  background: var(--color-highlight-bg);
+}
+.compare-table th:nth-child(2) {
+  background: var(--color-primary-dark);
+  color: #fff;
+}
+.compare-table tr:nth-child(even) td:nth-child(2) {
+  background: var(--color-highlight-dark);
+}
+
+/* =====================
+   Concept Box (JIN style)
+   ===================== */
+/* Point Box (Green) */
+.concept-box--point {
+  border: 2px solid #85db8f;
+  border-radius: 6px;
+  padding: 25px 20px 18px;
+  margin: 25px 0;
+  position: relative;
+  background: #f6fff7;
+}
+.concept-box--point::before {
+  content: 'POINT';
+  position: absolute;
+  top: -13px;
+  left: 16px;
+  background: #85db8f;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px 12px;
+  border-radius: 3px;
+  letter-spacing: 1px;
+}
+
+/* Caution Box (Red) */
+.concept-box--caution {
+  border: 2px solid #ed8989;
+  border-radius: 6px;
+  padding: 25px 20px 18px;
+  margin: 25px 0;
+  position: relative;
+  background: #fff6f6;
+}
+.concept-box--caution::before {
+  content: 'NOTE';
+  position: absolute;
+  top: -13px;
+  left: 16px;
+  background: #ed8989;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px 12px;
+  border-radius: 3px;
+  letter-spacing: 1px;
+}
+
+/* Tip Box (Blue) */
+.concept-box--tip {
+  border: 2px solid #86cee8;
+  border-radius: 6px;
+  padding: 25px 20px 18px;
+  margin: 25px 0;
+  position: relative;
+  background: #f4faff;
+}
+.concept-box--tip::before {
+  content: 'TIPS';
+  position: absolute;
+  top: -13px;
+  left: 16px;
+  background: #86cee8;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px 12px;
+  border-radius: 3px;
+  letter-spacing: 1px;
+}
+
+/* Warning Box (Yellow) */
+.concept-box--warning {
+  border: 2px solid #f7cf6a;
+  border-radius: 6px;
+  padding: 25px 20px 18px;
+  margin: 25px 0;
+  position: relative;
+  background: #fffdf3;
+}
+.concept-box--warning::before {
+  content: 'WARNING';
+  position: absolute;
+  top: -13px;
+  left: 16px;
+  background: #f7cf6a;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px 12px;
+  border-radius: 3px;
+  letter-spacing: 1px;
+}
+
+/* Highlight Box (Accent) */
+.concept-box--highlight {
+  border: 2px solid var(--color-primary);
+  border-radius: 6px;
+  padding: 25px 20px 18px;
+  margin: 25px 0;
+  position: relative;
+  background: var(--color-heading-bg);
+}
+.concept-box--highlight::before {
+  content: 'CHECK';
+  position: absolute;
+  top: -13px;
+  left: 16px;
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px 12px;
+  border-radius: 3px;
+  letter-spacing: 1px;
+}
+
+/* =====================
+   Simple Box (JIN style)
+   ===================== */
+.simple-box {
+  border: 2px solid var(--color-border);
+  border-radius: 4px;
+  padding: 18px 20px;
+  margin: 25px 0;
+  background: #fff;
+}
+.simple-box--blue {
+  border-color: #7badd8;
+  background: #f7faff;
+}
+.simple-box--yellow {
+  border-color: #f2bf7d;
+  background: #fffdf5;
+}
+
+/* =====================
+   Kaisetsu Box (JIN style)
+   ===================== */
+.kaisetsu-box {
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  margin: 25px 0;
+  overflow: hidden;
+}
+.kaisetsu-box .kaisetsu-title {
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px 18px;
+}
+.kaisetsu-box .kaisetsu-content {
+  padding: 18px 20px;
+  background: #fff;
+}
+
+/* =====================
+   Lists
+   ===================== */
+.article-body ul {
+  margin: 15px 0;
+  padding-left: 24px;
+}
+.article-body ul li {
+  margin-bottom: 8px;
+  line-height: 1.7;
+  position: relative;
+}
+.article-body ul li::marker {
+  color: var(--color-primary);
+}
+.article-body ol {
+  margin: 15px 0;
+  padding-left: 24px;
+}
+.article-body ol li {
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+.article-body ol li::marker {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+/* Column Layout (merit/demerit) */
+.two-col {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+}
+.two-col .col {
+  flex: 1;
+  padding: 18px;
+  border-radius: 6px;
+}
+.two-col .col--merit {
+  background: #f0f9f4;
+  border: 2px solid #85db8f;
+}
+.two-col .col--demerit {
+  background: #fff5f5;
+  border: 2px solid #ed8989;
+}
+.two-col .col h4 {
+  margin-top: 0;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+/* Product Cards */
+.product-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin: 20px 0;
+}
+.product-card {
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+}
+.product-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.product-card .product-info {
+  padding: 12px 14px;
+}
+.product-card .product-info .product-name {
+  font-weight: 700;
+  color: var(--color-primary);
+  font-size: 15px;
+}
+.product-card .product-info .product-price {
+  font-size: 14px;
+  color: #e74c3c;
+  font-weight: 700;
+  margin-top: 4px;
+}
+.product-card .product-info .product-desc {
+  font-size: 13px;
+  color: #777;
+  margin-top: 2px;
+}
+
+/* =====================
+   FAQ Accordion (JIN style)
+   ===================== */
+.faq-section {
+  margin: 25px 0;
+}
+.faq-item {
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  background: #fff;
+}
+.faq-item summary {
+  display: flex;
+  align-items: center;
+  padding: 15px 18px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--color-primary);
+  list-style: none;
+  position: relative;
+  line-height: 1.6;
+}
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+.faq-item summary::before {
+  content: 'Q';
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  min-width: 28px;
+  background: var(--color-primary);
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+.faq-item summary::after {
+  content: '+';
+  position: absolute;
+  right: 18px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #999;
+  transition: transform 0.2s;
+}
+.faq-item[open] summary::after {
+  content: '-';
+}
+.faq-item .faq-answer {
+  padding: 0 18px 18px 58px;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #555;
+  border-top: 1px dashed #e0e0e0;
+}
+.faq-item .faq-answer::before {
+  content: 'A.';
+  font-weight: 700;
+  color: #ed8989;
+  margin-right: 6px;
+}
+
+/* =====================
+   Footer
+   ===================== */
+.site-footer {
+  background: var(--color-primary-light);
+  color: var(--color-primary);
+  text-align: center;
+  padding: 20px;
+  font-size: 13px;
+  margin-top: 30px;
+}
+
+/* =====================
+   Responsive
+   ===================== */
+@media screen and (max-width: 768px) {
+  .article-body {
+    padding: 0 18px 30px;
+  }
+  .article-header {
+    padding: 20px 18px 15px;
+  }
+  .article-header .article-title {
+    font-size: 21px;
+  }
+  .article-body h2 {
+    font-size: 19px;
+    padding: 12px 16px;
+    margin: 40px -18px 20px;
+    border-radius: 0;
+  }
+  .article-body h2::after {
+    left: 28px;
+  }
+  .article-body h3 {
+    font-size: 17px;
+  }
+  .jin-table {
+    font-size: 13px;
+  }
+  .jin-table th, .jin-table td {
+    padding: 8px 10px;
+  }
+  .two-col {
+    flex-direction: column;
+  }
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+  .image-row {
+    flex-direction: column;
+  }
+}
+</style>
+
+<style>
+/* ARCHIST 統合用の上書き（ヘッダー/フッターのリンク化とパンくず） */
+a.site-title{color:inherit;text-decoration:none;display:inline-block}
+a.site-title:hover{opacity:.8}
+.archist-crumb{max-width:820px;margin:14px auto 0;padding:0 16px;font-size:13px;color:#8a8a8a}
+.archist-crumb a{color:#8a8a8a;text-decoration:none}
+.archist-crumb a:hover{text-decoration:underline}
+.site-footer a{color:inherit}
+</style>
+<meta name="description" content="出典: 旭化成ホームズ（ヘーベルハウス）公式サイト ヘーベルハウスは旭化成ホームズ株式会社が展開する戸建注文住宅ブランド。1972年に旭化成工業の住宅事業部として独立し、ALC（軽量気泡コンクリート）＝ヘーベル板を外壁・床・屋根に使い、…">
+<link rel="canonical" href="https://archist.jp/hm/hebel-house/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="ARCHIST（アーキスト）">
+<meta property="og:title" content="ヘーベルハウス 徹底解説｜坪単価・構造・断熱・口コミ【2026年版】｜ARCHIST">
+<meta property="og:description" content="出典: 旭化成ホームズ（ヘーベルハウス）公式サイト ヘーベルハウスは旭化成ホームズ株式会社が展開する戸建注文住宅ブランド。1972年に旭化成工業の住宅事業部として独立し、ALC（軽量気泡コンクリート）＝ヘーベル板を外壁・床・屋根に使い、…">
+<meta property="og:url" content="https://archist.jp/hm/hebel-house/">
+<meta property="og:image" content="https://archist.jp/hm/hebel-house/images/001-mv-01.webp">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+
+<!-- ========== Header ========== -->
+<header class="site-header">
+  <a class="site-title" href="../">ARCHIST（アーキスト）</a>
+</header>
+
+<!-- ========== Article ========== -->
+<nav class="archist-crumb"><a href="/">ARCHIST</a> ＞ <a href="../">ハウスメーカー徹底解説</a> ＞ ヘーベルハウス</nav>
+<main class="article-wrap">
+<article class="article-card">
+
+<!-- Article Header -->
+<div class="article-header">
+  <span class="category-label">ハウスメーカー</span>
+  <h1 class="article-title">ヘーベルハウス 徹底解説｜坪単価・構造・断熱・口コミまで完全ガイド【2026年版】</h1>
+  <div class="article-meta">2026年 更新</div>
+</div>
+
+<!-- Article Body -->
+<div class="article-body">
+
+<!-- =====================
+     Table of Contents
+     ===================== -->
+<div class="toc-box">
+  <div class="toc-title">もくじ</div>
+  <ol>
+    <li><a href="#sec1">会社・基本データ</a></li>
+    <li><a href="#sec2">商品ラインナップと坪単価</a></li>
+    <li><a href="#sec3">構造・耐震</a></li>
+    <li><a href="#sec4">断熱性能</a></li>
+    <li><a href="#sec5">気密性能</a></li>
+    <li><a href="#sec6">換気・空調システム</a></li>
+    <li><a href="#sec7">デザイン</a></li>
+    <li><a href="#sec8">保証・アフターサービス</a></li>
+    <li><a href="#sec9">建築期間</a></li>
+    <li><a href="#sec10">客層・向いている人</a></li>
+    <li><a href="#sec11">他社比較表</a></li>
+    <li><a href="#sec12">後悔事例（施主の声）</a></li>
+    <li><a href="#sec13">顧客満足度データ</a></li>
+    <li><a href="#sec14">坪数別の建築総額シミュレーション</a></li>
+    <li><a href="#sec15">ヘーベルハウス固有の注意点</a></li>
+    <li><a href="#sec16">営業攻略（値引き交渉）</a></li>
+    <li><a href="#sec17">まとめ</a></li>
+    <li><a href="#sec18">よくある質問（FAQ）</a></li>
+  </ol>
+</div>
+
+<!-- =============================================
+     Section 1: 会社基本データ
+     ============================================= -->
+<h2 id="sec1">① 会社・基本データ</h2>
+
+<figure style="margin: 20px 0; text-align: center;">
+  <img src="images/001-mv-01.webp" loading="lazy" decoding="async" alt="ヘーベルハウスのブランドイメージ（都市型住宅）" style="max-width: 100%; height: auto; border-radius: 4px;">
+  <figcaption style="font-size: 13px; color: #666; margin-top: 8px;">出典: 旭化成ホームズ（ヘーベルハウス）公式サイト</figcaption>
+</figure>
+
+<p>ヘーベルハウスは旭化成ホームズ株式会社が展開する戸建注文住宅ブランド。1972年に旭化成工業の住宅事業部として独立し、<strong>ALC（軽量気泡コンクリート）＝ヘーベル板</strong>を外壁・床・屋根に使い、重鉄・システムラーメン構造（または軽量鉄骨ハイパワードクロス）と組み合わせた<span class="marker-yellow">都市型の防災・耐久特化ハウスメーカー</span>。「ロングライフ住宅（60年以上住み継げる家）」を思想の中心に据えている。</p>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>項目</th><th>内容</th></tr>
+<tr><td>会社名</td><td>旭化成ホームズ株式会社</td></tr>
+<tr><td>設立</td><td>1972年11月（旭化成工業の住宅事業部が独立）</td></tr>
+<tr><td>本社</td><td>東京都千代田区神田神保町1-105 神保町三井ビルディング</td></tr>
+<tr><td>資本金</td><td>32.5億円</td></tr>
+<tr><td>代表者</td><td>代表取締役社長 大和久 裕二／代表取締役会長 川畑 文俊（2025年4月1日付の社長交代）</td></tr>
+<tr><td>親会社</td><td>旭化成株式会社（東証プライム上場）</td></tr>
+<tr><td>ブランド名</td><td>ヘーベルハウス（HEBEL HAUS）</td></tr>
+<tr><td>売上高</td><td>9,935億円（2025年3月期連結・4期連続過去最高）</td></tr>
+<tr><td>営業利益</td><td>913億円（前期比14.9%増）</td></tr>
+<tr><td>2026年3月期見通し</td><td>連結売上高10,740億円（初の1兆円超え予定）</td></tr>
+<tr><td>従業員数</td><td>12,339名（2025年3月末連結）</td></tr>
+<tr><td>建築請負事業売上</td><td>4,195億円（2025年3月期・前期比4.6%増）</td></tr>
+<tr><td>累計建築戸数</td><td>戸建「ヘーベルハウス」累計20万棟以上<!-- 要再確認: 旭化成ホームズ公式で合算数値は非公表 --></td></tr>
+<tr><td>年間販売戸数</td><td>約8,500〜9,000棟（戸建て＋集合住宅）</td></tr>
+<tr><td>対応エリア</td><td>関東8都県／東海4県／関西6府県／西日本5県の<strong>合計25都府県</strong></td></tr>
+<tr><td>事業内容</td><td>戸建注文住宅「ヘーベルハウス」、賃貸住宅「ヘーベルメゾン」、リフォーム、都市開発</td></tr>
+</table>
+</div>
+
+<h3>一言で言うと？</h3>
+
+<p><strong>ALC（ヘーベル板）×鉄骨構造</strong>で「60年以上住み継げる都市型防災住宅」を提供するハウスメーカー。鉄骨系HMとしてオリコン顧客満足度<strong>鉄骨造部門11年連続1位（2016〜2026年）</strong>を獲得している。</p>
+
+<h3>対応エリアの特殊性</h3>
+
+<p>ヘーベルハウスは全国対応ではなく、<strong>25都府県限定</strong>の展開。北海道・東北全域・新潟・北陸・四国・山陰・長崎・大分・熊本・宮崎・鹿児島・沖縄は営業エリア外となる。</p>
+
+<hr>
+
+<!-- =============================================
+     Section 2: 商品ラインナップと坪単価
+     ============================================= -->
+<h2 id="sec2">② 商品ラインナップと坪単価</h2>
+
+<p>2026年現在、ヘーベルハウスの坪単価は<span class="marker-yellow">約95〜110万円</span>がボリュームゾーン。大手HMの中でもトップクラスに高額で、積水ハウスと並ぶポジション。</p>
+
+<figure style="margin: 20px 0; text-align: center;">
+  <img src="images/002-mv-01-v2.webp" loading="lazy" decoding="async" alt="ヘーベルハウスのオーダーメイド住宅外観" style="max-width: 100%; height: auto; border-radius: 4px;">
+  <figcaption style="font-size: 13px; color: #666; margin-top: 8px;">出典: 旭化成ホームズ（ヘーベルハウス 商品ラインナップ）公式サイト</figcaption>
+</figure>
+
+<h3>戸建ヘーベルハウスの主要商品</h3>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin: 20px 0;">
+  <figure style="margin: 0; text-align: center;">
+    <img src="images/003-plan-01-pic-v2-sp.jpg" loading="lazy" decoding="async" alt="my DESSIN プラン01 外観" style="max-width: 100%; height: auto; border-radius: 4px;">
+    <figcaption style="font-size: 12px; color: #666; margin-top: 6px;">出典: 旭化成ホームズ公式（my DESSIN）</figcaption>
+  </figure>
+  <figure style="margin: 0; text-align: center;">
+    <img src="images/004-plan-02-pic-v2-sp.jpg" loading="lazy" decoding="async" alt="my DESSIN プラン02 外観" style="max-width: 100%; height: auto; border-radius: 4px;">
+    <figcaption style="font-size: 12px; color: #666; margin-top: 6px;">出典: 旭化成ホームズ公式（my DESSIN）</figcaption>
+  </figure>
+  <figure style="margin: 0; text-align: center;">
+    <img src="images/005-plan-03-pic-v2-sp.jpg" loading="lazy" decoding="async" alt="my DESSIN プラン03 外観" style="max-width: 100%; height: auto; border-radius: 4px;">
+    <figcaption style="font-size: 12px; color: #666; margin-top: 6px;">出典: 旭化成ホームズ公式（my DESSIN）</figcaption>
+  </figure>
+  <figure style="margin: 0; text-align: center;">
+    <img src="images/006-plan-04-pic-v2-sp.jpg" loading="lazy" decoding="async" alt="my DESSIN プラン04 外観" style="max-width: 100%; height: auto; border-radius: 4px;">
+    <figcaption style="font-size: 12px; color: #666; margin-top: 6px;">出典: 旭化成ホームズ公式（my DESSIN）</figcaption>
+  </figure>
+</div>
+
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>商品名</th><th>坪単価目安（2026年）</th><th>階数</th><th>主な特徴</th></tr>
+<tr><td><strong>CUBIC（キュービック）</strong></td><td>85〜100万円</td><td>2階建て</td><td>軽量鉄骨ハイパワードクロス。陸屋根＋屋上活用が前提のスクエアデザイン定番モデル</td></tr>
+<tr><td><strong>新大地（SHIN-DAICHI）</strong></td><td>85〜105万円</td><td>2〜3階建て</td><td>二世帯・多世代住宅の代表格。大屋根＋縁側が特徴</td></tr>
+<tr><td><strong>RATIUS|GR</strong></td><td>95〜115万円</td><td>2階建て</td><td>広いLDKと庭園との繋がりを重視したプレミアム2階建て</td></tr>
+<tr><td><strong>RATIUS|RD</strong></td><td>110〜135万円</td><td>2階建て</td><td>2022年発売。重鉄制震・デュアルテックラーメン構造。40〜60坪邸宅向け</td></tr>
+<tr><td><strong>FREXシリーズ</strong></td><td>125〜160万円</td><td>2〜4階建て</td><td>重鉄・システムラーメン構造＋サイレス。都市型3階建て・重鉄のフラッグシップ</td></tr>
+<tr><td><strong>THE LIVING Sky Villa</strong></td><td>150万円〜</td><td>3階建て</td><td>重鉄・システムラーメンの邸宅シリーズ</td></tr>
+<tr><td><strong>RAUMFREX</strong></td><td>160〜200万円</td><td>2〜3階建て</td><td>2020年6月発売の富裕層向けフラッグシップ。天井高最大3.36m・最上位邸宅モデル</td></tr>
+<tr><td><strong>my DESSIN（マイデッサン）</strong></td><td>70〜90万円</td><td>2階建て</td><td>軽量鉄骨の規格住宅（セミオーダー）。ヘーベルでは最安ライン</td></tr>
+<tr><td><strong>2世帯住宅 ファミリースイート</strong></td><td>95〜115万円</td><td>2〜3階建て</td><td>二世帯住宅のカスタム対応モデル</td></tr>
+</table>
+</div>
+
+<h3>坪単価の相場感（2026年）</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>調査ソース</th><th>平均坪単価</th><th>レンジ</th></tr>
+<tr><td>不動産売却マイスター（2026年版）</td><td>125万円</td><td>70〜150万円</td></tr>
+<tr><td>THE ROOM TOUR</td><td>93〜99万円</td><td>84〜111万円</td></tr>
+<tr><td>おうちパレット（ユーザー実測）</td><td>93.5万円</td><td>70〜135万円</td></tr>
+<tr><td>ARCHIST集約値</td><td><strong>95〜110万円</strong></td><td><strong>70〜160万円</strong></td></tr>
+</table>
+</div>
+
+<h3>坪単価の推移（CUBIC基準・概算）</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>年</th><th>坪単価目安</th><th>備考</th></tr>
+<tr><td>2015年</td><td>約75〜85万円</td><td>ウッドショック前</td></tr>
+<tr><td>2020年</td><td>約80〜90万円</td><td>コロナ影響前</td></tr>
+<tr><td>2023年</td><td>約85〜100万円</td><td>資材高騰の影響</td></tr>
+<tr><td>2025年</td><td>約90〜105万円</td><td>エネルギーコスト高の転嫁</td></tr>
+<tr><td>2026年</td><td><strong>約95〜110万円</strong></td><td>オプション込み平均約110万円</td></tr>
+</table>
+</div>
+
+<div class="concept-box--point">
+  <p>ヘーベルハウスは大手7社の中でも<strong>トップクラスに高額</strong>。積水ハウスと並び、大和ハウス・三井ホーム・住友林業より一段上の価格帯。「価格は高いが、60年住める防災住宅」というポジショニング。</p>
+</div>
+
+<hr>
+
+<!-- =============================================
+     Section 3: 構造・耐震
+     ============================================= -->
+<h2 id="sec3">③ 構造・耐震</h2>
+
+<h3>ヘーベルハウスの構造は3系統</h3>
+
+<p>ヘーベルハウスは商品により採用構造が異なる。他HMが「1構法統一」に対し、ヘーベルは<strong>用途に合わせた3構造使い分け</strong>が特徴。</p>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>構造</th><th>採用商品</th><th>特徴</th></tr>
+<tr><td>ハイパワードクロス（軽量鉄骨）</td><td>CUBIC・新大地・my DESSIN・RATIUS|GR</td><td>軽量鉄骨＋ブレース（筋交い）＋ヘーベル板。2階建て住宅の標準</td></tr>
+<tr><td>重鉄制震・デュアルテックラーメン構造</td><td>RATIUS|RD</td><td>2022年新開発。重量鉄骨ラーメン＋極低降伏点鋼の制震ダンパー。40〜60坪邸宅向け</td></tr>
+<tr><td>重鉄・システムラーメン構造＋サイレス</td><td>FREX・THE LIVING Sky Villa・RAUMFREX</td><td>都市型3・4階建て／最上位邸宅向け。オイルダンパー「サイレス」で制震（FREXは2014年5月標準採用開始）</td></tr>
+</table>
+</div>
+
+<h3>外壁・床・屋根：ヘーベル板（ALC）</h3>
+
+<figure style="margin: 20px 0; text-align: center;">
+  <img src="images/007-abou-01-cover-pic1-l-v2-sp.jpg" loading="lazy" decoding="async" alt="ヘーベル板（ALC）を使った外壁ファサード" style="max-width: 100%; height: auto; border-radius: 4px;">
+  <figcaption style="font-size: 13px; color: #666; margin-top: 8px;">出典: 旭化成ホームズ公式（ファサード・外壁）</figcaption>
+</figure>
+
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>項目</th><th>詳細</th></tr>
+<tr><td>ALCとは</td><td>軽量気泡コンクリート（Autoclaved Lightweight Concrete）。珪石・セメント・石灰・アルミ粉を高温高圧蒸気養生で発泡硬化</td></tr>
+<tr><td>ヘーベル板厚</td><td>外壁75mm（耐火構造認定）／床・屋根100mm</td></tr>
+<tr><td>重量</td><td>一般コンクリートの<strong>約1/4</strong>（気泡80%）</td></tr>
+<tr><td>耐火性能</td><td>国土交通大臣認定の耐火構造材（1時間耐火）・不燃材</td></tr>
+<tr><td>断熱性</td><td>熱伝導率0.17 W/mK（コンクリートの約1/10）</td></tr>
+<tr><td>耐久性</td><td>旭化成の加速度試験では60年以上の耐久性を確認</td></tr>
+<tr><td>特徴</td><td>外壁内側に断熱材「ネオマフォーム」をサンドイッチ＝「ヘーベルシェルタード・ダブル断熱構法」</td></tr>
+</table>
+</div>
+
+<h3>耐震等級と実大実験</h3>
+
+<div class="concept-box--point">
+  <ul>
+    <li>全棟<strong>耐震等級3</strong>（建築基準法の1.5倍）</li>
+    <li>2011年東日本大震災・2016年熊本地震の最大波形で加振 → 構造損傷なし</li>
+    <li>震度7の揺れを<strong>連続10回</strong>再現しても構造被害なし（繰り返し加振試験）</li>
+    <li>制震装置「サイレス」（FREXシリーズ搭載）：梁のスライドに合わせピストンが動き、揺れ幅を最大1/2に低減</li>
+    <li>制震装置（RATIUS|RD）：極低降伏点鋼を使った制震ダンパー</li>
+  </ul>
+</div>
+
+<h3>基礎</h3>
+
+<ul>
+  <li>布基礎＋べた基礎のハイブリッド（商品により異なる）</li>
+  <li>地盤調査を全棟実施し、必要に応じて地盤改良（柱状改良・鋼管杭）</li>
+  <li>重量鉄骨商品は地耐力30kN/m²以上を要求 → 地盤が弱いエリアでは追加費用が嵩みやすい</li>
+</ul>
+
+<div class="concept-box--highlight">
+  <p><strong>ARCHIST視点</strong>：ヘーベルの耐震性は「繰り返しの大地震後も住み続けられる」点が最大の強み。熊本地震後の調査ではヘーベルハウス施主の<strong>98.4%が「住み続けている」</strong>と回答している。ただし重鉄シリーズは重量が大きく、軟弱地盤では地盤改良費が<strong>50〜200万円増</strong>になるケースあり。契約前に地盤調査結果を必ず確認すること。</p>
+</div>
+
+<hr>
+
+<!-- =============================================
+     Section 4: 断熱性能
+     ============================================= -->
+<h2 id="sec4">④ 断熱性能</h2>
+
+<h3>UA値</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>商品</th><th>UA値</th><th>断熱等級</th></tr>
+<tr><td>FREX／RATIUS|RD（最新重鉄）</td><td>0.48〜0.55 W/m²K</td><td>等級5〜6</td></tr>
+<tr><td>CUBIC／RATIUS|GR（軽量鉄骨）</td><td>0.55〜0.60 W/m²K</td><td>等級5（ZEH水準）</td></tr>
+<tr><td>my DESSIN（規格住宅）</td><td>0.60前後</td><td>等級5</td></tr>
+<tr><td>寒冷地オプション</td><td>0.46前後</td><td>等級6</td></tr>
+<tr><td>（参考）国の省エネ基準</td><td>0.87以下</td><td>等級4</td></tr>
+</table>
+</div>
+
+<h3>ヘーベルシェルタード・ダブル断熱構法</h3>
+
+<p>ヘーベルハウスの標準断熱構法。<strong>ALC外壁（ヘーベル板）＋ネオマフォーム</strong>の二層で建物全体を包む。</p>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>部位</th><th>断熱材構成</th><th>厚さ</th></tr>
+<tr><td>外壁</td><td>ALC 75mm＋ネオマフォーム（壁内）</td><td>ネオマフォーム45〜65mm</td></tr>
+<tr><td>屋根</td><td>ALC 100mm＋ネオマフォーム（屋根内）</td><td>ネオマフォーム75〜100mm</td></tr>
+<tr><td>床</td><td>ALC 100mm＋ネオマフォーム（床下）</td><td>ネオマフォーム45〜85mm</td></tr>
+<tr><td>ネオマフォーム特徴</td><td>旭化成建材の自社製高性能フェノールフォーム</td><td>熱伝導率λ=0.020 W/mK（業界最高クラス）</td></tr>
+</table>
+</div>
+
+<h3>サッシ・窓</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>仕様</th><th>内容</th></tr>
+<tr><td>標準サッシ</td><td>アルミ樹脂複合サッシ＋Low-E複層ガラス（アルゴンガス封入）</td></tr>
+<tr><td>オプション</td><td>オール樹脂サッシ＋Low-Eトリプルガラス（寒冷地・ZEH強化時）</td></tr>
+<tr><td>窓の熱貫流率</td><td>標準：約1.9〜2.3 W/m²K／オプション：約1.3 W/m²K</td></tr>
+</table>
+</div>
+
+<h3>断熱性能の歴史的変遷</h3>
+
+<p>ヘーベルハウスは<strong>2016年まで断熱材が薄く「寒い」評判</strong>が広がっていた。ネオマフォームの厚みが25mmしかなく、鉄骨の熱橋問題とあいまって冬の寒さが施主間で共有されていた。</p>
+
+<p>2017年以降、旭化成ホームズは断熱強化キャンペーンを実施しネオマフォームを大幅に厚くし、ZEH対応を進めた。<strong>2020年以降の新築は他大手鉄骨HM（積水ハウス・大和ハウス）と同等以上の断熱性能</strong>となっている。</p>
+
+<h3>他社との断熱性能比較</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>ハウスメーカー</th><th>UA値（代表値）</th><th>断熱等級</th></tr>
+<tr><td>一条工務店（i-smart）</td><td>0.25</td><td>等級7</td></tr>
+<tr><td>スウェーデンハウス</td><td>0.38</td><td>等級6</td></tr>
+<tr><td>三井ホーム</td><td>0.43</td><td>等級5〜6</td></tr>
+<tr><td>住友林業</td><td>0.46</td><td>等級5</td></tr>
+<tr><td>積水ハウス（IS/isシリーズ）</td><td>0.46〜0.60</td><td>等級5</td></tr>
+<tr><td><strong>ヘーベルハウス（標準）</strong></td><td><strong>0.55〜0.60</strong></td><td><strong>等級5</strong></td></tr>
+<tr><td><strong>ヘーベルハウス（FREX/RATIUS|RD）</strong></td><td><strong>0.48〜0.55</strong></td><td><strong>等級5〜6</strong></td></tr>
+<tr><td>大和ハウス（xevoΣ）</td><td>0.55前後</td><td>等級5</td></tr>
+<tr><td>タマホーム（大安心の家）</td><td>0.55〜0.60</td><td>等級5</td></tr>
+</table>
+</div>
+
+<div class="concept-box--highlight">
+  <p><strong>ARCHIST視点</strong>：ヘーベルの断熱は<span class="marker-yellow">「鉄骨HMとしてはトップ水準、ただし木造トップの一条工務店には及ばない」</span>が正直な位置付け。「暑い・寒い」という施主の声の多くは2016年以前のモデル。2020年以降の新築ならZEH基準を満たし快適性は高い。寒冷地（北陸・東北）で建てるなら寒冷地断熱仕様を必須で選ぶこと。</p>
+</div>
+
+<hr>
+
+<!-- =============================================
+     Section 5: 気密性能
+     ============================================= -->
+<h2 id="sec5">⑤ 気密性能</h2>
+
+<h3>C値</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>項目</th><th>内容</th></tr>
+<tr><td>C値公表値</td><td><strong>非公表</strong></td></tr>
+<tr><td>実測事例（施主ブログ）</td><td>2.0〜3.0 cm²/m²（鉄骨造の一般的水準）</td></tr>
+<tr><td>測定実施</td><td>希望者のみ（有償。10〜15万円程度）</td></tr>
+<tr><td>社内基準</td><td>非開示</td></tr>
+</table>
+</div>
+
+<h3>鉄骨構造の気密性の現実</h3>
+
+<ul>
+  <li>木造住宅の気密は「躯体と面材を接着」で取りやすい</li>
+  <li>鉄骨住宅は柱・梁の接合部が多く、パッキン頼みの気密処理になりやすい</li>
+  <li>ヘーベル板（ALC）自体には気密性能はなく、<strong>ネオマフォームと気密シートで気密を担保</strong>する構造</li>
+</ul>
+
+<h3>他社との気密性能比較</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>ハウスメーカー</th><th>C値（公表データ）</th><th>全棟測定</th></tr>
+<tr><td>一条工務店</td><td>0.59（全棟平均）</td><td>全棟実施</td></tr>
+<tr><td>スウェーデンハウス</td><td>0.6前後</td><td>原則実施</td></tr>
+<tr><td><strong>ヘーベルハウス</strong></td><td><strong>非公表（施主実測2.0〜3.0）</strong></td><td><strong>希望者のみ有償</strong></td></tr>
+<tr><td>積水ハウス</td><td>非公表</td><td>実施せず</td></tr>
+<tr><td>住友林業</td><td>非公表</td><td>希望者のみ</td></tr>
+<tr><td>大和ハウス</td><td>非公表</td><td>実施せず</td></tr>
+</table>
+</div>
+
+<div class="concept-box--tip">
+  <p><strong>ARCHIST視点</strong>：C値は鉄骨HMの弱点項目。ヘーベルは「<strong>気密で勝負するHMではなく、耐火・耐震・耐久で勝負するHM</strong>」と割り切って理解するべき。気密にこだわるなら木造HMを選ぶか、ヘーベルなら気密測定をオプション申請して実測値を把握することを推奨。</p>
+</div>
+
+<hr>
+
+<!-- =============================================
+     Section 6: 換気・空調システム
+     ============================================= -->
+<h2 id="sec6">⑥ 換気・空調システム</h2>
+
+<h3>標準換気</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>項目</th><th>内容</th></tr>
+<tr><td>方式</td><td>第3種換気（排気型）が標準</td></tr>
+<tr><td>換気回数</td><td>0.5回/h（建築基準法準拠）</td></tr>
+<tr><td>第1種熱交換換気</td><td>オプション選択可能。30〜80万円</td></tr>
+</table>
+</div>
+
+<h3>全館空調「ヘーベリアンセントラル」</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>項目</th><th>内容</th></tr>
+<tr><td>方式</td><td>ヒートポンプ式全館空調（ダクト方式）</td></tr>
+<tr><td>対応</td><td>CUBIC・新大地・RATIUS・FREX全商品でオプション対応</td></tr>
+<tr><td>初期費用</td><td>150〜250万円のオプション費用</td></tr>
+<tr><td>運用電気代</td><td>夏冬ピーク時で月2〜3万円程度</td></tr>
+<tr><td>メリット</td><td>家中温度差の解消・ヒートショック予防</td></tr>
+<tr><td>デメリット</td><td>メンテナンス費（フィルター・エアコン交換）が継続発生</td></tr>
+</table>
+</div>
+
+<h3>太陽光発電・HEMS・蓄電池</h3>
+
+<ul>
+  <li><strong>ソラリア（旭化成提携システム）</strong>：3〜7kWの太陽光パネル搭載可能</li>
+  <li><strong>リチウムイオン蓄電池</strong>：オプション7〜13kWh搭載可能</li>
+  <li><strong>HEMS</strong>：エネルギー管理システム標準オプション</li>
+</ul>
+
+<div class="concept-box--tip">
+  <p><strong>ARCHIST視点</strong>：他HMと比べ全館空調が「標準」ではなく「オプション」扱い。標準の第3種換気でも建築基準法は満たすが、「家中快適な温度差ゼロ住宅」を求めるなら全館空調オプションを検討すること。</p>
+</div>
+
+<hr>
+
+<!-- =============================================
+     Section 7: デザイン
+     ============================================= -->
+<h2 id="sec7">⑦ デザイン</h2>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin: 20px 0;">
+  <figure style="margin: 0; text-align: center;">
+    <img src="images/008-abou-01-cover-pic2-l-v2-sp.jpg" loading="lazy" decoding="async" alt="ヘーベルハウス 外観デザイン事例1" style="max-width: 100%; height: auto; border-radius: 4px;">
+    <figcaption style="font-size: 12px; color: #666; margin-top: 6px;">出典: 旭化成ホームズ公式</figcaption>
+  </figure>
+  <figure style="margin: 0; text-align: center;">
+    <img src="images/009-abou-01-cover-pic3-l-v2-sp.jpg" loading="lazy" decoding="async" alt="ヘーベルハウス 外観デザイン事例2" style="max-width: 100%; height: auto; border-radius: 4px;">
+    <figcaption style="font-size: 12px; color: #666; margin-top: 6px;">出典: 旭化成ホームズ公式</figcaption>
+  </figure>
+  <figure style="margin: 0; text-align: center;">
+    <img src="images/010-voic-gallery-pic-01-sp.jpg" loading="lazy" decoding="async" alt="ヘーベルハウス 施工事例ギャラリー1" style="max-width: 100%; height: auto; border-radius: 4px;">
+    <figcaption style="font-size: 12px; color: #666; margin-top: 6px;">出典: 旭化成ホームズ公式（施工事例）</figcaption>
+  </figure>
+  <figure style="margin: 0; text-align: center;">
+    <img src="images/011-voic-gallery-pic-02-sp.jpg" loading="lazy" decoding="async" alt="ヘーベルハウス 施工事例ギャラリー2" style="max-width: 100%; height: auto; border-radius: 4px;">
+    <figcaption style="font-size: 12px; color: #666; margin-top: 6px;">出典: 旭化成ホームズ公式（施工事例）</figcaption>
+  </figure>
+</div>
+
+<h3>「都市型スクエアデザイン」が代名詞</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>要素</th><th>特徴</th></tr>
+<tr><td>外観</td><td>陸屋根（フラットルーフ）＋キューブ型シルエット</td></tr>
+<tr><td>外壁仕上げ</td><td>ヘーベル板の吹付塗装／ALCタイル調</td></tr>
+<tr><td>カラー</td><td>白・ベージュ・グレー・ブラック中心（外壁は基本4色系統）</td></tr>
+<tr><td>窓</td><td>大開口窓。ただしサイズは軽量鉄骨の構造グリッドに制約される</td></tr>
+<tr><td>屋上</td><td>CUBICシリーズの特徴。屋上庭園・BBQスペース・太陽光として活用可能</td></tr>
+</table>
+</div>
+
+<h3>標準内装グレード</h3>
+
+<figure style="margin: 20px 0; text-align: center;">
+  <img src="images/012-abou-02-cover-pic1-l-v2-sp.jpg" loading="lazy" decoding="async" alt="ヘーベルハウス 標準内装（フローリング・インテリア）" style="max-width: 100%; height: auto; border-radius: 4px;">
+  <figcaption style="font-size: 13px; color: #666; margin-top: 8px;">出典: 旭化成ホームズ公式（インテリア）</figcaption>
+</figure>
+
+<ul>
+  <li>キッチン・バス・洗面・トイレは<strong>各メーカーから選択</strong>（LIXIL・TOTO・パナソニック・クリナップなど）</li>
+  <li>床材は複合フローリング標準。無垢材はオプション</li>
+  <li>建具・ドアは標準グレードはシンプル。「可もなく不可もなく」という施主評が多い</li>
+</ul>
+
+<h3>デザインの制約</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>制約</th><th>内容</th></tr>
+<tr><td>軸組のグリッド</td><td>軽量鉄骨ハイパワードクロスは910mmグリッドが基本</td></tr>
+<tr><td>ブレース（斜め筋交い）</td><td>CUBIC等では壁内にブレース配置が必要。大きな窓や引き込み戸で制約</td></tr>
+<tr><td>外壁色の選択肢</td><td>ヘーベル板塗装は白・ベージュ・グレー・黒が中心。ビビッドな色や木目調は選択肢少</td></tr>
+<tr><td>勾配屋根の選択</td><td>陸屋根が基本。三角屋根・寄棟屋根はオプションで対応可能だが追加費用</td></tr>
+</table>
+</div>
+
+<div class="concept-box--highlight">
+  <p><strong>ARCHIST視点</strong>：ヘーベルの外観は「一目でヘーベル」とわかる個性が強い。都市型スタイリッシュ派には刺さるが、「木の温もり」「洋風」「南欧風」を求める人には向かない。住友林業・三井ホーム・一条工務店グランセゾンとの比較推奨。</p>
+</div>
+
+<hr>
+
+<!-- =============================================
+     Section 8: 保証・アフターサービス
+     ============================================= -->
+<h2 id="sec8">⑧ 保証・アフターサービス</h2>
+
+<h3>ロングライフプログラム</h3>
+
+<p>ヘーベルハウスの保証制度の名称。「60年以上住み継げる家」を掲げている。</p>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>項目</th><th>内容</th></tr>
+<tr><td>構造躯体保証</td><td>初期<strong>30年</strong>（法定10年を大きく超過）</td></tr>
+<tr><td>防水保証</td><td>初期30年</td></tr>
+<tr><td>シロアリ保証</td><td>鉄骨ALC構造のため標準10年（木部のみ）</td></tr>
+<tr><td>60年点検システム</td><td>引渡し後1年・2年・5年、以降5年毎に無料点検</td></tr>
+<tr><td>設備保証</td><td><strong>主要住宅設備17品目10年保証</strong>（メーカー保証に上乗せした旭化成独自の長期保証）</td></tr>
+</table>
+</div>
+
+<h3>60年保証の条件</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>条件</th><th>内容</th></tr>
+<tr><td>30年目の集中メンテナンス</td><td>防水再施工・外壁塗装・設備更新などをまとめて実施</td></tr>
+<tr><td>費用目安</td><td><strong>300〜500万円</strong>（家の規模と劣化度による）</td></tr>
+<tr><td>実施業者</td><td>旭化成リフォーム（関連会社）が基本</td></tr>
+<tr><td>他社施工の扱い</td><td>他社でリフォームすると<strong>保証打ち切り</strong>のリスクあり</td></tr>
+<tr><td>継続条件</td><td>30年目工事後、さらに30年（＝築60年）まで延長保証</td></tr>
+</table>
+</div>
+
+<h3>メンテナンス費の実態</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>タイミング</th><th>内容</th><th>費用目安</th></tr>
+<tr><td>10年目</td><td>コーキング補修・簡易点検</td><td>20〜40万円</td></tr>
+<tr><td>20年目</td><td>外壁塗装（1回目）・屋根防水</td><td>150〜250万円</td></tr>
+<tr><td>30年目</td><td><strong>集中メンテナンス（60年保証の条件）</strong></td><td><strong>300〜500万円</strong></td></tr>
+<tr><td>40年目</td><td>部分補修・防水確認</td><td>50〜100万円</td></tr>
+<tr><td>50年目</td><td>外壁塗装（2回目）・設備全交換</td><td>200〜300万円</td></tr>
+<tr><td><strong>60年累積</strong></td><td>—</td><td><strong>720〜1,190万円</strong></td></tr>
+</table>
+</div>
+
+<h3>他社との保証期間比較</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>ハウスメーカー</th><th>初期保証</th><th>最大延長</th><th>60年目までの推定メンテ費</th></tr>
+<tr><td>一条工務店</td><td>30年（構造）</td><td>30年（以降は有償延長）</td><td>500〜800万円</td></tr>
+<tr><td>住友林業</td><td>30年（長期優良住宅取得時）</td><td>60年</td><td>600〜900万円</td></tr>
+<tr><td>積水ハウス</td><td>30年</td><td>永年（ユートラスシステム）</td><td>700〜1,000万円</td></tr>
+<tr><td><strong>ヘーベルハウス</strong></td><td><strong>30年</strong></td><td><strong>60年</strong></td><td><strong>720〜1,190万円</strong></td></tr>
+<tr><td>三井ホーム</td><td>10年</td><td>60年</td><td>700〜1,100万円</td></tr>
+<tr><td>タマホーム</td><td>10年</td><td>60年（長期優良住宅）</td><td>500〜800万円</td></tr>
+</table>
+</div>
+
+<div class="concept-box--warning">
+  <p>「60年保証」の文言だけで判断は危険。実際は30年目に<strong>300〜500万円の自社施工工事が条件</strong>。ライフサイクルコスト（初期費用＋メンテ費）で比較することが必須。</p>
+</div>
+
+<hr>
+
+<!-- =============================================
+     Section 9: 建築期間
+     ============================================= -->
+<h2 id="sec9">⑨ 建築期間</h2>
+
+<h3>各フェーズの期間</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>フェーズ</th><th>期間目安</th></tr>
+<tr><td>展示場見学〜仮契約</td><td>1〜3ヶ月</td></tr>
+<tr><td>仮契約〜本契約（間取り打合せ）</td><td>3〜6ヶ月</td></tr>
+<tr><td>本契約〜着工（詳細設計・確認申請）</td><td>2〜3ヶ月</td></tr>
+<tr><td>着工〜上棟</td><td>2〜3ヶ月（基礎＋鉄骨建て方）</td></tr>
+<tr><td>上棟〜引渡し</td><td>3〜5ヶ月</td></tr>
+<tr><td><strong>合計（初回来場〜引渡し）</strong></td><td><strong>11〜20ヶ月</strong></td></tr>
+<tr><td><strong>着工〜引渡し</strong></td><td><strong>5〜8ヶ月</strong></td></tr>
+</table>
+</div>
+
+<h3>工期の特徴</h3>
+
+<ul>
+  <li>軽量鉄骨・重量鉄骨とも<strong>工場で加工された部材を現場で組み立てる</strong>（プレハブ工法）</li>
+  <li>ヘーベル板（ALC）も工場生産品のため、天候影響が少なく工期が安定</li>
+  <li>一方で<strong>鉄骨建て方はクレーン搬入が必須</strong>のため、狭小地の施工は難航するケースあり</li>
+  <li>都市部の道路事情・電線移設などで着工遅延が起こることも</li>
+</ul>
+
+<div class="concept-box--tip">
+  <p><strong>ARCHIST視点</strong>：工期は全HMでも標準的。ただし都心3階建て（FREX）で狭小地に建てる場合は、クレーン手配・道路使用許可の関係で<strong>着工日程が読みにくい</strong>。契約時の工期は保守的に見積もっておくこと。</p>
+</div>
+
+<hr>
+
+<!-- =============================================
+     Section 10: 客層・向いている人
+     ============================================= -->
+<h2 id="sec10">⑩ 客層・向いている人</h2>
+
+<figure style="margin: 20px 0; text-align: center;">
+  <img src="images/013-covr-statement-pic-v2-sp.jpg" loading="lazy" decoding="async" alt="ヘーベルハウスに暮らす家族のライフスタイル" style="max-width: 100%; height: auto; border-radius: 4px;">
+  <figcaption style="font-size: 13px; color: #666; margin-top: 8px;">出典: 旭化成ホームズ公式</figcaption>
+</figure>
+
+<h3>典型的な施主プロファイル</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>属性</th><th>傾向</th></tr>
+<tr><td>年齢</td><td>40代〜50代中心（他HMより高め）</td></tr>
+<tr><td>世帯年収</td><td>900〜1,500万円がボリュームゾーン</td></tr>
+<tr><td>最低年収目安</td><td>世帯年収<strong>700万円〜</strong>（my DESSINなら600万円〜）</td></tr>
+<tr><td>家族構成</td><td>子育て世代＋親世帯同居（二世帯住宅比率が高い）</td></tr>
+<tr><td>土地</td><td>都市部の狭小地・密集地が多い（30〜50坪の土地で3階建てが多い）</td></tr>
+<tr><td>価値観</td><td>「多少高くても長く住める家」「相続資産として残す家」が軸</td></tr>
+</table>
+</div>
+
+<h3>ヘーベルハウスを選ぶ理由TOP3</h3>
+
+<div class="concept-box--point">
+  <ol>
+    <li><strong>都市部密集地での防火・耐火性能</strong>（ALCの1時間耐火認定）</li>
+    <li><strong>60年以上住み継げる耐久性能</strong>（相続資産としての価値）</li>
+    <li><strong>地震後も住み続けられる耐震＋制震性能</strong>（熊本地震後98.4%が住み続けている）</li>
+  </ol>
+</div>
+
+<div class="two-col">
+  <div class="col col--merit">
+    <h4>向いている人</h4>
+    <ul>
+      <li>都市部の狭小地・密集地で建てたい</li>
+      <li>防火・耐火を最優先（隣家が近い）</li>
+      <li>地震後も住み続けられる家にしたい</li>
+      <li>二世帯・3階建て・賃貸併用を検討</li>
+      <li>相続資産として残す家を建てたい</li>
+      <li>スクエア・モダンなデザインが好み</li>
+      <li>世帯年収900万円以上で予算に余裕</li>
+    </ul>
+  </div>
+  <div class="col col--demerit">
+    <h4>向いていない人</h4>
+    <ul>
+      <li>断熱・気密を数値で最優先（→一条）</li>
+      <li>コスパ重視で総額を抑えたい</li>
+      <li>木の温もり・無垢材・自然素材好み</li>
+      <li>間取りの自由度を最優先</li>
+      <li>田舎・郊外の広い土地で建てる</li>
+      <li>営業エリア外に住んでいる</li>
+    </ul>
+  </div>
+</div>
+
+<hr>
+
+<!-- =============================================
+     Section 11: 他社比較表
+     ============================================= -->
+<h2 id="sec11">⑪ 他社比較表</h2>
+
+<h3>総合比較表（6社）</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table compare-table">
+<tr>
+  <th>比較</th>
+  <th>ヘーベル</th>
+  <th>積水ハウス</th>
+  <th>一条</th>
+  <th>大和ハウス</th>
+  <th>セキスイハイム</th>
+  <th>住友林業</th>
+</tr>
+<tr>
+  <td>坪単価</td>
+  <td><strong>95〜110</strong></td>
+  <td>85〜120</td>
+  <td>85〜105</td>
+  <td>80〜110</td>
+  <td>80〜105</td>
+  <td>80〜130</td>
+</tr>
+<tr>
+  <td>UA値</td>
+  <td><strong>0.55〜0.60</strong></td>
+  <td>0.46〜0.60</td>
+  <td>0.25</td>
+  <td>0.55前後</td>
+  <td>0.48前後</td>
+  <td>0.46</td>
+</tr>
+<tr>
+  <td>C値</td>
+  <td><strong>非公表</strong></td>
+  <td>非公表</td>
+  <td>0.59（全棟）</td>
+  <td>非公表</td>
+  <td>非公表</td>
+  <td>非公表</td>
+</tr>
+<tr>
+  <td>構造</td>
+  <td><strong>鉄骨＋ALC</strong></td>
+  <td>鉄骨／木造</td>
+  <td>木造2×6</td>
+  <td>鉄骨／木造</td>
+  <td>鉄骨ユニット</td>
+  <td>木造BF</td>
+</tr>
+<tr>
+  <td>耐火性</td>
+  <td><strong>◎（1時間耐火）</strong></td>
+  <td>○</td>
+  <td>△</td>
+  <td>○</td>
+  <td>○</td>
+  <td>△</td>
+</tr>
+<tr>
+  <td>設計自由度</td>
+  <td><strong>△</strong></td>
+  <td>○</td>
+  <td>△</td>
+  <td>○</td>
+  <td>△</td>
+  <td>◎</td>
+</tr>
+<tr>
+  <td>保証（最大）</td>
+  <td><strong>60年</strong></td>
+  <td>永年</td>
+  <td>30年</td>
+  <td>60年</td>
+  <td>60年</td>
+  <td>60年</td>
+</tr>
+<tr>
+  <td>全館空調</td>
+  <td><strong>オプション</strong></td>
+  <td>オプション</td>
+  <td>床暖房標準</td>
+  <td>オプション</td>
+  <td>標準装備</td>
+  <td>オプション</td>
+</tr>
+<tr>
+  <td>向く人</td>
+  <td><strong>密集地・耐火・相続</strong></td>
+  <td>デザイン・最大手の安心</td>
+  <td>性能・光熱費</td>
+  <td>天井高・開放感</td>
+  <td>工期短縮・太陽光</td>
+  <td>木質・自由設計</td>
+</tr>
+</table>
+</div>
+
+<h3>ヘーベルハウス vs 積水ハウス（都市型大手2強）</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>比較軸</th><th>ヘーベルハウス</th><th>積水ハウス</th></tr>
+<tr><td>構造</td><td>鉄骨＋ALC（都市型特化）</td><td>鉄骨（ダイナミックフレーム）／木造（シャーウッド）</td></tr>
+<tr><td>耐火性</td><td>◎（ヘーベル板1時間耐火）</td><td>○</td></tr>
+<tr><td>断熱</td><td>○（0.55〜0.60）</td><td>○（0.46〜0.60）</td></tr>
+<tr><td>デザイン自由度</td><td>△（キューブ型が中心）</td><td>○（幅広いデザイン対応）</td></tr>
+<tr><td>ブランド認知</td><td>○</td><td>◎（業界最大手）</td></tr>
+<tr><td>アフターサービス</td><td>ロングライフ（60年）</td><td>ユートラスシステム（永年）</td></tr>
+<tr><td><strong>向く人</strong></td><td><strong>密集地・耐火・相続重視</strong></td><td><strong>デザイン・幅広い選択肢</strong></td></tr>
+</table>
+</div>
+
+<h3>ヘーベルハウス vs 一条工務店（性能特化）</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>比較軸</th><th>ヘーベルハウス</th><th>一条工務店</th></tr>
+<tr><td>構造</td><td>鉄骨</td><td>木造2×6</td></tr>
+<tr><td>断熱</td><td>○（0.55〜0.60）</td><td>◎（0.25）</td></tr>
+<tr><td>気密</td><td>△（非公表）</td><td>◎（全棟平均0.59）</td></tr>
+<tr><td>耐火性</td><td><strong>◎（ALC）</strong></td><td>△（木造）</td></tr>
+<tr><td>耐震</td><td>◎</td><td>◎</td></tr>
+<tr><td><strong>向く人</strong></td><td><strong>都市・耐火・相続</strong></td><td><strong>性能数値・光熱費重視</strong></td></tr>
+</table>
+</div>
+
+<hr>
+
+<!-- =============================================
+     Section 12: 後悔事例
+     ============================================= -->
+<h2 id="sec12">⑫ 後悔事例（施主の声）</h2>
+
+<h3>後悔1：坪単価が想定より高く、オプションで更に膨らんだ</h3>
+
+<p>「坪単価90万円と聞いて契約したが、最終的に坪単価110万円超になった」（入居11年目・主婦ブログ）。太陽光・全館空調・屋上庭園を組むと、本体価格から<strong>+300〜600万円</strong>が相場。</p>
+
+<div class="concept-box--point">
+  <p>対策：契約前にフル装備の見積もりを必ず取る。「本体価格表示」に騙されない。</p>
+</div>
+
+<h3>後悔2：屋上・陸屋根の使い勝手とメンテナンス費</h3>
+
+<p>CUBICの屋上スペースは「夏は暑すぎて使えない」「虫が多い」「結局洗濯干し場にしかなっていない」。屋上防水は10〜15年毎の再施工が必要（1回50〜100万円）。</p>
+
+<div class="concept-box--tip">
+  <p>対策：屋上は「あれば便利」ではなく「使う明確な用途」が決まっている場合のみ採用。</p>
+</div>
+
+<h3>後悔3：夏の暑さ（2階・3階・屋上直下）</h3>
+
+<p>「2階のエアコン効きが弱い」「屋上直下の部屋が夏は耐えられない」（複数ブログ共通）。鉄骨は木造より熱伝導率が高く、熱橋（ヒートブリッジ）問題あり。</p>
+
+<div class="concept-box--tip">
+  <p>対策：西日対策・Low-Eガラス・屋上遮熱施工を設計段階で検討。全館空調オプションも選択肢。</p>
+</div>
+
+<h3>後悔4：冬の寒さ（2016年以前のモデル）</h3>
+
+<p>2016年以前のネオマフォーム25mm仕様は「冬のリビングが18℃を下回る」との施主報告多数。<strong>中古ヘーベルを買う場合は築2017年以降を推奨</strong>。</p>
+
+<h3>後悔5：固定資産税が高い</h3>
+
+<p>ヘーベル板は「不燃材・耐火構造」扱いで建物評価額が高く算定される。30坪の標準的ヘーベルハウスで<strong>固定資産税は年15〜20万円</strong>（木造HMより年2〜5万円高い）。</p>
+
+<div class="concept-box--warning">
+  <p>新築減額期間終了（3年目／長期優良5年目）以降の税負担増を見落とす施主多数。シミュレーション必須。</p>
+</div>
+
+<h3>後悔6：デザインが単調・外壁色の選択肢が狭い</h3>
+
+<p>「街中でヘーベルハウスはすぐにわかる」「どの家も似たようなキューブ型」。外壁は白・ベージュ・グレー・黒中心。木目調・ビビッド色・左官仕上げは選択肢が少ない。</p>
+
+<h3>後悔7：間取り自由度が低い</h3>
+
+<p>軽量鉄骨ハイパワードクロスはブレース壁の位置制約あり。910mmグリッドで壁位置が決まるため、25mm単位の微調整は不可。</p>
+
+<div class="concept-box--tip">
+  <p>対策：RATIUS|RD（重鉄制震ラーメン）なら大空間・大開口の自由度が高い。予算許せば検討。</p>
+</div>
+
+<h3>後悔8：30年目の集中メンテナンス費用ショック</h3>
+
+<p>「60年保証と聞いていたが、30年目に<strong>300〜500万円</strong>のメンテナンス請求が来た」。旭化成リフォーム以外で安く済ませると保証打ち切りのジレンマ。</p>
+
+<h3>後悔9：営業担当の当たり外れ・転勤</h3>
+
+<p>「契約時の担当者と建築時の担当者が違い、仕様が伝わっていなかった」。大手HM共通の課題。重要事項は必ず書面で残す。</p>
+
+<h3>後悔10：都市圏以外は対応エリア外</h3>
+
+<p>「地方転勤で建てたかったが、旭化成ホームズの営業エリア外だった」。北海道・東北全域・新潟・北陸・四国・山陰・九州の一部・沖縄など非対応エリアが広い。</p>
+
+<hr>
+
+<!-- =============================================
+     Section 13: 顧客満足度データ
+     ============================================= -->
+<h2 id="sec13">⑬ 顧客満足度データ</h2>
+
+<h3>オリコン顧客満足度ランキング（注文住宅）</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>年度</th><th>総合順位</th><th>スコア</th><th>備考</th></tr>
+<tr><td>2024年</td><td>総合3位</td><td>78.2点</td><td>スウェーデンハウス1位</td></tr>
+<tr><td>2025年</td><td>総合2位</td><td>78.7点</td><td>スウェーデンハウス1位</td></tr>
+<tr><td><strong>2026年</strong></td><td><strong>総合2位</strong></td><td><strong>78.9点</strong></td><td>スウェーデンハウス12年連続1位（81.0点）</td></tr>
+</table>
+</div>
+
+<h3>鉄骨造部門</h3>
+
+<div class="concept-box--point">
+  <p>ヘーベルハウスは<strong>鉄骨造ランキング11年連続1位（2016〜2026年）</strong>。強靭な鉄骨躯体＋ALC板の組み合わせが高評価を維持。</p>
+</div>
+
+<h3>項目別の強み</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>項目</th><th>評価</th></tr>
+<tr><td>住居の性能</td><td>上位ランクイン（特に耐震・耐火）</td></tr>
+<tr><td>アフターサービス</td><td>上位（60年点検システムが評価）</td></tr>
+<tr><td>提案力</td><td>上位（二世帯・都市型提案が得意）</td></tr>
+<tr><td>ラインナップの充実</td><td>中位</td></tr>
+<tr><td>価格の納得感</td><td>中位（価格は高いが性能を評価）</td></tr>
+</table>
+</div>
+
+<h3>施主の満足度傾向</h3>
+
+<ul>
+  <li><strong>高評価</strong>：耐震・耐火性能、60年保証、都市型デザイン、賃貸併用の実績</li>
+  <li><strong>低評価</strong>：坪単価の高さ、断熱・気密の数値、屋上の使い勝手、外壁色の選択肢</li>
+</ul>
+
+<hr>
+
+<!-- =============================================
+     Section 14: 坪数別の建築総額シミュレーション
+     ============================================= -->
+<h2 id="sec14">⑭ 坪数別の建築総額シミュレーション</h2>
+
+<p>CUBIC（軽量鉄骨・標準仕様）を基準、2026年3月時点の概算。金利1.5%・35年ローン・頭金なしで試算。</p>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>坪数</th><th>本体工事費</th><th>建築総額目安</th><th>月々返済額（35年/1.5%）</th></tr>
+<tr><td>25坪</td><td>約2,500万円</td><td>約3,025〜3,125万円</td><td>約9.3〜9.6万円</td></tr>
+<tr><td>30坪</td><td>約3,000万円</td><td>約3,650〜3,750万円</td><td>約11.2〜11.5万円</td></tr>
+<tr><td>35坪</td><td>約3,500万円</td><td>約4,225〜4,375万円</td><td>約13.0〜13.4万円</td></tr>
+<tr><td>40坪</td><td>約4,000万円</td><td>約4,850〜5,000万円</td><td>約14.9〜15.3万円</td></tr>
+<tr><td>45坪</td><td>約4,500万円</td><td>約5,475〜5,625万円</td><td>約16.8〜17.3万円</td></tr>
+</table>
+</div>
+
+<h3>商品別の価格シフト（40坪基準）</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>商品</th><th>坪単価想定</th><th>建築総額目安（40坪）</th></tr>
+<tr><td>my DESSIN（規格住宅）</td><td>80万円</td><td>約3,900〜4,100万円</td></tr>
+<tr><td><strong>CUBIC（標準）</strong></td><td><strong>100万円</strong></td><td><strong>約4,850〜5,000万円</strong></td></tr>
+<tr><td>RATIUS|GR</td><td>105万円</td><td>約5,100〜5,250万円</td></tr>
+<tr><td>RATIUS|RD（重鉄制震）</td><td>125万円</td><td>約6,050〜6,200万円</td></tr>
+<tr><td>FREX 3（都市型3階建て）</td><td>140万円</td><td>約6,800〜6,950万円</td></tr>
+</table>
+</div>
+
+<h3>ライフサイクルコスト（60年視点）</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>項目</th><th>金額目安</th></tr>
+<tr><td>初期建築費（40坪CUBIC）</td><td>約4,850〜5,000万円</td></tr>
+<tr><td>30年目集中メンテナンス</td><td>300〜500万円</td></tr>
+<tr><td>10・20・40・50年目メンテ累積</td><td>約400〜600万円</td></tr>
+<tr><td>60年間の固定資産税（概算）</td><td>約900〜1,200万円</td></tr>
+<tr><td><strong>60年間総支出目安</strong></td><td><strong>約6,450〜7,300万円</strong></td></tr>
+</table>
+</div>
+
+<div class="concept-box--warning">
+  <p>上記は土地代を含まない建物のみの金額。地盤改良が必要な場合は別途50〜200万円（重鉄商品はここが嵩みやすい）。太陽光+150〜250万円、全館空調+150〜250万円、屋上庭園+100〜200万円。オプションは「取捨選択」が総額を抑える最大のレバー。</p>
+</div>
+
+<hr>
+
+<!-- =============================================
+     Section 15: ヘーベルハウス固有の注意点
+     ============================================= -->
+<h2 id="sec15">⑮ ヘーベルハウス固有の注意点</h2>
+
+<h3>対応エリアが都市圏限定</h3>
+
+<p>ヘーベルハウスは<strong>全国対応ではない</strong>。建築地によっては契約できないケースがある。</p>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>エリア区分</th><th>対応状況</th></tr>
+<tr><td>関東8都県（東京・神奈川・千葉・埼玉・栃木・茨城・群馬・山梨）</td><td>完全対応</td></tr>
+<tr><td>東海4県（静岡・愛知・三重・岐阜）</td><td>完全対応</td></tr>
+<tr><td>関西6府県（大阪・兵庫・京都・奈良・滋賀・和歌山）</td><td>完全対応</td></tr>
+<tr><td>西日本5県（広島・岡山・山口・福岡・佐賀）</td><td>対応</td></tr>
+<tr><td>北海道・東北全域・新潟・北陸・山陰・四国・長崎・大分・熊本・宮崎・鹿児島・沖縄</td><td><strong>非対応</strong></td></tr>
+</table>
+</div>
+
+<p>愛知県の主要対応市：名古屋全区／春日井／小牧／一宮／稲沢／清須／長久手／日進／尾張旭／北名古屋／豊田（一部）／岡崎（一部）／豊橋（一部）。</p>
+
+<h3>鉄骨重量の制限</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>商品カテゴリ</th><th>構造重量</th><th>地盤要求</th></tr>
+<tr><td>軽量鉄骨（CUBIC等）</td><td>標準</td><td>通常の地盤調査対応</td></tr>
+<tr><td><strong>重鉄制震（RATIUS|RD）</strong></td><td><strong>重</strong></td><td><strong>地盤改良の可能性高</strong></td></tr>
+<tr><td><strong>重量鉄骨（FREX 3/4）</strong></td><td><strong>非常に重</strong></td><td><strong>地耐力30kN/m²以上要求。改良費50〜200万円</strong></td></tr>
+</table>
+</div>
+
+<h3>30年目集中メンテナンスの拘束力</h3>
+
+<p>ヘーベル最大の注意点。「60年保証」を維持するには30年目に<strong>旭化成リフォームで300〜500万円の工事を実施</strong>する必要がある。</p>
+
+<div class="concept-box--caution">
+  <ul>
+    <li><strong>工事費用が非開示</strong>：契約時には30年目の正確な見積もりは出ない</li>
+    <li><strong>他社施工のリスク</strong>：構造・防水を他社で安く施工すると保証打ち切り</li>
+    <li><strong>代替の乏しさ</strong>：ヘーベル板・ネオマフォーム等の独自部材のため、他社が扱えない</li>
+    <li><strong>LCCへの影響</strong>：建築費＋メンテ費の合計で他HMと比較すると見え方が変わる</li>
+  </ul>
+</div>
+
+<h3>見えにくいコスト</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>項目</th><th>内容</th></tr>
+<tr><td>本体価格外のオプション</td><td>屋上防水強化・タイル外壁・全館空調・太陽光・蓄電池で+300〜600万円</td></tr>
+<tr><td>外構費用</td><td>200〜400万円が相場（狭小地では塀・門扉が嵩みやすい）</td></tr>
+<tr><td>地盤改良費</td><td>重鉄商品では50〜200万円。都市部の狭小地で高くなる傾向</td></tr>
+<tr><td>固定資産税の上振れ</td><td>ALC＝不燃耐火材で建物評価額が高く、木造より年2〜5万円高い</td></tr>
+<tr><td>保険料</td><td>耐火構造扱いで火災保険は安くなる（メリット）。地震保険は鉄骨なら割引</td></tr>
+</table>
+</div>
+
+<h3>その他の固有ポイント</h3>
+
+<ul>
+  <li><strong>二世帯住宅・賃貸併用の設計力は業界トップクラス</strong>（旭化成ホームズは賃貸事業も大規模）</li>
+  <li><strong>展示場訪問前の紹介登録</strong>で3%割引（最大100〜150万円相当）を受けられる</li>
+  <li><strong>決算月（3月・9月）のキャンペーン</strong>でエネファーム・太陽光半額などの事例あり</li>
+  <li>屋上設置は防水費用が継続的にかかるため、使用頻度を冷静に想定して決定</li>
+</ul>
+
+<hr>
+
+<!-- =============================================
+     Section 16: 営業攻略（値引き交渉の現実）
+     ============================================= -->
+<h2 id="sec16">⑯ 営業攻略（値引き交渉の現実）</h2>
+
+<h3>値引きの相場</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>値引き種別</th><th>相場</th><th>備考</th></tr>
+<tr><td>通常値引き</td><td>本体価格の<strong>2〜5%</strong></td><td>交渉なしではほぼ出ない</td></tr>
+<tr><td>紹介制度</td><td>本体価格の<strong>最大3%</strong></td><td>展示場訪問前の登録必須</td></tr>
+<tr><td>決算月（3・9月）上乗せ</td><td>+1〜2%</td><td>営業成績期末に合わせた裁量</td></tr>
+<tr><td>キャンペーン（太陽光・蓄電池半額等）</td><td>100〜300万円相当</td><td>2022〜2023年の50周年キャンペーンなど</td></tr>
+<tr><td>モニター割引</td><td>30〜100万円相当</td><td>広告利用・見学会協力の代わり</td></tr>
+</table>
+</div>
+
+<h3>効果的な交渉方法</h3>
+
+<div class="concept-box--point">
+  <ol>
+    <li><strong>展示場訪問前に紹介登録</strong>：紹介URLから登録することで最大3%割引が確定</li>
+    <li><strong>競合他社の相見積もりを持参</strong>：「積水ハウスでこの金額」「セキスイハイムでこの仕様」は交渉の武器</li>
+    <li><strong>決算月を狙う</strong>：3月末・9月末の1〜2週間前が営業が最も柔軟になるタイミング</li>
+    <li><strong>予算上限を正直に伝える</strong>：「ヘーベルが第一希望だが予算が○○万円オーバー」と早期に共有</li>
+    <li><strong>仕様グレードアップで交渉</strong>：価格値引きより「外壁タイル化サービス」「全館空調無償追加」の方が通りやすい</li>
+    <li><strong>キャンペーン期間を狙う</strong>：50周年級の大規模割引は数年に一度あり</li>
+  </ol>
+</div>
+
+<h3>注意すべき営業トーク</h3>
+
+<div class="concept-box--caution">
+  <ul>
+    <li>「今月中に契約すれば特別価格」：基本的に無視してOK。月をまたいでも同水準の条件は出る</li>
+    <li>「この予算ならヘーベルは無理です」：他HMを検討する明確なサイン</li>
+    <li>「最後の1棟枠」：展示場の期末売上調整文句。信じすぎない</li>
+  </ul>
+</div>
+
+<hr>
+
+<!-- =============================================
+     Section 17: まとめ
+     ============================================= -->
+<h2 id="sec17">⑰ まとめ</h2>
+
+<div class="kaisetsu-box">
+  <div class="kaisetsu-title">ヘーベルハウスの強み</div>
+  <div class="kaisetsu-content">
+    <ul>
+      <li>ALC（ヘーベル板）の1時間耐火構造 — 都市部密集地で圧倒的</li>
+      <li>繰り返し大地震に耐える耐震＋制震（熊本地震後98.4%が住み続けている）</li>
+      <li>ロングライフプログラムで60年住み継げる設計思想</li>
+      <li>オリコン顧客満足度 鉄骨造部門11年連続1位（2016〜2026年）</li>
+      <li>二世帯住宅・3階建て・賃貸併用の設計力は業界トップクラス</li>
+    </ul>
+  </div>
+</div>
+
+<div class="kaisetsu-box">
+  <div class="kaisetsu-title" style="background:#ed8989;">ヘーベルハウスの弱み</div>
+  <div class="kaisetsu-content">
+    <ul>
+      <li>坪単価95〜110万円と大手でもトップクラスに高額</li>
+      <li>断熱・気密の数値は木造トップには及ばない（C値は非公表）</li>
+      <li>30年目に集中メンテナンス300〜500万円が必要（自社施工縛り）</li>
+      <li>対応エリアが25都府県限定（地方は非対応が多い）</li>
+      <li>外壁色・デザインの選択肢が限定的</li>
+    </ul>
+  </div>
+</div>
+
+<h3>こんな人にヘーベルハウスはオススメ</h3>
+
+<ul>
+  <li>都市部・密集地で建てたい（防火性能がフルに活きる）</li>
+  <li>地震後も住み続けられる家を求める（繰り返し震動実験で実績）</li>
+  <li>60年以上住み継ぐ＝相続資産として残すことを考えている</li>
+  <li>二世帯住宅・3階建て・賃貸併用を検討している</li>
+  <li>スクエア・モダンなデザインが好み</li>
+  <li>世帯年収900万円以上で予算に余裕がある</li>
+</ul>
+
+<h3>こんな人には向いていない可能性</h3>
+
+<ul>
+  <li>断熱・気密性能を数値で最優先したい → 一条工務店</li>
+  <li>総額3,500万円以下のコスパ重視 → タマホーム・アイ工務店・my DESSIN</li>
+  <li>無垢材・自然素材・木の温もりを感じる家 → 住友林業・スウェーデンハウス</li>
+  <li>間取りの自由度と個性的デザイン → 住友林業・三井ホーム</li>
+  <li>田舎・郊外の広い土地で建てる（都市型の強みが活きない）</li>
+  <li>営業エリア外に住んでいる</li>
+  <li>30年目メンテナンス費300〜500万円のコミットが難しい</li>
+</ul>
+
+<div class="concept-box--highlight">
+  <p><strong>本質のまとめ</strong></p>
+  <p>ヘーベルハウスは<span class="marker-yellow">「価格より、60年以上の安心に投資する人のための都市型防災住宅」</span>。ALC＝ヘーベル板の不燃耐火性能は業界でも唯一無二。鉄骨系HMとしてオリコン顧客満足度鉄骨造部門11年連続1位、総合でも2026年2位（78.9点）という実績。一方で坪単価95〜110万円と高額＋30年目の集中メンテ費用も必要。「数値性能（UA値・C値）」ではなく「<strong>実物の質量感と都市防災力</strong>」が強み。</p>
+</div>
+
+<hr>
+
+<!-- =============================================
+     Section 18: よくある質問（FAQ）
+     ============================================= -->
+<h2 id="sec18">⑱ よくある質問（FAQ）</h2>
+
+<div class="faq-section">
+
+<details class="faq-item">
+  <summary>ヘーベルハウスは高いですか？</summary>
+  <div class="faq-answer">坪単価95〜110万円で大手の中でも上位価格帯。積水ハウスと並ぶ最高価格帯HM。付帯工事・外構を含めた総額では、30坪で約3,800万円、40坪で約5,000万円が目安。予算が総額3,500万円以下なら別のHMも検討を。</div>
+</details>
+
+<details class="faq-item">
+  <summary>値引き交渉はできますか？</summary>
+  <div class="faq-answer">本体価格の2〜5%が一般的な値引き相場。大幅値引きは期待薄。紹介制度（最大3%相当）・決算月（3月・9月）・キャンペーン期間の3つを組み合わせるのが現実的。「○月末までに」と急かされる営業には注意。</div>
+</details>
+
+<details class="faq-item">
+  <summary>ヘーベル板（ALC）は本当に火事に強いですか？</summary>
+  <div class="faq-answer">国土交通大臣認定の1時間耐火構造材です。火災実験では隣家延焼の熱でもALC外壁は炎を通さず、壁体内温度の上昇を抑えます。都市部密集地の「もらい火」リスクには圧倒的に強い。</div>
+</details>
+
+<details class="faq-item">
+  <summary>断熱性能は低いと聞きますが本当ですか？</summary>
+  <div class="faq-answer">2016年以前のモデルはネオマフォーム25mmで確かに寒かった。2017年以降は断熱強化され、ZEH水準（UA値0.55〜0.60）を満たす。ただし一条工務店（UA値0.25）など木造トップには及ばない。「耐火・耐震優先でZEH基準を満たせば十分」なら問題なし。</div>
+</details>
+
+<details class="faq-item">
+  <summary>夏は暑くないですか？</summary>
+  <div class="faq-answer">2階・3階・屋上直下は木造より暑くなる傾向（鉄骨の熱橋＋軒短めのデザインが原因）。対策はLow-Eガラス・西日対策・全館空調オプション・屋上遮熱施工。標準仕様のままだと夏のエアコン費用が木造より月数千円高くなる可能性。</div>
+</details>
+
+<details class="faq-item">
+  <summary>冬は寒くないですか？</summary>
+  <div class="faq-answer">2020年以降の新築なら大手鉄骨HM並みの快適性。ただし鉄骨熱橋の影響で木造より床が冷たく感じることあり。寒冷地（北陸・東北）は寒冷地断熱仕様を必ず選択。中古ヘーベルを買う場合は築2017年以降を推奨。</div>
+</details>
+
+<details class="faq-item">
+  <summary>間取りの自由度は低いですか？</summary>
+  <div class="faq-answer">軽量鉄骨ハイパワードクロス（CUBIC等）は910mmグリッド＋ブレース壁の制約あり。重鉄制震のRATIUS|RDやFREXなら自由度が高く、大空間・大開口も可能。間取り重視なら重鉄商品を選ぶと良い。</div>
+</details>
+
+<details class="faq-item">
+  <summary>60年保証は本当に60年間無料ですか？</summary>
+  <div class="faq-answer">いいえ。構造・防水は初期30年保証。30年目に300〜500万円の集中メンテナンス工事を旭化成リフォームで実施することで60年まで延長。「60年間無料」ではなく「30年目に大規模工事をすれば60年まで保証」というのが正確。</div>
+</details>
+
+<details class="faq-item">
+  <summary>他社でリフォームすると保証はどうなりますか？</summary>
+  <div class="faq-answer">旭化成リフォーム以外で構造・防水に関わる工事をすると保証が打ち切られるリスクがあります。キッチン・内装リフォームなど構造に関係ない工事は基本OK。判断が微妙な場合は旭化成リフォームに事前確認を。</div>
+</details>
+
+<details class="faq-item">
+  <summary>ヘーベルハウスの屋上は便利ですか？</summary>
+  <div class="faq-answer">CUBICの屋上は魅力的だが、実際は「夏は暑くて使えない」「虫が多い」「活用しきれない」という施主の声が多い。使う明確な用途（BBQ・家庭菜園・太陽光）がない場合は普通の屋根の方が防水費用も安く済む。</div>
+</details>
+
+<details class="faq-item">
+  <summary>固定資産税はいくらですか？</summary>
+  <div class="faq-answer">30坪で年15〜20万円が目安。木造HMより年2〜5万円高い（ヘーベル板が「不燃材・耐火構造」扱いで評価額が高いため）。新築減額期間（3年／長期優良5年）後の税負担増に注意。</div>
+</details>
+
+<details class="faq-item">
+  <summary>対応エリアはどこですか？</summary>
+  <div class="faq-answer">関東8都県／東海4県／関西6府県／西日本5県（広島・岡山・山口・福岡・佐賀）の合計25都府県のみ。愛知県は名古屋を中心に西三河・東三河まで対応。北海道・東北全域（仙台含む）・新潟・北陸・四国・山陰・長崎・大分・熊本・宮崎・鹿児島・沖縄は営業エリア外。</div>
+</details>
+
+<details class="faq-item">
+  <summary>営業担当の良し悪しはどう見極めますか？</summary>
+  <div class="faq-answer">①モデルハウス初回時に「予算」「家族構成」「要望」を率直に聞いてくれるか、②数字・根拠を示した説明ができるか、③他社比較を嫌がらないか、の3点で判断。違和感があれば担当変更を店長に相談可能。</div>
+</details>
+
+<details class="faq-item">
+  <summary>アパート・賃貸併用住宅に強いですか？</summary>
+  <div class="faq-answer">はい。旭化成ホームズは「ヘーベルメゾン」ブランドで賃貸住宅市場でも大手。戸建＋賃貸併用や二世帯住宅の設計ノウハウが豊富。相続対策・土地活用の相談にも強い。</div>
+</details>
+
+<details class="faq-item">
+  <summary>ARCHISTを使うメリットは何ですか？</summary>
+  <div class="faq-answer">ヘーベルは坪単価・保証条件・メンテナンス費などライフサイクルコストが複雑なHMです。ARCHISTが「他社との総額比較」「30年目メンテナンス費のシミュレーション」「担当者品質の見極め」「契約書の第三者チェック」を中立視点でサポートします。</div>
+</details>
+
+</div>
+
+</div><!-- /article-body -->
+</article>
+</main>
+
+<!-- ========== Footer ========== -->
+<footer class="site-footer">
+  &copy; ARCHIST（アーキスト）　<a href="../">ハウスメーカー徹底解説 一覧</a>　<a href="/">予算診断</a>
+</footer>
+
+</body>
+</html>

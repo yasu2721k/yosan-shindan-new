@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>オープンハウス 徹底解説｜坪単価・構造・断熱・口コミ【2026年版】｜ARCHIST</title>
+<!-- カラーテーマ: オープンハウス（都心ネイビー+レッド系）-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --color-primary: #1c3a6e;
+  --color-primary-dark: #132951;
+  --color-primary-light: #bfcce0;
+  --color-accent: #d93a3a;
+  --color-heading-bg: #e7ecf4;
+  --color-hover-bg: #d2dbe8;
+  --color-stripe-bg: #f3f6fb;
+  --color-highlight-bg: #dbe4f1;
+  --color-highlight-dark: #bfcce0;
+  --color-text: #10213d;
+  --color-text-light: #4c5c75;
+  --color-bg-site: #fbfbfb;
+  --color-bg-article: #ffffff;
+  --color-link: #1f76af;
+  --color-border: #c3cfde;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Noto Sans JP', '游ゴシック', 'Yu Gothic', 'YuGothic', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--color-text);
+  background: var(--color-bg-site);
+  -webkit-font-smoothing: antialiased;
+}
+
+.site-header { background: var(--color-primary-light); padding: 16px 0; text-align: center; }
+.site-header .site-title { color: var(--color-primary); font-size: 22px; font-weight: 700; letter-spacing: 1px; }
+
+.article-wrap { max-width: 740px; margin: 30px auto; padding: 0 15px; }
+.article-card { background: #fff; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); overflow: hidden; }
+.article-header { padding: 30px 30px 20px; }
+.article-header .category-label { display: inline-block; background: var(--color-primary); color: #fff; font-size: 12px; font-weight: 500; padding: 3px 12px; border-radius: 2px; margin-bottom: 12px; }
+.article-header .article-title { font-size: 26px; font-weight: 700; line-height: 1.5; color: var(--color-primary); }
+.article-header .article-meta { margin-top: 10px; font-size: 13px; color: #999; }
+
+.article-body { padding: 0 30px 40px; }
+
+.toc-box { background: #fafafa; border: 2px solid var(--color-primary); border-radius: 4px; padding: 20px 25px; margin: 20px 0 35px; }
+.toc-box .toc-title { text-align: center; font-size: 18px; font-weight: 700; color: var(--color-primary); margin-bottom: 15px; position: relative; }
+.toc-box .toc-title::after { content: ''; display: block; width: 40px; height: 3px; background: var(--color-accent); margin: 8px auto 0; }
+.toc-box ol { padding-left: 22px; counter-reset: toc-counter; }
+.toc-box ol li { list-style: none; counter-increment: toc-counter; margin-bottom: 6px; line-height: 1.6; }
+.toc-box ol li::before { content: counter(toc-counter) "."; color: var(--color-primary); font-weight: 700; margin-right: 6px; }
+.toc-box ol li a { color: var(--color-primary); text-decoration: none; font-size: 15px; }
+.toc-box ol li a:hover { text-decoration: underline; }
+
+.article-body h2 { background: var(--color-primary); color: #fff; font-size: 22px; font-weight: 700; padding: 14px 20px; margin: 50px 0 25px; border-radius: 4px; position: relative; line-height: 1.5; }
+.article-body h2::after { content: ''; position: absolute; bottom: -10px; left: 30px; width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 10px solid var(--color-primary); }
+
+.article-body h3 { font-size: 19px; font-weight: 700; color: var(--color-primary); padding: 12px 16px; margin: 35px 0 20px; border-left: 4px solid var(--color-primary); background: var(--color-heading-bg); border-radius: 0 4px 4px 0; line-height: 1.5; }
+.article-body h4 { font-size: 17px; font-weight: 700; color: var(--color-primary); padding: 8px 0; margin: 25px 0 15px; border-bottom: 2px dotted var(--color-primary); }
+
+.article-body p { margin: 15px 0; line-height: 1.9; }
+.article-body strong { color: var(--color-primary); font-weight: 700; }
+.article-body a { color: var(--color-link); text-decoration: underline; }
+
+.marker-yellow { background: linear-gradient(transparent 60%, var(--color-accent) 60%); font-weight: 700; }
+
+.article-body hr { border: none; border-top: 2px dashed #ddd; margin: 40px 0; }
+
+.article-body .section-image { width: 100%; border-radius: 4px; margin: 15px 0; }
+.image-row { display: flex; gap: 15px; margin: 15px 0; }
+.image-row .image-col { flex: 1; }
+.image-row .image-col img { width: 100%; border-radius: 4px; }
+.image-row .image-col p { margin: 5px 0 0; font-size: 14px; text-align: center; }
+
+.jin-table-wrap { overflow-x: auto; margin: 20px 0; -webkit-overflow-scrolling: touch; }
+.jin-table { width: 100%; border-collapse: collapse; border-spacing: 0; font-size: 15px; }
+.jin-table th { background: var(--color-primary); color: #fff; font-weight: 700; padding: 12px 14px; text-align: left; border: 1px solid var(--color-primary-dark); white-space: nowrap; }
+.jin-table td { padding: 11px 14px; border: 1px solid var(--color-border); vertical-align: top; }
+.jin-table tr:nth-child(even) td { background: var(--color-stripe-bg); }
+.jin-table tr:hover td { background: var(--color-hover-bg); }
+
+.compare-table th:first-child, .compare-table td:first-child { background: var(--color-heading-bg); font-weight: 700; color: var(--color-primary); white-space: nowrap; position: sticky; left: 0; z-index: 1; }
+.compare-table td:first-child { border-right: 2px solid var(--color-primary); }
+.compare-table th:nth-child(2), .compare-table td:nth-child(2) { background: var(--color-highlight-bg); }
+.compare-table th:nth-child(2) { background: var(--color-primary-dark); color: #fff; }
+.compare-table tr:nth-child(even) td:nth-child(2) { background: var(--color-highlight-dark); }
+
+.concept-box--point { border: 2px solid #85db8f; border-radius: 6px; padding: 25px 20px 18px; margin: 25px 0; position: relative; background: #f6fff7; }
+.concept-box--point::before { content: 'POINT'; position: absolute; top: -13px; left: 16px; background: #85db8f; color: #fff; font-size: 12px; font-weight: 700; padding: 2px 12px; border-radius: 3px; letter-spacing: 1px; }
+
+.concept-box--caution { border: 2px solid #ed8989; border-radius: 6px; padding: 25px 20px 18px; margin: 25px 0; position: relative; background: #fff6f6; }
+.concept-box--caution::before { content: 'NOTE'; position: absolute; top: -13px; left: 16px; background: #ed8989; color: #fff; font-size: 12px; font-weight: 700; padding: 2px 12px; border-radius: 3px; letter-spacing: 1px; }
+
+.concept-box--tip { border: 2px solid #86cee8; border-radius: 6px; padding: 25px 20px 18px; margin: 25px 0; position: relative; background: #f4faff; }
+.concept-box--tip::before { content: 'TIPS'; position: absolute; top: -13px; left: 16px; background: #86cee8; color: #fff; font-size: 12px; font-weight: 700; padding: 2px 12px; border-radius: 3px; letter-spacing: 1px; }
+
+.concept-box--warning { border: 2px solid #f7cf6a; border-radius: 6px; padding: 25px 20px 18px; margin: 25px 0; position: relative; background: #fffdf3; }
+.concept-box--warning::before { content: 'WARNING'; position: absolute; top: -13px; left: 16px; background: #f7cf6a; color: #fff; font-size: 12px; font-weight: 700; padding: 2px 12px; border-radius: 3px; letter-spacing: 1px; }
+
+.concept-box--highlight { border: 2px solid var(--color-primary); border-radius: 6px; padding: 25px 20px 18px; margin: 25px 0; position: relative; background: var(--color-heading-bg); }
+.concept-box--highlight::before { content: 'CHECK'; position: absolute; top: -13px; left: 16px; background: var(--color-primary); color: #fff; font-size: 12px; font-weight: 700; padding: 2px 12px; border-radius: 3px; letter-spacing: 1px; }
+
+.simple-box { border: 2px solid var(--color-border); border-radius: 4px; padding: 18px 20px; margin: 25px 0; background: #fff; }
+.simple-box--blue { border-color: #7badd8; background: #f7faff; }
+.simple-box--yellow { border-color: #f2bf7d; background: #fffdf5; }
+
+.kaisetsu-box { border: 1px solid var(--color-border); border-radius: 6px; margin: 25px 0; overflow: hidden; }
+.kaisetsu-box .kaisetsu-title { background: var(--color-primary); color: #fff; font-size: 15px; font-weight: 700; padding: 10px 18px; }
+.kaisetsu-box .kaisetsu-content { padding: 18px 20px; background: #fff; }
+
+.article-body ul { margin: 15px 0; padding-left: 24px; }
+.article-body ul li { margin-bottom: 8px; line-height: 1.7; position: relative; }
+.article-body ul li::marker { color: var(--color-primary); }
+.article-body ol { margin: 15px 0; padding-left: 24px; }
+.article-body ol li { margin-bottom: 8px; line-height: 1.7; }
+.article-body ol li::marker { color: var(--color-primary); font-weight: 700; }
+
+.two-col { display: flex; gap: 20px; margin: 20px 0; }
+.two-col .col { flex: 1; padding: 18px; border-radius: 6px; }
+.two-col .col--merit { background: #f0f9f4; border: 2px solid #85db8f; }
+.two-col .col--demerit { background: #fff5f5; border: 2px solid #ed8989; }
+.two-col .col h4 { margin-top: 0; border-bottom: none; padding-bottom: 0; }
+
+.product-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 20px 0; }
+.product-card { border: 1px solid var(--color-border); border-radius: 6px; overflow: hidden; background: #fff; }
+.product-card img { width: 100%; height: 150px; object-fit: cover; }
+.product-card .product-info { padding: 12px 14px; }
+.product-card .product-info .product-name { font-weight: 700; color: var(--color-primary); font-size: 15px; }
+.product-card .product-info .product-price { font-size: 14px; color: #e74c3c; font-weight: 700; margin-top: 4px; }
+.product-card .product-info .product-desc { font-size: 13px; color: #777; margin-top: 2px; }
+
+.faq-section { margin: 25px 0; }
+.faq-item { border: 1px solid var(--color-border); border-radius: 6px; margin-bottom: 10px; overflow: hidden; background: #fff; }
+.faq-item summary { display: flex; align-items: center; padding: 15px 18px; cursor: pointer; font-weight: 700; font-size: 15px; color: var(--color-primary); list-style: none; position: relative; line-height: 1.6; }
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::before { content: 'Q'; display: inline-flex; align-items: center; justify-content: center; width: 28px; height: 28px; min-width: 28px; background: var(--color-primary); color: #fff; font-weight: 700; font-size: 14px; border-radius: 50%; margin-right: 12px; }
+.faq-item summary::after { content: '+'; position: absolute; right: 18px; font-size: 20px; font-weight: 300; color: #999; transition: transform 0.2s; }
+.faq-item[open] summary::after { content: '-'; }
+.faq-item .faq-answer { padding: 0 18px 18px 58px; font-size: 15px; line-height: 1.8; color: #555; border-top: 1px dashed #e0e0e0; }
+.faq-item .faq-answer::before { content: 'A.'; font-weight: 700; color: #ed8989; margin-right: 6px; }
+
+.site-footer { background: var(--color-primary-light); color: var(--color-primary); text-align: center; padding: 20px; font-size: 13px; margin-top: 30px; }
+
+@media screen and (max-width: 768px) {
+  .article-body { padding: 0 18px 30px; }
+  .article-header { padding: 20px 18px 15px; }
+  .article-header .article-title { font-size: 21px; }
+  .article-body h2 { font-size: 19px; padding: 12px 16px; margin: 40px -18px 20px; border-radius: 0; }
+  .article-body h2::after { left: 28px; }
+  .article-body h3 { font-size: 17px; }
+  .jin-table { font-size: 13px; }
+  .jin-table th, .jin-table td { padding: 8px 10px; }
+  .two-col { flex-direction: column; }
+  .product-grid { grid-template-columns: 1fr; }
+  .image-row { flex-direction: column; }
+}
+</style>
+
+<style>
+/* ARCHIST 統合用の上書き（ヘッダー/フッターのリンク化とパンくず） */
+a.site-title{color:inherit;text-decoration:none;display:inline-block}
+a.site-title:hover{opacity:.8}
+.archist-crumb{max-width:820px;margin:14px auto 0;padding:0 16px;font-size:13px;color:#8a8a8a}
+.archist-crumb a{color:#8a8a8a;text-decoration:none}
+.archist-crumb a:hover{text-decoration:underline}
+.site-footer a{color:inherit}
+</style>
+<meta name="description" content="オープンハウスは1997年に東京都渋谷区で創業。「東京に、家を持とう。」をスローガンに、都心の狭小地に特化した土地仕入れ力と3階建て設計力で急成長を遂げた不動産総合グループ。持株会社制への移行（2022年）以降、グループ売上高は1兆3,…">
+<link rel="canonical" href="https://archist.jp/hm/openhouse/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="ARCHIST（アーキスト）">
+<meta property="og:title" content="オープンハウス 徹底解説｜坪単価・構造・断熱・口コミ【2026年版】｜ARCHIST">
+<meta property="og:description" content="オープンハウスは1997年に東京都渋谷区で創業。「東京に、家を持とう。」をスローガンに、都心の狭小地に特化した土地仕入れ力と3階建て設計力で急成長を遂げた不動産総合グループ。持株会社制への移行（2022年）以降、グループ売上高は1兆3,…">
+<meta property="og:url" content="https://archist.jp/hm/openhouse/">
+<meta property="og:image" content="https://archist.jp/hm/openhouse/images/001-img-mainvisual-case05-01-pc.jpg">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="site-title" href="../">ARCHIST（アーキスト）</a>
+</header>
+
+<nav class="archist-crumb"><a href="/">ARCHIST</a> ＞ <a href="../">ハウスメーカー徹底解説</a> ＞ オープンハウス</nav>
+<main class="article-wrap">
+<article class="article-card">
+
+<div class="article-header">
+  <span class="category-label">ハウスメーカー</span>
+  <h1 class="article-title">オープンハウス 徹底解説｜坪単価・都心戸建て・構造・口コミまで完全ガイド【2026年版】</h1>
+  <div class="article-meta">2026年 更新</div>
+</div>
+
+<div class="article-body">
+
+<!-- ===== Table of Contents ===== -->
+<div class="toc-box">
+  <div class="toc-title">もくじ</div>
+  <ol>
+    <li><a href="#sec1">会社・基本データ（規模・エリア・対応工法）</a></li>
+    <li><a href="#sec2">商品ラインナップと価格</a></li>
+    <li><a href="#sec3">構造・耐震性能</a></li>
+    <li><a href="#sec4">断熱性能</a></li>
+    <li><a href="#sec5">気密性能</a></li>
+    <li><a href="#sec6">換気・空調</a></li>
+    <li><a href="#sec7">デザイン</a></li>
+    <li><a href="#sec8">保証・メンテナンス</a></li>
+    <li><a href="#sec9">「都心の土地＋建物セット販売」徹底解説</a></li>
+    <li><a href="#sec10">客層・向き不向き</a></li>
+    <li><a href="#sec11">他社との比較表</a></li>
+    <li><a href="#sec12">よくある後悔・失敗事例</a></li>
+    <li><a href="#sec13">まとめ</a></li>
+    <li><a href="#sec14">よくある質問（FAQ）</a></li>
+  </ol>
+</div>
+
+<!-- ===== Section 1: 会社・基本データ ===== -->
+<h2 id="sec1">① 会社・基本データ（規模・エリア・対応工法）</h2>
+
+<img src="images/001-img-mainvisual-case05-01-pc.jpg" loading="lazy" decoding="async" alt="オープンハウス 都心戸建て" class="section-image">
+
+<p>オープンハウスは1997年に東京都渋谷区で創業。「<strong>東京に、家を持とう。</strong>」をスローガンに、都心の狭小地に特化した土地仕入れ力と3階建て設計力で急成長を遂げた不動産総合グループ。持株会社制への移行（2022年）以降、グループ売上高は<strong>1兆3,364億円（2025年9月期）</strong>に到達。創業27年で首都圏の戸建て着工棟数地域No.1を獲得している。</p>
+
+<p>事業は「不動産仲介」「戸建分譲（ディベロップメント）」「注文住宅（アーキテクト）」「マンション開発」「米国不動産」の5本柱。2023年に三栄建築設計（現メルディア）、2025年にプレサンスコーポレーションを完全子会社化し、<span class="marker-yellow">都心〜郊外、戸建〜マンションをワンストップで提供</span>できる体制を整えた。</p>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>項目</th><th>内容</th></tr>
+<tr><td>グループ創業</td><td>1997年9月（東京都渋谷区にて創業）</td></tr>
+<tr><td>事業会社設立</td><td>2021年4月1日（現・株式会社オープンハウス）</td></tr>
+<tr><td>持株会社体制移行</td><td>2022年1月（純粋持株会社体制へ移行）</td></tr>
+<tr><td>創業者</td><td>荒井正昭</td></tr>
+<tr><td>本社（持株会社）</td><td>東京都千代田区丸の内二丁目7番2号 JPタワー20F・21F</td></tr>
+<tr><td>本社（事業会社）</td><td>東京都渋谷区渋谷一丁目13番9号</td></tr>
+<tr><td>代表</td><td>福岡良介（グループ）／鎌田和彦（株式会社オープンハウス）</td></tr>
+<tr><td>資本金</td><td>202億3,549万円（グループ）</td></tr>
+<tr><td>売上高（連結）</td><td>1兆3,364億円（2025年9月期）／2026年9月期予想: 1兆4,850億円（前期比+11.1%）</td></tr>
+<tr><td>営業利益</td><td>1,459億円（2025年9月期）</td></tr>
+<tr><td>従業員数</td><td>連結6,620名（2025年9月末時点）</td></tr>
+<tr><td>戸建関連契約件数</td><td>3,878件（2025年9月期、単体）／アーキテクト施工棟数 約5,000棟（2025年時点）</td></tr>
+<tr><td>上場</td><td>東証プライム（3288）</td></tr>
+<tr><td>対応エリア</td><td>東京・神奈川・埼玉・千葉・群馬・愛知（名古屋）・兵庫（神戸）・大阪・福岡</td></tr>
+</table>
+</div>
+
+<h3>オープンハウスの本質的な強み</h3>
+
+<p>単なる「建売業者」でも「注文住宅メーカー」でもない。<strong>土地仕入れ・設計・施工・仲介・住宅ローンまで全てグループ内で完結する垂直統合モデル</strong>が他社との決定的な違い。他社が敬遠する三角地・旗竿地・狭小地を安く仕入れ、3階建てで延床を確保する独自ノウハウを持つ。結果として「都心に戸建て」という一見ぜいたくなコンセプトを、<span class="marker-yellow">マンション並みの予算で実現</span>できている。</p>
+
+<h3>グループ会社と事業構造</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>会社名</th><th>事業内容</th></tr>
+<tr><td>株式会社オープンハウス</td><td>不動産仲介・戸建分譲・マンション開発</td></tr>
+<tr><td>オープンハウス・ディベロップメント</td><td>土地企画開発・建売住宅・セミオーダー住宅</td></tr>
+<tr><td>オープンハウス・アーキテクト</td><td>フルオーダー注文住宅の設計・施工</td></tr>
+<tr><td>アイビーネット</td><td>不動産金融（住宅ローン取次）</td></tr>
+<tr><td>メルディア（旧三栄建築設計）</td><td>戸建分譲・注文住宅（2023年子会社化）</td></tr>
+<tr><td>プレサンスコーポレーション</td><td>マンション供給（2025年完全子会社化）</td></tr>
+</table>
+</div>
+
+<h3>売上高の推移</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>年度（9月期）</th><th>売上高</th><th>備考</th></tr>
+<tr><td>2019年</td><td>5,000億円</td><td>—</td></tr>
+<tr><td>2021年</td><td>8,105億円</td><td>—</td></tr>
+<tr><td>2022年</td><td>9,526億円</td><td>—</td></tr>
+<tr><td>2023年</td><td>1兆1,484億円</td><td>初の1兆円突破</td></tr>
+<tr><td>2024年</td><td>1兆2,958億円</td><td>—</td></tr>
+<tr><td>2025年</td><td><strong>1兆3,364億円</strong></td><td>—</td></tr>
+<tr><td>2026年（予想）</td><td>1兆4,850億円</td><td>前期比+11.1%</td></tr>
+</table>
+</div>
+
+<h3>沿革のポイント</h3>
+
+<ul>
+  <li><strong>1997年</strong>：センチュリー21フランチャイズとして不動産仲介業で創業</li>
+  <li><strong>2001年</strong>：新築戸建て販売を開始（オープンハウス・ディベロップメント）</li>
+  <li><strong>2010年</strong>：米国不動産事業参入（カリフォルニア・上海子会社設立）</li>
+  <li><strong>2012年</strong>：センチュリー21との契約解消、自社ブランド「東京に、家を持とう。」CM開始</li>
+  <li><strong>2013年</strong>：東証一部上場（2022年にプライム市場移行）</li>
+  <li><strong>2016年</strong>：米国テキサス進出</li>
+  <li><strong>2018年</strong>：米国ハワイ進出</li>
+  <li><strong>2021年1月</strong>：プレサンスコーポレーションを連結子会社化</li>
+  <li><strong>2022年1月</strong>：純粋持株会社体制へ移行（株式会社オープンハウスグループ）</li>
+  <li><strong>2023年</strong>：売上高1兆円達成。三栄建築設計（現・メルディア）を11月に完全子会社化</li>
+  <li><strong>2024年3月</strong>：三栄建築設計が「株式会社メルディア」へ社名変更</li>
+  <li><strong>2025年4月</strong>：プレサンスコーポレーションを完全子会社化</li>
+</ul>
+
+<h3>顧客満足度データ（2026年）</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>カテゴリ</th><th>順位</th><th>スコア</th></tr>
+<tr><td>オリコン 注文住宅 3階建て以上（アーキテクト）</td><td>8位</td><td>68.0点</td></tr>
+<tr><td>オリコン 建売住宅 首都圏（ディベロップメント）</td><td>10位</td><td>63.8点</td></tr>
+<tr><td>オリコン 建売住宅 全国（ディベロップメント）</td><td>ランクイン</td><td>64.3点</td></tr>
+</table>
+</div>
+
+<hr>
+
+<!-- ===== Section 2: 商品ラインナップと価格 ===== -->
+<h2 id="sec2">② 商品ラインナップと価格</h2>
+
+<p>オープンハウスの商品は<strong>「ディベロップメント（建売・セミオーダー）」と「アーキテクト（フルオーダー注文）」の2ライン</strong>に分かれる。同じ「オープンハウス」の看板でも、扱う商品・価格・保証期間が大きく異なるため、自分が何を買おうとしているかを必ず確認したい。</p>
+
+<h3>商品ラインナップ一覧</h3>
+
+<div class="product-grid">
+  <div class="product-card">
+    <img src="images/001-img-mainvisual-case05-01-pc.jpg" loading="lazy" decoding="async" alt="建売住宅">
+    <div class="product-info">
+      <div class="product-name">建売住宅（ディベロップメント）</div>
+      <div class="product-price">42〜55万円/坪</div>
+      <div class="product-desc">完成済み物件。即入居可。都心好立地で最もリーズナブル</div>
+    </div>
+  </div>
+  <div class="product-card">
+    <img src="images/003-img-mainvisual-case06-01-pc.jpg" loading="lazy" decoding="async" alt="セミオーダー住宅">
+    <div class="product-info">
+      <div class="product-name">セミオーダー住宅</div>
+      <div class="product-price">50〜65万円/坪</div>
+      <div class="product-desc">参考プランをベースに間取り・設備をカスタマイズ</div>
+    </div>
+  </div>
+  <div class="product-card">
+    <img src="images/004-product-01-img.jpg" loading="lazy" decoding="async" alt="アーキテクト注文住宅">
+    <div class="product-info">
+      <div class="product-name">注文住宅（アーキテクト・標準）</div>
+      <div class="product-price">53〜70万円/坪</div>
+      <div class="product-desc">完全自由設計。年間5,500棟以上の施工実績</div>
+    </div>
+  </div>
+  <div class="product-card">
+    <img src="images/005-performance-01-img.jpg" loading="lazy" decoding="async" alt="高性能仕様">
+    <div class="product-info">
+      <div class="product-name">注文住宅（アーキテクト・高性能）</div>
+      <div class="product-price">65〜80万円/坪</div>
+      <div class="product-desc">耐震等級3＋ZEH基準断熱＋制震装置などオプション積み上げ</div>
+    </div>
+  </div>
+</div>
+
+<h3>大手HMとの坪単価比較</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>ハウスメーカー</th><th>坪単価目安</th></tr>
+<tr><td><strong>オープンハウス</strong></td><td><strong>42〜70万円</strong></td></tr>
+<tr><td>タマホーム</td><td>50〜80万円</td></tr>
+<tr><td>一条工務店</td><td>80〜105万円</td></tr>
+<tr><td>住友林業</td><td>80〜130万円</td></tr>
+<tr><td>積水ハウス</td><td>85〜120万円</td></tr>
+<tr><td>ヘーベルハウス</td><td>90〜120万円</td></tr>
+</table>
+</div>
+
+<h3>建売と注文住宅の選び方</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>比較軸</th><th>建売（ディベロップメント）</th><th>注文住宅（アーキテクト）</th></tr>
+<tr><td>設計自由度</td><td>△（完成済みから選ぶ）</td><td>◎（完全自由設計）</td></tr>
+<tr><td>価格</td><td>◎（最もリーズナブル）</td><td>○（オプションで変動）</td></tr>
+<tr><td>入居スピード</td><td>◎（即入居可）</td><td>△（設計〜施工に数ヶ月）</td></tr>
+<tr><td>延長保証</td><td>10年（標準）</td><td>最長20年「あんしん20」</td></tr>
+<tr><td>土地込み</td><td>◎（土地＋建物セット）</td><td>土地は別途（仲介対応）</td></tr>
+</table>
+</div>
+
+<div class="concept-box--highlight">
+  <p>オープンハウスの最大の強みは<strong>「都心の土地＋建物」のセット販売</strong>。土地探しに苦戦している方には、建売・セミオーダーが最もメリットを感じやすい。注文住宅を検討するなら、アーキテクトで<strong>耐震等級3・ZEH断熱の性能オプションを追加する</strong>ことを推奨。</p>
+</div>
+
+<hr>
+
+<!-- ===== Section 3: 構造・耐震性能 ===== -->
+<h2 id="sec3">③ 構造・耐震性能</h2>
+
+<img src="images/006-img-sec-technology.jpg" loading="lazy" decoding="async" alt="オープンハウスの技術力" class="section-image">
+
+<h3>木造軸組在来工法が標準</h3>
+
+<p>オープンハウスは日本の伝統的な<strong>木造軸組在来工法</strong>を採用。柱と梁で建物を支え、筋交いと耐力壁で地震・台風に耐える構造。</p>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>項目</th><th>詳細</th></tr>
+<tr><td>工法</td><td>木造軸組在来工法</td></tr>
+<tr><td>構造材</td><td>プレカット工場でミリ単位の精度で加工</td></tr>
+<tr><td>剛床</td><td>24mm厚以上の構造用合板を土台・梁と一体化</td></tr>
+<tr><td>耐力壁</td><td>面材耐力壁「novopanSTP II」を外周全体に配置</td></tr>
+<tr><td>構造金物</td><td>ホールダウン金物で柱の引き抜きを防止</td></tr>
+<tr><td>耐震等級（標準）</td><td><strong>等級1</strong>（建築基準法レベル）</td></tr>
+<tr><td>耐震等級（オプション）</td><td><strong>最大 等級3</strong>まで対応可（アーキテクト）</td></tr>
+</table>
+</div>
+
+<h3>基礎と地盤保証</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>項目</th><th>詳細</th></tr>
+<tr><td>基礎方式</td><td>フルベースベタ基礎</td></tr>
+<tr><td>地盤調査</td><td>全棟で実施。必要に応じて地盤改良工事</td></tr>
+<tr><td>地盤保証</td><td>最高5,000万円・最長20年間（第三者機関判定）</td></tr>
+<tr><td>3階建て</td><td>全棟で構造計算を実施（法的義務）</td></tr>
+<tr><td>2階建て</td><td>壁量計算で設計（構造計算はオプション）</td></tr>
+<tr><td>制震装置</td><td>注文住宅のオプション。都心密集地で有効</td></tr>
+</table>
+</div>
+
+<h3>他社との耐震性比較</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table compare-table">
+<tr><th>ハウスメーカー</th><th>オープンハウス</th><th>標準耐震等級</th><th>備考</th></tr>
+<tr><td>標準仕様</td><td><strong>等級1</strong></td><td>—</td><td>オプションで等級3対応可</td></tr>
+<tr><td>一条工務店</td><td>—</td><td>等級3</td><td>全棟標準</td></tr>
+<tr><td>住友林業</td><td>—</td><td>等級3</td><td>BF構法で標準</td></tr>
+<tr><td>積水ハウス</td><td>—</td><td>等級3相当</td><td>独自基準</td></tr>
+<tr><td>タマホーム</td><td>—</td><td>等級3</td><td>標準対応</td></tr>
+<tr><td>ヘーベルハウス</td><td>—</td><td>等級3</td><td>鉄骨構造</td></tr>
+</table>
+</div>
+
+<div class="concept-box--caution">
+  <p>オープンハウスの<strong>標準仕様は耐震等級1</strong>。建築基準法の最低ラインであり、他の大手HMが等級3を標準にしているのと比べると見劣りする。ただしアーキテクトの注文住宅では等級3まで上げられるため、<span class="marker-yellow">検討者は契約前に必ず「等級3への追加費用」を確認</span>すること。</p>
+</div>
+
+<hr>
+
+<!-- ===== Section 4: 断熱性能 ===== -->
+<h2 id="sec4">④ 断熱性能</h2>
+
+<p>断熱性能は正直に言ってオープンハウスの弱点。標準仕様は省エネ基準（等級4）ギリギリで、大手HMの中では最も低い水準。<strong>ただしアーキテクトで樹脂窓＋断熱強化オプションを追加すればZEH基準まで引き上げ可能</strong>。</p>
+
+<h3>標準仕様のUA値</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>項目</th><th>内容</th></tr>
+<tr><td>断熱材</td><td>高性能グラスウール</td></tr>
+<tr><td>断熱等級（標準）</td><td>等級4相当</td></tr>
+<tr><td>UA値（標準）</td><td>0.87 W/m²K以下（省エネ基準クリア）</td></tr>
+<tr><td>窓（標準）</td><td>アルミ樹脂複合サッシ＋ペアガラス</td></tr>
+</table>
+</div>
+
+<h3>アーキテクトのオプション強化</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>オプション</th><th>効果</th></tr>
+<tr><td>樹脂窓（APW330等）</td><td>UA値0.5〜0.6まで向上。ZEH基準・HEAT20 G1対応</td></tr>
+<tr><td>断熱材グレードアップ</td><td>壁・天井・床の断熱厚増加で等級5〜6対応</td></tr>
+<tr><td>基礎断熱工法</td><td>床下温度の安定化。蓄熱式床暖房と相性良好</td></tr>
+</table>
+</div>
+
+<h3>他社との断熱性能比較</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table compare-table">
+<tr><th>ハウスメーカー</th><th>オープンハウス</th><th>UA値</th><th>断熱等級</th></tr>
+<tr><td>一条工務店（i-smart）</td><td>—</td><td>0.25</td><td>等級7</td></tr>
+<tr><td>スウェーデンハウス</td><td>—</td><td>0.38</td><td>等級6</td></tr>
+<tr><td>住友林業</td><td>—</td><td>0.46</td><td>等級5</td></tr>
+<tr><td>タマホーム</td><td>—</td><td>0.55〜0.60</td><td>等級4〜5</td></tr>
+<tr><td><strong>OH 標準</strong></td><td><strong>0.87</strong></td><td>0.87</td><td>等級4</td></tr>
+<tr><td><strong>OH オプション</strong></td><td><strong>0.5前後</strong></td><td>0.5</td><td>等級5</td></tr>
+</table>
+</div>
+
+<div class="concept-box--highlight">
+  <p>断熱性能は標準のままだと他社に見劣りするが、<strong>「都心の土地＋建物」の総額で見れば、オプションで断熱を上げても他社より安く収まるケースが多い</strong>。断熱重視なら必ずアーキテクトで樹脂窓＋断熱強化を追加すること。</p>
+</div>
+
+<hr>
+
+<!-- ===== Section 5: 気密性能 ===== -->
+<h2 id="sec5">⑤ 気密性能</h2>
+
+<p>C値はディベロップメント（建売）では<strong>非公表</strong>。アーキテクトの注文住宅であれば<strong>C値1.0台の建物が多数</strong>あり、最高実績はC値0.33まで出ている。ただし全棟での気密測定は実施しておらず、希望者のみの対応。</p>
+
+<h3>気密性能の位置づけ</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>項目</th><th>数値</th></tr>
+<tr><td>標準（ディベロップメント）</td><td>非公表</td></tr>
+<tr><td>アーキテクト実績</td><td>C値1.0台の建物が多数</td></tr>
+<tr><td>アーキテクト最高実績</td><td>C値0.33</td></tr>
+<tr><td>大手HM標準の目安</td><td>2.0前後</td></tr>
+<tr><td>全棟気密測定</td><td>実施せず（希望者対応）</td></tr>
+</table>
+</div>
+
+<h3>他社との気密性能比較</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table compare-table">
+<tr><th>ハウスメーカー</th><th>オープンハウス</th><th>C値（公表）</th><th>全棟測定</th></tr>
+<tr><td>一条工務店</td><td>—</td><td>0.59（全棟平均）</td><td>全棟実施</td></tr>
+<tr><td><strong>OH アーキテクト</strong></td><td><strong>1.0台（実績）</strong></td><td>1.0台</td><td>希望者のみ</td></tr>
+<tr><td>住友林業</td><td>—</td><td>非公表</td><td>希望者のみ</td></tr>
+<tr><td>積水ハウス</td><td>—</td><td>非公表</td><td>実施せず</td></tr>
+<tr><td>タマホーム</td><td>—</td><td>非公表</td><td>実施せず</td></tr>
+</table>
+</div>
+
+<div class="concept-box--tip">
+  <p>気密性を重視するなら、契約前に「気密測定の実施」と「目標C値」を営業担当と合意しておくこと。<strong>アーキテクトなら依頼すればC値1.0以下も実現可能</strong>。</p>
+</div>
+
+<hr>
+
+<!-- ===== Section 6: 換気・空調 ===== -->
+<h2 id="sec6">⑥ 換気・空調</h2>
+
+<h3>24時間換気システム（標準）</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>項目</th><th>詳細</th></tr>
+<tr><td>方式</td><td>第三種換気（排気: 機械 / 給気: 自然）</td></tr>
+<tr><td>特徴</td><td>きれいな外気を取り込み、室内の汚れた空気を排出</td></tr>
+<tr><td>フィルター</td><td>チリ・ホコリをカットするフィルター装備</td></tr>
+<tr><td>シックハウス対策</td><td>F☆☆☆☆建材を全面採用</td></tr>
+</table>
+</div>
+
+<h3>オプション</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>オプション</th><th>詳細</th></tr>
+<tr><td>第一種換気（熱交換型）</td><td>アーキテクトで対応可能。冷暖房効率を大幅向上</td></tr>
+<tr><td>蓄熱式床暖房</td><td>基礎断熱と組み合わせ足元から暖める</td></tr>
+</table>
+</div>
+
+<div class="concept-box--tip">
+  <p>標準は最低限の第三種換気。<strong>断熱をオプションで強化するなら、換気も第一種熱交換型にグレードアップ</strong>することで冷暖房効率が劇的に改善する。</p>
+</div>
+
+<hr>
+
+<!-- ===== Section 7: デザイン ===== -->
+<h2 id="sec7">⑦ デザイン</h2>
+
+<div class="image-row">
+  <div class="image-col">
+    <img src="images/007-img-mainvisual-case09-01-pc.jpg" loading="lazy" decoding="async" alt="インテリアが映えるフォトジェニックな家">
+    <p>デザイナーズ住宅の内装（アーキテクト）</p>
+  </div>
+  <div class="image-col">
+    <img src="images/008-img-mainvisual-case03-01-pc.jpg" loading="lazy" decoding="async" alt="趣味と猫に囲まれた暮らし">
+    <p>ディベロップメント建売住宅</p>
+  </div>
+</div>
+
+<h3>外壁・内装の標準仕様</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>項目</th><th>標準仕様</th></tr>
+<tr><td>外壁</td><td>ニチハ窯業系サイディング（モエンエクセラード16 / Vシリーズ等）</td></tr>
+<tr><td>キッチン</td><td>パナソニック「ラクシーナ」or クリナップ「ステディア」（深型食洗機対応）</td></tr>
+<tr><td>バスルーム</td><td>LIXIL「リデア」or TOTO「サザナ」</td></tr>
+<tr><td>トイレ</td><td>LIXIL「ベーシア」（温水洗浄便座標準）</td></tr>
+<tr><td>洗面台</td><td>パナソニック「シーライン」or LIXIL「MV」</td></tr>
+<tr><td>壁紙</td><td>標準グレードの量産クロス（仕様は時期・物件により異なる）<!-- 要再確認: 壁紙固有品番（サンゲツOH2103/OH2138は一次ソース裏取れず） --></td></tr>
+<tr><td>床材</td><td>標準グレードのフロア材（仕様は時期・物件により異なる）<!-- 要再確認: 床材固有品番（大建工業ハピアフロア ベーシックは一次ソース裏取れず） --></td></tr>
+<tr><td>玄関ドア</td><td>ディンプルキー採用（ピッキング困難）＋ダブルロック</td></tr>
+<tr><td>窓</td><td>全窓ダブルロック。録画機能付きインターホン標準</td></tr>
+</table>
+</div>
+
+<div class="concept-box--caution">
+  <p>標準仕様は時期・物件により変更される可能性があります。契約時には最新の公式カタログ・ショールームで必ずご確認ください（2026年4月時点の情報）。</p>
+</div>
+
+<h3>デザインの特徴</h3>
+
+<ul>
+  <li><strong>都心の3階建て</strong>: オープンハウスの代名詞。狭小地で3フロアを使い切る縦型の空間設計</li>
+  <li><strong>建売のデザイン</strong>: シンプル・モダンな外観が基本。街並みに馴染む落ち着いたトーン</li>
+  <li><strong>注文住宅のデザイン</strong>: 完全自由設計のため、施主の好みに応じた幅広いデザインに対応</li>
+  <li><strong>ビルトインガレージ</strong>: 1階ガレージ＋2階リビングの構成が得意</li>
+  <li><strong>ルーフバルコニー</strong>: 屋上でアウトドア空間を確保</li>
+</ul>
+
+<div class="concept-box--highlight">
+  <p>オープンハウスの「個性」を出す3つのポイント:</p>
+  <ol>
+    <li><strong>アーキテクトで完全自由設計</strong> — 外壁タイル・塗り壁・金属系まで選択可</li>
+    <li><strong>都心狭小3階建ての設計力</strong> — 吹き抜け・スキップフロアで開放感を作る</li>
+    <li><strong>高性能オプション追加</strong> — 樹脂窓・耐震等級3・制震装置で弱点を補う</li>
+  </ol>
+</div>
+
+<hr>
+
+<!-- ===== Section 8: 保証・メンテナンス ===== -->
+<h2 id="sec8">⑧ 保証・メンテナンス</h2>
+
+<h3>保証体系</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>内容</th><th>期間</th><th>条件</th></tr>
+<tr><td>構造耐力上主要な部分</td><td>10年（標準）</td><td>住宅品質確保法に基づく瑕疵保証</td></tr>
+<tr><td>雨水の侵入を防止する部分</td><td>10年（標準）</td><td>同上</td></tr>
+<tr><td>住宅延長保証「あんしん20」</td><td>最長20年</td><td>アーキテクトのオプション。10年目の建物診断＋修繕が条件</td></tr>
+<tr><td>設備延長保証</td><td>最長10年</td><td>給湯器・キッチン・バス等を1〜2年→10年に延長</td></tr>
+<tr><td>地盤保証</td><td>最長20年</td><td>最高5,000万円・第三者機関判定</td></tr>
+</table>
+</div>
+
+<h3>アフターサービス体制</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>項目</th><th>詳細</th></tr>
+<tr><td>受付</td><td>24時間365日受付（夜間は翌日以降対応）</td></tr>
+<tr><td>サポート満足度</td><td>99%（アーキテクト公表値）</td></tr>
+<tr><td>オーナーズクラブ</td><td>WEBコンシェルジュで修理・部品手配</td></tr>
+<tr><td>駆けつけサービス</td><td>トラブル時にサービススタッフ派遣</td></tr>
+</table>
+</div>
+
+<h3>他社との保証期間比較</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table compare-table">
+<tr><th>ハウスメーカー</th><th>オープンハウス</th><th>初期保証</th><th>最大延長</th></tr>
+<tr><td>標準仕様</td><td><strong>10年</strong></td><td>10年</td><td>20年（あんしん20）</td></tr>
+<tr><td>一条工務店</td><td>—</td><td>30年</td><td>30年</td></tr>
+<tr><td>住友林業</td><td>—</td><td>30年</td><td>60年</td></tr>
+<tr><td>積水ハウス</td><td>—</td><td>30年</td><td>永年</td></tr>
+<tr><td>ヘーベルハウス</td><td>—</td><td>30年</td><td>60年</td></tr>
+<tr><td>タマホーム</td><td>—</td><td>10年</td><td>60年</td></tr>
+</table>
+</div>
+
+<div class="concept-box--caution">
+  <p>オープンハウスの標準保証10年は、大手HMの30年と比べると短い。<strong>延長保証「あんしん20」はアーキテクトの注文住宅限定のオプション</strong>である点に注意。長期保証を重視するなら住友林業・積水ハウスとの比較が必要。</p>
+</div>
+
+<hr>
+
+<!-- ===== Section 9: 都心の土地＋建物セット販売 ===== -->
+<h2 id="sec9">⑨ 「都心の土地＋建物セット販売」徹底解説</h2>
+
+<img src="images/001-img-mainvisual-case05-01-pc.jpg" loading="lazy" decoding="async" alt="都心の戸建て" class="section-image">
+
+<p>オープンハウスの最大の強みは「都心に戸建てを持てる」というコンセプト。<strong>土地の仕入れから建物の設計・施工・販売・ローンまでを一貫して自社グループで完結</strong>させる。</p>
+
+<h3>オープンハウスのビジネスモデル</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table compare-table">
+<tr><th>項目</th><th>オープンハウス</th><th>一般的なHM</th></tr>
+<tr><td>土地</td><td>グループが仕入れ済の土地を提案</td><td>施主が自分で探す</td></tr>
+<tr><td>建物</td><td>グループが設計・施工</td><td>HMが設計・施工</td></tr>
+<tr><td>仲介</td><td>グループ内で仲介も対応</td><td>外部の不動産会社</td></tr>
+<tr><td>ローン</td><td>アイビーネット（グループ会社）</td><td>外部の金融機関</td></tr>
+<tr><td>ワンストップ</td><td><strong>全てグループ内で完結</strong></td><td>複数業者をまたぐ</td></tr>
+</table>
+</div>
+
+<h3>土地仕入れ力の秘密</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>ポイント</th><th>詳細</th></tr>
+<tr><td>不整形地の活用</td><td>三角地・旗竿地・線路沿い・傾斜地など、他社が敬遠する土地を安価に仕入れ</td></tr>
+<tr><td>狭小地の活用</td><td>15〜20坪の土地でも3階建てで十分な延床を確保</td></tr>
+<tr><td>情報ネットワーク</td><td>不動産業者への日常的な訪問で、市場公開前の情報をキャッチ</td></tr>
+<tr><td>仕入れスピード</td><td>土地が出たら即断即決。資金力を背景にしたスピード仕入れ</td></tr>
+<tr><td>設計ノウハウ</td><td>変形地・狭小地で最適な間取りを導き出す長年の設計蓄積</td></tr>
+</table>
+</div>
+
+<h3>価格面のメリット</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table compare-table">
+<tr><th>比較</th><th>オープンハウス</th><th>一般的な都心購入</th></tr>
+<tr><td>土地30坪＋建物</td><td>—</td><td>8,000〜1億円超</td></tr>
+<tr><td>土地15坪＋3階建て</td><td><strong>5,000〜7,000万円台も可能</strong></td><td>—</td></tr>
+<tr><td>土地代の節約</td><td>狭小地・不整形地で30〜50%安い土地を活用</td><td>—</td></tr>
+</table>
+</div>
+
+<h3>エリア展開（2024年度・着工棟数No.1実績）</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>エリア</th><th>No.1取得地域</th></tr>
+<tr><td>東京都（12区市）</td><td>渋谷・新宿・品川・墨田・江戸川・杉並・西東京・三鷹・調布・狛江・日野・国立</td></tr>
+<tr><td>神奈川県</td><td>横浜・川崎含む県全体</td></tr>
+<tr><td>埼玉県</td><td>さいたま市</td></tr>
+<tr><td>愛知県</td><td>名古屋市全16区・長久手市</td></tr>
+<tr><td>兵庫県</td><td>神戸市・尼崎市</td></tr>
+<tr><td>大阪府</td><td>堺市・豊中市</td></tr>
+<tr><td>福岡県</td><td>福岡市博多区</td></tr>
+</table>
+</div>
+
+<div class="concept-box--warning">
+  <p><strong>セット販売の注意点</strong></p>
+  <ul>
+    <li>変形地・狭小地は安い反面、日当たり・通風に課題がある場合がある</li>
+    <li>建売は標準仕様のため、こだわり派は注文住宅を検討すべき</li>
+    <li>線路沿い・幹線道路近くは騒音・振動を事前に現地確認</li>
+    <li>狭小地・不整形地は将来のリセールで買い手が限定される可能性</li>
+  </ul>
+</div>
+
+<hr>
+
+<!-- ===== Section 10: 客層 ===== -->
+<h2 id="sec10">⑩ 客層・向き不向き</h2>
+
+<img src="images/010-img-sec-support.jpg" loading="lazy" decoding="async" alt="オープンハウスのサポート" class="section-image">
+
+<h3>典型的な購入者プロファイル</h3>
+
+<div class="jin-table-wrap">
+<table class="jin-table">
+<tr><th>属性</th><th>傾向</th></tr>
+<tr><td>年齢</td><td>30〜40代が中心</td></tr>
+<tr><td>世帯構成</td><td>共働きファミリー・子育て世代（通勤利便性重視）</td></tr>
+<tr><td>世帯年収</td><td>500〜800万円がボリュームゾーン</td></tr>
+<tr><td>最低年収目安</td><td>世帯年収400万円〜（建売の場合）</td></tr>
+<tr><td>価値観</td><td>「どこに住むか」を最重視。立地＞性能＞デザイン</td></tr>
+<tr><td>情報収集</td><td>SUUMO・HOME'Sから物件検索→来場</td></tr>
+</table>
+</div>
+
+<h3>オープンハウスを選ぶ理由TOP3</h3>
+
+<div class="concept-box--point">
+  <ol>
+    <li><strong>都心の好立地に手が届く価格</strong>（土地＋建物セットのコスパ）</li>
+    <li><strong>土地探しから建物まで一括対応の安心感</strong>（ワンストップ）</li>
+    <li><strong>スピーディな対応</strong>（土地が出たら即提案、建売なら即入居可能）</li>
+  </ol>
+</div>
+
+<h3>向き不向き</h3>
+
+<div class="two-col">
+  <div class="col col--merit">
+    <h4>✅ 向いている人</h4>
+    <ul>
+      <li>都心（東京23区・横浜・川崎・名古屋・神戸）に戸建てを持ちたい</li>
+      <li>土地探しに苦戦していて、土地＋建物セットが欲しい</li>
+      <li>マンションと同額で戸建てを検討している</li>
+      <li>通勤30分以内・駅徒歩10分以内を死守したい</li>
+      <li>総額と立地のバランスで合理的に判断する</li>
+    </ul>
+  </div>
+  <div class="col col--demerit">
+    <h4>✕ 向かない人</h4>
+    <ul>
+      <li>断熱・気密・耐震性能を最重視したい</li>
+      <li>無垢材・自然素材のデザインを求める</li>
+      <li>30年以上の長期保証が必須</li>
+      <li>郊外の広い土地にゆったり建てたい</li>
+      <li>営業のペースに巻き込まれず、じっくり検討したい</li>
+    </ul>
+  </div>
+</div>
+
+<hr>
+
+<!-- ===== Section 11: 他社比較 ===== -->
+<h2 id="sec11">⑪ 他社との比較表</h2>
+
+<div class="jin-table-wrap">
+<table class="jin-table compare-table">
+<tr>
+  <th>比較</th>
+  <th>オープンハウス</th>
+  <th>一条工務店</th>
+  <th>住友林業</th>
+  <th>積水ハウス</th>
+  <th>タマホーム</th>
+  <th>ヘーベル</th>
+</tr>
+<tr>
+  <td>坪単価</td><td>42〜70万</td>
+  <td>80〜105万</td><td>80〜130万</td><td>85〜120万</td><td>50〜80万</td><td>90〜120万</td>
+</tr>
+<tr>
+  <td>UA値</td><td>0.87（標準）</td>
+  <td><strong>0.25</strong></td><td>0.46</td><td>0.46〜0.60</td><td>0.55</td><td>0.55〜0.60</td>
+</tr>
+<tr>
+  <td>C値</td><td>1.0台（実績）</td>
+  <td>0.59（全棟）</td><td>非公表</td><td>非公表</td><td>非公表</td><td>非公表</td>
+</tr>
+<tr>
+  <td>構造</td><td>木造軸組</td>
+  <td>木造2×6</td><td>木造BF</td><td>鉄骨/木造</td><td>木造軸組</td><td>鉄骨ALC</td>
+</tr>
+<tr>
+  <td>耐震等級</td><td>1（標準）</td>
+  <td>3（標準）</td><td>3（標準）</td><td>3相当</td><td>3（標準）</td><td>3（標準）</td>
+</tr>
+<tr>
+  <td>設計自由度</td><td>◎注/△建</td>
+  <td>△</td><td>◎</td><td>◎</td><td>○</td><td>○</td>
+</tr>
+<tr>
+  <td>保証(初期)</td><td>10年</td>
+  <td>30年</td><td>30年</td><td>30年</td><td>10年</td><td>30年</td>
+</tr>
+<tr>
+  <td>保証(最大)</td><td>20年</td>
+  <td>30年</td><td>60年</td><td>永年</td><td>60年</td><td>60年</td>
+</tr>
+<tr>
+  <td>土地仕入れ力</td><td><strong>◎</strong></td>
+  <td>×</td><td>×</td><td>×</td><td>×</td><td>×</td>
+</tr>
+<tr>
+  <td>都心3階建て</td><td><strong>◎</strong></td>
+  <td>×</td><td>○</td><td>○</td><td>△</td><td>◎</td>
+</tr>
+<tr>
+  <td>向く人</td><td>立地重視</td>
+  <td>性能最優先</td><td>木×デザイン</td><td>長期安心</td><td>予算重視</td><td>耐火・耐久</td>
+</tr>
+</table>
+</div>
+
+<div class="concept-box--highlight">
+  <p><strong>オープンハウスの独自性は「土地＋建物」のワンストップ</strong>。性能では大手HMに劣るが、「都心の戸建て」という独自の切り口では他社が真似できない領域。逆に「性能で数字が出ている家」を求めるなら一条工務店、「長期保証とブランド」なら住友林業・積水ハウスが候補になる。</p>
+</div>
+
+<hr>
+
+<!-- ===== Section 12: 後悔事例 ===== -->
+<h2 id="sec12">⑫ よくある後悔・失敗事例</h2>
+
+<h3>後悔①：営業の押しが強く、冷静に判断できなかった</h3>
+<p>「今日決めないとこの物件は他の人に取られます」と急かされた／夜遅い時間や休日の電話、アポなし訪問が続いた／契約後に対応が変わったと感じる声。</p>
+<div class="concept-box--point">
+  <p>→ 対策: 複数のHMと並行検討していることを伝え、即決を避ける。「家に帰って検討します」を貫く。</p>
+</div>
+
+<h3>後悔②：標準仕様の性能が低かった</h3>
+<p>耐震等級1が標準で不安／断熱性能が低く、冬場の結露や寒さが気になった／「もっと性能面をオプションで上げておけばよかった」。</p>
+<div class="concept-box--point">
+  <p>→ 対策: 契約前に耐震等級3・断熱強化のオプション費用を確認し、総額に組み込む。</p>
+</div>
+
+<h3>後悔③：日当たり・通風に問題があった</h3>
+<p>狭小地のため隣家との距離が近く、1階の日当たりが悪い／3階建ての1階は暗くなりがちで、冬場は特に日が入らない／窓の配置に不満。</p>
+<div class="concept-box--point">
+  <p>→ 対策: 物件の現地確認は必ず朝・昼・夕の3回。隣地の建物高さと日影の影響も確認。</p>
+</div>
+
+<h3>後悔④：施工品質にバラつきがあった</h3>
+<p>施工監督の経験不足／基礎・断熱・配管の見えない部分の不備が後から発覚／スピード優先で仕上がりが雑な箇所。</p>
+<div class="concept-box--point">
+  <p>→ 対策: 第三者のホームインスペクション（5〜10万円）を入れることを強く推奨。</p>
+</div>
+
+<h3>後悔⑤：アフターサービスの対応が遅い</h3>
+<p>不具合報告しても修理対応が遅い／担当者が変わり引継ぎ不十分／建売の仕上げ修正依頼が進まない。</p>
+<div class="concept-box--point">
+  <p>→ 対策: 引渡し前の施主検査を徹底。不具合は写真付きで記録を残す。</p>
+</div>
+
+<h3>後悔⑥：オプション費用が想定以上に膨らんだ</h3>
+<p>標準仕様だと物足りずオプションを積み上げた結果、予算を大幅超過。耐震等級3・断熱強化・制震装置・キッチングレードアップで数百万円に。</p>
+<div class="concept-box--point">
+  <p>→ 対策: 最初から「オプション込みの総額」で予算を組む。標準仕様の含有範囲を事前確認。</p>
+</div>
+
+<h3>後悔⑦：狭小地の3階建ては老後が不安</h3>
+<p>3フロアの上り下りが年齢とともに負担／将来のバリアフリー化が困難／エレベーター設置は構造上難しい。</p>
+<div class="concept-box--point">
+  <p>→ 対策: 1階に寝室・水回りを配置する間取りを検討。将来の生活動線を設計段階で考慮。</p>
+</div>
+
+<h3>後悔⑧：リセールバリューが不安</h3>
+<p>狭小地・不整形地は将来の売却時に買い手が限定／同じ条件の物件が多く差別化しにくい。</p>
+<div class="concept-box--point">
+  <p>→ 対策: 駅近・好立地を選ぶことでリセールリスクを軽減。徒歩10分以内を死守。</p>
+</div>
+
+<hr>
+
+<!-- ===== Section 13: まとめ ===== -->
+<h2 id="sec13">⑬ まとめ</h2>
+
+<img src="images/003-img-mainvisual-case06-01-pc.jpg" loading="lazy" decoding="async" alt="オープンハウスの戸建て" class="section-image">
+
+<div class="kaisetsu-box">
+  <div class="kaisetsu-title">オープンハウスの強み</div>
+  <div class="kaisetsu-content">
+    <ul>
+      <li>都心の土地＋建物をセットで提案できる圧倒的な土地仕入れ力</li>
+      <li>首都圏12区市でNo.1の着工棟数実績</li>
+      <li>狭小地3階建ての設計力（15〜20坪でも延床確保）</li>
+      <li>土地・建物・ローンまでグループ内ワンストップ</li>
+      <li>グループ売上1兆3,000億円超の安定経営基盤</li>
+      <li>建売なら2〜4ヶ月で入居可能なスピード感</li>
+    </ul>
+  </div>
+</div>
+
+<div class="kaisetsu-box">
+  <div class="kaisetsu-title" style="background:#ed8989;">オープンハウスの弱み</div>
+  <div class="kaisetsu-content">
+    <ul>
+      <li>標準仕様の耐震等級1・断熱等級4で、大手HMに比べ性能面で見劣り</li>
+      <li>初期保証10年で、30年保証の大手HMと比較すると短い</li>
+      <li>営業スタイルが強引と感じるケースあり</li>
+      <li>オプション追加で総額が膨らみやすい</li>
+    </ul>
+  </div>
+</div>
+
+<div class="concept-box--highlight">
+  <p><strong>こんな人に強くお勧め</strong></p>
+  <p>「<span class="marker-yellow">都心に戸建てを持ちたいが土地が高くて手が届かない</span>」「マンションと同額で戸建てを」「通勤利便性を最優先」という立地重視派には、大手HMにはない独自の選択肢。ただし<strong>性能面のオプションは必ず積み増す</strong>ことを前提に検討すべき。</p>
+</div>
+
+<hr>
+
+<!-- ===== Section 14: FAQ ===== -->
+<h2 id="sec14">⑭ よくある質問（FAQ）</h2>
+
+<div class="faq-section">
+
+<details class="faq-item">
+  <summary>オープンハウスは安いですが品質は大丈夫ですか？</summary>
+  <div class="faq-answer">安さの理由は「他社が敬遠する土地を安く仕入れる」こと。建物自体の品質は一般的な木造住宅と同等。ただし標準仕様は最低限のため、性能を求めるならオプション追加が必要。</div>
+</details>
+
+<details class="faq-item">
+  <summary>「やばい」という評判の真相は？</summary>
+  <div class="faq-answer">営業の積極性（しつこいと感じる方もいる）と、標準仕様の性能が低いことへの不満が主因。建物自体に致命的問題があるわけではない。営業スタイルを理解した上で検討を。</div>
+</details>
+
+<details class="faq-item">
+  <summary>建売と注文住宅、どちらがおすすめ？</summary>
+  <div class="faq-answer">立地重視でスピード入居したいなら建売。間取り・性能にこだわりたいなら注文住宅（アーキテクト）。建売でも間取り変更可能なセミオーダーもある。</div>
+</details>
+
+<details class="faq-item">
+  <summary>耐震等級1で大丈夫ですか？</summary>
+  <div class="faq-answer">建築基準法の最低ラインは満たしているが、大手HMの標準（等級3）より低い。注文住宅なら等級3まで上げられるため、追加費用を確認の上、等級3にすることを推奨。</div>
+</details>
+
+<details class="faq-item">
+  <summary>値引き交渉はできますか？</summary>
+  <div class="faq-answer">建売は物件によって値引き余地あり。特に売れ残り物件は数十万〜100万円の交渉が可能なケースも。注文住宅は基本的に坪単価ベースだが、複数社の見積もり比較は有効。</div>
+</details>
+
+<details class="faq-item">
+  <summary>狭小地の3階建ては住みやすいですか？</summary>
+  <div class="faq-answer">縦の動線に慣れが必要。洗濯物を3階に干す、1階ガレージで2階リビングなど、生活動線の工夫が大切。若い家族には問題ないが、老後は階段が負担になる可能性。</div>
+</details>
+
+<details class="faq-item">
+  <summary>断熱性能が低いと聞きましたが？</summary>
+  <div class="faq-answer">標準仕様は省エネ基準（等級4）レベルで、大手HM中で最も低い水準。ただし樹脂窓（APW330等）へのグレードアップでZEH基準まで引き上げ可能。</div>
+</details>
+
+<details class="faq-item">
+  <summary>土地探しもしてもらえますか？</summary>
+  <div class="faq-answer">オープンハウス最大の強み。グループ内で土地仕入れ・仲介・建築・ローンまでワンストップ対応。市場に出る前の非公開物件の紹介も。</div>
+</details>
+
+<details class="faq-item">
+  <summary>住宅ローンはどこで借りれば良いですか？</summary>
+  <div class="faq-answer">グループ会社のアイビーネットで住宅ローンの取次ぎが可能。ただし金利条件は複数の金融機関と比較することを推奨。</div>
+</details>
+
+<details class="faq-item">
+  <summary>アフターサービスは良いですか？</summary>
+  <div class="faq-answer">24時間365日受付の窓口があり、体制は整っている。対応スピードには地域差・担当者差あり。重要な不具合は書面（メール）で記録を残すこと。</div>
+</details>
+
+<details class="faq-item">
+  <summary>外構費用は別途かかりますか？</summary>
+  <div class="faq-answer">建売は外構込みの場合が多い。注文住宅は別途150〜250万円が目安。外構は提携業者以外にも相見積もりを推奨。</div>
+</details>
+
+<details class="faq-item">
+  <summary>保証期間が10年は短くないですか？</summary>
+  <div class="faq-answer">住宅品質確保法の最低ラインと同じ。大手HMの30年保証と比べると短い。アーキテクトなら延長保証「あんしん20」で最長20年に延長可能。</div>
+</details>
+
+<details class="faq-item">
+  <summary>対応エリアはどこですか？</summary>
+  <div class="faq-answer">東京・神奈川・埼玉・千葉・群馬・名古屋・関西（神戸・大阪）・福岡に展開。全国対応ではないため、地方での建築は不可。</div>
+</details>
+
+<details class="faq-item">
+  <summary>マンションと戸建て、どちらが得ですか？</summary>
+  <div class="faq-answer">オープンハウスの狭小3階建ては「マンションと同予算で都心の戸建て」がコンセプト。管理費・修繕積立金がない分、月々のランニングコストは戸建てが有利。ただし将来の外壁・屋根メンテは自己負担。</div>
+</details>
+
+<details class="faq-item">
+  <summary>よく比較されるハウスメーカーは？</summary>
+  <div class="faq-answer">都心3階建て領域ではヘーベルハウスが最大のライバル。注文住宅としては住友林業・積水ハウス・タマホームと比較されることが多い。性能重視なら一条工務店が候補に。</div>
+</details>
+
+</div>
+
+</div><!-- /article-body -->
+</article>
+</main>
+
+<footer class="site-footer">
+  &copy; ARCHIST（アーキスト）　<a href="../">ハウスメーカー徹底解説 一覧</a>　<a href="/">予算診断</a>
+</footer>
+
+</body>
+</html>

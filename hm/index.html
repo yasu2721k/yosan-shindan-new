@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ハウスメーカー28社 徹底解説｜坪単価・構造・断熱を横並び比較｜ARCHIST</title>
+
+<meta name="robots" content="noindex,nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+/* ========================================
+   ARCHIST LP Theme — 28社徹底解説ハブ
+   ベース: sumirin-mockup-v2.html の JIN風テーマ
+   トーン: 中立・静か・情報量で魅せる
+   ======================================== */
+:root {
+  /* ARCHIST風：落ち着いたダークネイビー+ウォームベージュ */
+  --color-primary: #2c3e50;
+  --color-primary-dark: #1c2b3a;
+  --color-primary-light: #c6cdd5;
+  --color-accent: #b89263;
+  --color-heading-bg: #eef1f4;
+  --color-hover-bg: #e1e6ec;
+  --color-stripe-bg: #f6f8fa;
+  --color-highlight-bg: #eef1f4;
+  --color-highlight-dark: #dde3ea;
+  --color-text: #1f2a35;
+  --color-text-light: #5a6876;
+  --color-bg-site: #faf9f6;
+  --color-bg-article: #ffffff;
+  --color-link: #1f76af;
+  --color-border: #d5d9de;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Noto Sans JP', '游ゴシック', 'Yu Gothic', 'YuGothic', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--color-text);
+  background: var(--color-bg-site);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ========== Header ========== */
+.site-header {
+  background: var(--color-primary);
+  padding: 14px 0;
+  text-align: center;
+  border-bottom: 3px solid var(--color-accent);
+}
+.site-header .site-title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.site-header .site-title .sub {
+  display: block;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: var(--color-primary-light);
+  margin-top: 2px;
+}
+
+/* ========== Hero ========== */
+.hero {
+  background: linear-gradient(180deg, #fbfaf7 0%, var(--color-bg-site) 100%);
+  padding: 64px 20px 56px;
+  text-align: center;
+  border-bottom: 1px solid var(--color-border);
+}
+.hero-inner {
+  max-width: 820px;
+  margin: 0 auto;
+}
+.hero .hero-badge {
+  display: inline-block;
+  background: var(--color-accent);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 4px 14px;
+  border-radius: 2px;
+  margin-bottom: 24px;
+}
+.hero h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--color-primary);
+  margin-bottom: 20px;
+  letter-spacing: 0.02em;
+}
+.hero .hero-sub {
+  font-size: 16px;
+  color: var(--color-text);
+  line-height: 1.9;
+  margin-bottom: 28px;
+}
+.hero .hero-meta {
+  display: inline-block;
+  font-size: 13px;
+  color: var(--color-text-light);
+  padding: 8px 20px;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: 2px;
+}
+
+/* ========== Main Container ========== */
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section {
+  padding: 56px 0;
+  border-bottom: 1px solid var(--color-border);
+}
+.section:last-of-type {
+  border-bottom: none;
+}
+
+.section h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-primary);
+  text-align: center;
+  margin-bottom: 12px;
+  position: relative;
+  padding-bottom: 16px;
+}
+.section h2::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 3px;
+  background: var(--color-accent);
+}
+.section .section-lead {
+  text-align: center;
+  color: var(--color-text-light);
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+/* ========== Step Guide ========== */
+.steps {
+  max-width: 900px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.step-card {
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: 3px;
+  padding: 28px 22px 24px;
+  position: relative;
+  text-align: left;
+}
+.step-card .step-num {
+  position: absolute;
+  top: -14px;
+  left: 20px;
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 4px 12px;
+  border-radius: 2px;
+}
+.step-card h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin: 6px 0 10px;
+  line-height: 1.5;
+}
+.step-card p {
+  font-size: 13.5px;
+  color: var(--color-text-light);
+  line-height: 1.8;
+}
+
+/* ========== Category Block ========== */
+.category-block {
+  margin-bottom: 52px;
+}
+.category-block:last-child {
+  margin-bottom: 0;
+}
+.category-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--color-primary);
+}
+.category-header .cat-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-primary);
+  letter-spacing: 0.02em;
+}
+.category-header .cat-title .cat-num {
+  color: var(--color-accent);
+  margin-left: 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.category-header .cat-desc {
+  font-size: 13px;
+  color: var(--color-text-light);
+}
+
+/* ========== Card Grid ========== */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.hm-card {
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--brand, var(--color-primary));
+  border-radius: 3px;
+  padding: 18px 18px 16px;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  position: relative;
+}
+.hm-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+}
+.hm-card .hm-name {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--color-primary);
+  line-height: 1.4;
+  margin-bottom: 4px;
+}
+.hm-card .hm-name-en {
+  font-size: 11px;
+  color: var(--color-text-light);
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.hm-card .hm-one-liner {
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: var(--color-text);
+  margin-bottom: 12px;
+  flex: 1;
+}
+.hm-card .hm-price {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--brand, var(--color-primary));
+  margin-bottom: 10px;
+}
+.hm-card .hm-price .price-label {
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--color-text-light);
+  margin-right: 4px;
+}
+.hm-card .hm-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 14px;
+}
+.hm-card .hm-tags .tag {
+  font-size: 10.5px;
+  padding: 2px 8px;
+  background: var(--color-heading-bg);
+  color: var(--color-text-light);
+  border-radius: 2px;
+  letter-spacing: 0.02em;
+}
+.hm-card .hm-tags .tag--brand {
+  background: var(--brand, var(--color-primary));
+  color: #fff;
+}
+.hm-card .hm-tags .tag--warn {
+  background: #fdeaea;
+  color: #c0392b;
+}
+.hm-card .hm-link {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--brand, var(--color-primary));
+  border-top: 1px dashed var(--color-border);
+  padding-top: 10px;
+  text-align: right;
+}
+
+/* ========== Disclaimer ========== */
+.disclaimer {
+  max-width: 760px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  padding: 24px 28px;
+  border-radius: 3px;
+  font-size: 13px;
+  color: var(--color-text-light);
+  line-height: 1.9;
+}
+.disclaimer h3 {
+  font-size: 14px;
+  color: var(--color-primary);
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.disclaimer ul {
+  padding-left: 20px;
+}
+.disclaimer ul li {
+  margin-bottom: 4px;
+}
+
+/* ========== Footer ========== */
+.site-footer {
+  background: var(--color-primary);
+  color: var(--color-primary-light);
+  text-align: center;
+  padding: 40px 20px 28px;
+  font-size: 13px;
+}
+.site-footer .footer-brand {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+.site-footer .footer-tag {
+  font-size: 12px;
+  color: var(--color-primary-light);
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+.site-footer .footer-link {
+  color: #fff;
+  text-decoration: underline;
+}
+.site-footer .footer-copy {
+  margin-top: 20px;
+  font-size: 11px;
+  color: var(--color-primary-light);
+}
+
+/* ========== Responsive ========== */
+@media screen and (max-width: 900px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .steps {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hero {
+    padding: 44px 18px 40px;
+  }
+  .hero h1 {
+    font-size: 23px;
+    line-height: 1.5;
+  }
+  .hero .hero-sub {
+    font-size: 14px;
+  }
+  .section {
+    padding: 44px 0;
+  }
+  .section h2 {
+    font-size: 20px;
+  }
+  .category-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+  .category-header .cat-title {
+    font-size: 17px;
+  }
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+  .hm-card {
+    padding: 16px 16px 14px;
+  }
+  .aichi-notice {
+    padding: 22px 20px;
+  }
+  .disclaimer {
+    padding: 20px 20px;
+  }
+}
+</style>
+<meta name="description" content="大手からローコストまでハウスメーカー28社を、坪単価・構造・断熱・保証・後悔事例まで同じ物差しで徹底解説。あなたの家づくりに合う会社を選ぶための比較ガイドです。">
+<link rel="canonical" href="https://archist.jp/hm/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ARCHIST（アーキスト）">
+<meta property="og:title" content="ハウスメーカー28社 徹底解説｜坪単価・構造・断熱を横並び比較｜ARCHIST">
+<meta property="og:description" content="大手からローコストまでハウスメーカー28社を、坪単価・構造・断熱・保証・後悔事例まで同じ物差しで徹底解説。あなたの家づくりに合う会社を選ぶための比較ガイドです。">
+<meta property="og:url" content="https://archist.jp/hm/">
+<meta name="twitter:card" content="summary_large_image">
+<style>a.site-title{color:inherit;text-decoration:none}</style>
+</head>
+<body>
+
+<!-- ========== Header ========== -->
+<header class="site-header">
+  <div class="site-title">
+    ARCHIST
+    <span class="sub">HM THOROUGH GUIDE 2026</span>
+  </div>
+</header>
+
+<!-- ========== Hero ========== -->
+<section class="hero">
+  <div class="hero-inner">
+    <span class="hero-badge">ハウスメーカー徹底解説</span>
+    <h1>あなたの家づくりに、合う<br>ハウスメーカーは？</h1>
+    <div class="hero-meta">ARCHIST・ハウスメーカー徹底解説 ／ 2026年版</div>
+  </div>
+</section>
+
+<!-- ========== Reading Guide ========== -->
+<section class="section" id="guide" style="background: #fbfaf7;">
+  <div class="container">
+    <h2>読み方ガイド</h2>
+    <p class="section-lead">28社すべてを読む必要はありません。<strong>なんとなく気になる会社から覗いてみてください</strong>。</p>
+    <div class="about-box" style="max-width: 760px; margin: 0 auto; background: #fff; border: 1px solid var(--color-border); border-left: 4px solid var(--color-accent); padding: 28px 32px; border-radius: 2px;">
+      <p style="font-size: 15px; line-height: 1.9; margin-bottom: 14px;">「どこが自分に合うのか分からない」「28社も多すぎて選べない」——そう感じたら、<strong>絞り込みはこちらにお任せください</strong>。</p>
+      <p style="font-size: 15px; line-height: 1.9; margin-bottom: 14px;">ご予算・ご希望・ライフスタイルをお聞きして、<strong>ARCHISTが候補を整理</strong>します。ご自身で無理に絞り込む必要はありません。気になる会社を気ままに読みつつ、相談は気軽にLINEへどうぞ。</p>
+      <p style="font-size: 15px; line-height: 1.9; margin-bottom: 0;">判断に必要な情報は、この28社ガイドの中にすべて入っています。迷ったときの「答え合わせ」として使っていただければ十分です。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== 28社カードグリッド ========== -->
+<section class="section" id="list">
+  <div class="container">
+    <h2>ハウスメーカー28社</h2>
+    <p class="section-lead">カテゴリごとに、坪単価帯・一言特徴・主要タグを整理しています。</p>
+
+    <!-- ========= 大手（8社） ========= -->
+    <div class="category-block">
+      <div class="category-header">
+        <div class="cat-title">大手ハウスメーカー<span class="cat-num">全8社</span></div>
+        <div class="cat-desc">全国展開・年間1万棟前後・総合力重視</div>
+      </div>
+      <div class="card-grid">
+
+        <a class="hm-card" href="./sekisui-house/" style="--brand:#1e4a7a;">
+          <div class="hm-name">積水ハウス</div>
+          <div class="hm-name-en">SEKISUI HOUSE</div>
+          <div class="hm-one-liner">業界トップクラスの着工棟数。鉄骨・木造の両輪で提案できる王道。</div>
+          <div class="hm-price"><span class="price-label">坪単価目安</span>100〜140万円</div>
+          <div class="hm-tags">
+            <span class="tag tag--brand">大手</span>
+            <span class="tag">鉄骨/木造</span>
+          </div>
+          <div class="hm-link">徹底解説を読む →</div>
+        </a>
+
+        <a class="hm-card" href="./sumitomo-ringyo/" style="--brand:#ad926d;">
+          <div class="hm-name">住友林業</div>
+          <div class="hm-name-en">SUMITOMO FORESTRY</div>
+          <div class="hm-one-liner">木質感と大開口・設計自由度で頭ひとつ抜けた木造メーカー。</div>
+          <div class="hm-price"><span class="price-label">坪単価目安</span>110〜130万円</div>
+          <div class="hm-tags">
+            <span class="tag tag--brand">大手</span>
+            <span class="tag">木造</span>
+            <span class="tag">高設計自由度</span>
+          </div>
+          <div class="hm-link">徹底解説を読む →</div>
+        </a>
+
+        <a class="hm-card" href="./daiwa-house/" style="--brand:#003d6b;">
+          <div class="hm-name">ダイワハウス</div>
+          <div class="hm-name-en">DAIWA HOUSE</div>
+          <div class="hm-one-liner">鉄骨xevoシリーズで天井高・耐震・断熱をバランスよくまとめる。</div>
+          <div class="hm-price"><span class="price-label">坪単価目安</span>95〜145万円</div>
+          <div class="hm-tags">
+            <span class="tag tag--brand">大手</span>
+            <span class="tag">鉄骨</span>
+            <span class="tag">天井高2.72m</span>
+          </div>
+          <div class="hm-link">徹底解説を読む →</div>
+        </a>
+
+        <a class="hm-card" href="./hebel-house/" style="--brand:#555555;">
+          <div class="hm-name">ヘーベルハウス</div>
+          <div class="hm-name-en">HEBEL HAUS</div>
+          <div class="hm-one-liner">ALCコンクリート＋重量鉄骨。「堅牢さ」を数値で証明する鉄骨の雄。</div>
+          <div class="hm-price"><span class="price-label">坪単価目安</span>110〜160万円</div>
+          <div class="hm-tags">
+            <span class="tag tag--brand">大手</span>
+            <span class="tag">鉄骨</span>
+            <span class="tag">ALC外壁</span>
+          </div>
+          <div class="hm-link">徹底解説を読む →</div>
+        </a>
+
+        <a class="hm-card" href="./mitsui-home/" style="--brand:#7a2838;">
+          <div class="hm-name">三井ホーム</div>
+          <div class="hm-name-en">MITSUI HOME</div>
+          <div class="hm-one-liner">2×6＋プレミアム・モノコック。欧米テイストと上質デザインで差別化。</div>
+          <div class="hm-price"><span class="price-label">坪単価目安</span>100〜140万円</div>
+          <div class="hm-tags">
+            <span class="tag tag--brand">大手</span>
+            <span class="tag">2×6工法</span>
+            <span class="tag">デザイン</span>
+          </div>
+          <div class="hm-link">徹底解説を読む →</div>
+        </a>
+
+        <a class="hm-card" href="./sekisui-heim/" style="--brand:#0077b5;">
+          <div class="hm-name">セキスイハイム</div>
+          <div class="hm-name-en">SEKISUI HEIM</div>
+          <div class="hm-one-liner">工場生産ユニット工法で品質ブレが少ない。太陽光＋蓄電の標準搭載も強み。</div>
+          <div class="hm-price"><span class="price-label">坪単価目安</span>85〜120万円</div>
+          <div class="hm-tags">
+            <span class="tag tag--brand">大手</span>
+            <span class="tag">ユニット工法</span>
+            <span class="tag">太陽光標準</span>
+          </div>
+          <div class="hm-link">徹底解説を読む →</div>
+        </a>
+
+        <a class="hm-card" href="./panasonic-homes/" style="--brand:#003087;">
+          <div class="hm-name">パナソニックホームズ</div>
+          <div class="hm-name-en">PANASONIC HOMES</div>
+          <div class="hm-one-liner">キラテック外壁とHEPAフィルター換気。家電連携・空気質・耐震に強み。</div>
+          <div class="hm-price"><span class="price-label">坪単価目安</span>95〜130万円</div>
+          <div class="hm-tags">
+            <span class="tag tag--brand">大手</span>
+            <span class="tag">鉄骨</span>
+            <span class="tag">空気質/換気</span>
+          </div>
+          <div class="hm-link">徹底解説を読む →</div>
+        </a>
+
+        <a class="hm-card" href="./sumitomo-fudosan/" style="--brand:#1a4d3a;">
+          <div class="hm-name">住友不動産</div>
+          <div class="hm-name-en">SUMITOMO REALTY</div>
+          <div class="hm-one-liner">都市デベロッパーならではのハイセンス設計と、価格交渉しやすい営業体制。</div>
+          <div class="hm-price"><span class="price-label">坪単価目安</span>75〜110万円</div>
+          <div class="hm-tags">
+            <span class="tag tag--brand">大手</span>
+            <span class="tag">木造</span>
+            <span class="tag">デザイン</span>
+          </div>
+          <div class="hm-link">徹底解説を読む →</div>
+        </a>
+
+      </div>
+    </div>
+
+    <!-- ========= 中堅（9社） ========= -->
+    <div class="category-block">
+      <div class="category-header">
+        <div class="cat-title">中堅ハウスメーカー<span class="cat-num">全9社</span></div>
+        <div class="cat-desc">地域〜全国展開・個性と得意分野がはっきり</div>
+      </div>
+      <div class="card-grid">
+
+        <a class="hm-card" href="./ichijo/" style="--brand:#2c6b4f;">
+          <div class="hm-name">一条工務店</div>
+          <div class="hm-name-en">ICHIJO</div>
+          <div class="hm-one-liner">全棟UA値0.25・C値0.5以下保証。断熱気密で勝負する性能特化の代表格。</div>
+          <div class="hm-price"><span class="price-label">坪単価目安</span>80〜100万円</div>
+          <div class="hm-tags">
+            <span class="tag tag--brand">中堅</span>
+            <span class="tag">高断熱/高気密</span>
+            <span class="tag">全館床暖房</span>
+          </div>
+          <div class="hm-link">徹底解説を読む →</div>
+        </a>
+
+        <a class="hm-card" href="./misawa/" style="--brand:#3d3d3d;">
+          <div class="hm-name">ミサワホーム</div>
+          <div class="hm-name-en">MISAWA HOME</div>
+          <div class="hm-one-liner">「蔵のある家」で収納1.5倍。木質パネル接着工法で長期保証35年。</div>
+          <div class="hm-price"><span class="price-label">坪単価目安</span>90〜115万円</div>
+          <div class="hm-tags">
+            <span class="tag tag--brand">中堅</span>
+            <span class="tag">木質パネル</span>
+            <span class="tag">収納力</span>
+          </div>
+          <div class="hm-link">徹底解説を読む →</div>
+        </a>
+
+        <a class="hm-card" href="./toyota-home/" style="--brand:#0a56a8;">
+          <div class="hm-name">トヨタホーム</div>
+          <div class="hm-name-en">TOYOTA HOME</div>
+          <div class="hm-one-liner">愛知発・鉄骨ユニット工法。自動車メーカー品質と地元密着サポートが強み。</div>
+          <div class="hm-price"><span class="price-label">坪単価目安</span>80〜115万円</div>
+          <div class="hm-tags">
+            <span class="tag tag--brand">中堅</span>
+            <span class="tag">鉄骨ユニット</span>
+            <span class="tag">愛知本社</span>
+          </div>
+          <div class="hm-link">徹底解説を読む →</div>
+        </a>
+
+        <a class="hm-card" href="./tama-home/" style="--brand:#e87722;">
+          <div class="hm-name">タマホーム</div>
+          <div class="hm-name-en">TAMA HOME</div>
+          <div class="hm-one-liner">「大安心の家」で坪50万円台から。中間コストを削る直販モデルが強み。</div>
+          <div class="hm-price"><span class="price-label">坪単価目安</span>50〜75万円</div>
+          <div class="hm-tags">
+            <span class="tag tag--brand">中堅</span>
+            <span class="tag">木造</span>
+            <span class="tag">コスパ</span>
+          </div>
+          <div class="hm-link">徹底解説を読む →</div>
+        </a>
+
+        <a class="hm-card" href="./yamada-homes/" style="--brand:#9a1b2e;">
+          <div class="hm-name">ヤマダホームズ</div>
+          <div class="hm-name-en">YAMADA HOMES</div>
+          <div class="hm-one-liner">家電量販グループの総合力。「家具・家電付きの家」パッケージが独自。</div>
+          <div class="hm-price"><span class="price-label">坪単価目安</span>55〜90万円</div>
+          <div class="hm-tags">
+            <span class="tag tag--brand">中堅</span>
+            <span class="tag">木造</span>
+            <span class="tag">家電連携</span>
+          </div>
+          <div class="hm-link">徹底解説を読む →</div>
+        </a>
+
+        <a class="hm-card" href="./ai-koumuten/" style="--brand:#4a9d7a;">
+          <div class="hm-name">アイ工務店</div>
+          <div class="hm-name-en">AI KOUMUTEN</div>
+          <div class="hm-one-liner">急成長中の新興勢。コスパ×性能×自由設計で若い世代の支持を集める。</div>
+          <div class="hm-price"><span class="price-label">坪単価目安</span>70〜90万円</div>
+          <div class="hm-tags">
+            <span class="tag tag--brand">中堅</span>
+            <span class="tag">木造</span>
+            <span class="tag">コスパ性能</span>
+          </div>
+          <div class="hm-link">徹底解説を読む →</div>
+        </a>
+
+        <a class="hm-card" href="./hinokiya/" style="--brand:#0d6b5f;">
+          <div class="hm-name">桧家住宅</div>
+          <div class="hm-name-en">HINOKIYA</div>
+          <div class="hm-one-liner">エアコン1台で全館空調「Z空調」。Wバリア工法で高断熱を価格に収める。</div>
+          <div class="hm-price"><span class="price-label">坪単価目安</span>60〜80万円</div>
+          <div class="hm-tags">
+            <span class="tag tag--brand">中堅</span>
+            <span class="tag">Z空調</span>
+            <span class="tag">木造</span>
+          </div>
+          <div class="hm-link">徹底解説を読む →</div>
+        </a>
+
+        <a class="hm-card" href="./openhouse/" style="--brand:#1c3a6e;">
+          <div class="hm-name">オープンハウス</div>
+          <div class="hm-name-en">OPEN HOUSE</div>
+          <div class="hm-one-liner">都心狭小地の戸建てに強い。用地仕入れ力と企画提案のスピードが武器。</div>
+          <div class="hm-price"><span class="price-label">坪単価目安</span>60〜90万円</div>
+          <div class="hm-tags">
+            <span class="tag tag--brand">中堅</span>
+            <span class="tag">狭小3階建て</span>
+            <span class="tag">土地込み</span>
+          </div>
+          <div class="hm-link">徹底解説を読む →</div>
+        </a>
+
+        <a class="hm-card" href="./mitsubishi-jisho-home/" style="--brand:#7d1a3d;">
+          <div class="hm-name">三菱地所ホーム</div>
+          <div class="hm-name-en">MITSUBISHI JISHO HOME</div>
+          <div class="hm-one-liner">2×6＋全館空調「エアロテック」。富裕層向けハイエンド注文住宅。</div>
+          <div class="hm-price"><span class="price-label">坪単価目安</span>100〜150万円</div>
+          <div class="hm-tags">
+            <span class="tag tag--brand">中堅</span>
+            <span class="tag">2×6工法</span>
+            <span class="tag">全館空調</span>
+          </div>
+          <div class="hm-link">徹底解説を読む →</div>
+        </a>
+
+      </div>
+    </div>
+
+    <!-- ========= ローコスト（6社） ========= -->
+    <div class="category-block">
+      <div class="category-header">
+        <div class="cat-title">ローコストハウスメーカー<span class="cat-num">全6社</span></div>
+        <div class="cat-desc">1,000万円台〜・価格重視の選択肢</div>
+      </div>
+      <div class="card-grid">
+
+        <a class="hm-card" href="./aqura-home/" style="--brand:#6e3a1c;">
+          <div class="hm-name">アキュラホーム</div>
+          <div class="hm-name-en">AQURA HOME</div>
+          <div class="hm-one-liner">「カンナ社長」のAQ Group。木造大空間「剛木造」で価格と性能を両立。</div>
+          <div class="hm-price"><span class="price-label">坪単価目安</span>55〜80万円</div>
+          <div class="hm-tags">
+            <span class="tag tag--brand">ローコスト</span>
+            <span class="tag">木造</span>
+            <span class="tag">大空間</span>
+          </div>
+          <div class="hm-link">徹底解説を読む →</div>
+        </a>
+
+        <a class="hm-card" href="./aera-home/" style="--brand:#1f7a8c;">
+          <div class="hm-name">アエラホーム</div>
+          <div class="hm-name-en">AERA HOME</div>
+          <div class="hm-one-liner">外張り+充填のW断熱が標準。ローコスト帯では珍しい断熱特化。</div>
+          <div class="hm-price"><span class="price-label">坪単価目安</span>50〜75万円</div>
+          <div class="hm-tags">
+            <span class="tag tag--brand">ローコスト</span>
+            <span class="tag">W断熱</span>
+            <span class="tag">木造</span>
+          </div>
+          <div class="hm-link">徹底解説を読む →</div>
+        </a>
+
+        <a class="hm-card" href="./leo-house/" style="--brand:#c9383f;">
+          <div class="hm-name">レオハウス</div>
+          <div class="hm-name-en">LEO HOUSE</div>
+          <div class="hm-one-liner">ヤマダグループ。規格プラン「大人気の家」で総額を抑えやすい。</div>
+          <div class="hm-price"><span class="price-label">坪単価目安</span>45〜70万円</div>
+          <div class="hm-tags">
+            <span class="tag tag--brand">ローコスト</span>
+            <span class="tag">木造</span>
+            <span class="tag">規格型</span>
+          </div>
+          <div class="hm-link">徹底解説を読む →</div>
+        </a>
+
+        <a class="hm-card" href="./eyeful-home/" style="--brand:#e8702a;">
+          <div class="hm-name">アイフルホーム</div>
+          <div class="hm-name-en">EYEFUL HOME</div>
+          <div class="hm-one-liner">LIXIL系FC。キッズデザイン賞を軸に子育て家庭向け設計提案に定評。</div>
+          <div class="hm-price"><span class="price-label">坪単価目安</span>50〜75万円</div>
+          <div class="hm-tags">
+            <span class="tag tag--brand">ローコスト</span>
+            <span class="tag">木造</span>
+            <span class="tag">子育て向け</span>
+          </div>
+          <div class="hm-link">徹底解説を読む →</div>
+        </a>
+
+        <a class="hm-card" href="./universal-home/" style="--brand:#8c5a2b;">
+          <div class="hm-name">ユニバーサルホーム</div>
+          <div class="hm-name-en">UNIVERSAL HOME</div>
+          <div class="hm-one-liner">地熱床システム＋ALC外壁が標準。「足元から暖かい家」の独自ポジション。</div>
+          <div class="hm-price"><span class="price-label">坪単価目安</span>50〜70万円</div>
+          <div class="hm-tags">
+            <span class="tag tag--brand">ローコスト</span>
+            <span class="tag">地熱床暖房</span>
+            <span class="tag">ALC外壁</span>
+          </div>
+          <div class="hm-link">徹底解説を読む →</div>
+        </a>
+
+        <a class="hm-card" href="./papamaru/" style="--brand:#e64b2a;">
+          <div class="hm-name">パパまるハウス</div>
+          <div class="hm-name-en">PAPAMARU HOUSE</div>
+          <div class="hm-one-liner">桧家グループの規格住宅。1,000万円台のフル装備で総額予算に収めやすい。</div>
+          <div class="hm-price"><span class="price-label">坪単価目安</span>40〜60万円</div>
+          <div class="hm-tags">
+            <span class="tag tag--brand">ローコスト</span>
+            <span class="tag">規格型</span>
+            <span class="tag">1,000万円台</span>
+          </div>
+          <div class="hm-link">徹底解説を読む →</div>
+        </a>
+
+      </div>
+    </div>
+
+    <!-- ========= 地域・特化（4社） ========= -->
+    <div class="category-block">
+      <div class="category-header">
+        <div class="cat-title">地域・特化型ハウスメーカー<span class="cat-num">全5社</span></div>
+        <div class="cat-desc">素材・工法・エリアで強い個性を持つ5社</div>
+      </div>
+      <div class="card-grid">
+
+        <a class="hm-card" href="./sweden-house/" style="--brand:#3a7bb0;">
+          <div class="hm-name">スウェーデンハウス</div>
+          <div class="hm-name-en">SWEDEN HOUSE</div>
+          <div class="hm-one-liner">北欧木製3層サッシ＋120mm厚断熱パネル。オリコン顧客満足度常連上位。</div>
+          <div class="hm-price"><span class="price-label">坪単価目安</span>90〜120万円</div>
+          <div class="hm-tags">
+            <span class="tag tag--brand">特化</span>
+            <span class="tag">北欧</span>
+            <span class="tag">木製サッシ</span>
+          </div>
+          <div class="hm-link">徹底解説を読む →</div>
+        </a>
+
+        <a class="hm-card" href="./cleverly-home/" style="--brand:#a0522d;">
+          <div class="hm-name">クレバリーホーム</div>
+          <div class="hm-name-en">CLEVERLY HOME</div>
+          <div class="hm-one-liner">外壁総タイル標準が最大の特徴。メンテナンスコストを長期で抑える設計思想。</div>
+          <div class="hm-price"><span class="price-label">坪単価目安</span>55〜80万円</div>
+          <div class="hm-tags">
+            <span class="tag tag--brand">特化</span>
+            <span class="tag">総タイル外壁</span>
+            <span class="tag">木造</span>
+          </div>
+          <div class="hm-link">徹底解説を読む →</div>
+        </a>
+
+        <a class="hm-card" href="./withdom/" style="--brand:#1f2d3d;">
+          <div class="hm-name">ウィズダム</div>
+          <div class="hm-name-en">WITHDOM</div>
+          <div class="hm-one-liner">高性能×デザインの新興プレミアム。UA値0.3台＋モダン建築の両立を目指す。</div>
+          <div class="hm-price"><span class="price-label">坪単価目安</span>90〜120万円</div>
+          <div class="hm-tags">
+            <span class="tag tag--brand">特化</span>
+            <span class="tag">高断熱</span>
+            <span class="tag">デザイン</span>
+          </div>
+          <div class="hm-link">徹底解説を読む →</div>
+        </a>
+
+        <a class="hm-card" href="./withers-home/" style="--brand:#4a7c59;">
+          <div class="hm-name">ウィザースホーム</div>
+          <div class="hm-name-en">WITHERS HOME</div>
+          <div class="hm-one-liner">新昭和グループ。2×6＋セラミックタイル外壁で長寿命化。<strong>関東限定</strong>のため参考情報として収録。</div>
+          <div class="hm-price"><span class="price-label">坪単価目安</span>65〜90万円</div>
+          <div class="hm-tags">
+            <span class="tag tag--brand">特化</span>
+            <span class="tag">2×6工法</span>
+            <span class="tag tag--warn">関東限定</span>
+          </div>
+          <div class="hm-link">徹底解説を読む →</div>
+        </a>
+
+        <a class="hm-card" href="./r-gallery/" style="--brand:#1a1a1a;">
+          <div class="hm-name">アールギャラリー</div>
+          <div class="hm-name-en">ARR GALLERY</div>
+          <div class="hm-one-liner">名古屋発のデザイン住宅。大手HM出身デザイナー＋全棟許容応力度計算で坪70〜100万円帯の自由設計。<strong>東海＋首都圏一部限定</strong>。</div>
+          <div class="hm-price"><span class="price-label">坪単価目安</span>70〜100万円</div>
+          <div class="hm-tags">
+            <span class="tag tag--brand">特化</span>
+            <span class="tag">デザイン</span>
+            <span class="tag tag--warn">東海＋首都圏</span>
+          </div>
+          <div class="hm-link">徹底解説を読む →</div>
+        </a>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ========== データ出典・免責 ========== -->
+<section class="section" id="source">
+  <div class="container">
+    <h2>データ出典・免責</h2>
+    <p class="section-lead">事実ベースで書くための、情報源と更新ルール。</p>
+    <div class="disclaimer">
+      <h3>主な情報源</h3>
+      <ul>
+        <li>各社公式サイト・IR資料・決算短信（2024年度〜2025年度）</li>
+        <li>オリコン顧客満足度ランキング「ハウスメーカー 注文住宅」（2025年度版）</li>
+        <li>住宅金融支援機構「フラット35利用者調査」</li>
+        <li>各社プレスリリース・商品カタログ（2026年2〜4月収集分）</li>
+        <li>建築業者専門ジャーナル「住宅産業新聞」公開記事</li>
+      </ul>
+      <h3 style="margin-top: 18px;">坪単価について</h3>
+      <ul>
+        <li>掲載している坪単価は<strong>本体工事費のみ</strong>の目安。建築総額は本体の約1.4倍が一般的（付帯工事・諸経費込み）。</li>
+        <li>同じ会社でも商品ラインナップ・仕様・立地で大きく変動します。契約前は必ず見積もりで個別確認を。</li>
+      </ul>
+      <h3 style="margin-top: 18px;">改訂・誤記修正</h3>
+      <ul>
+        <li>最終更新日：<strong>2026年4月20日</strong></li>
+        <li>次回改訂予定：2026年10月（半期ごとに見直し）</li>
+        <li>誤記・情報の古さに気づかれた場合は、ARCHISTLINE公式アカウントまでご連絡ください。修正対応いたします。</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ========== Footer ========== -->
+<footer class="site-footer">
+  <div class="footer-brand">ARCHIST</div>
+  <div class="footer-tag">家づくり相談サービス</div>
+  <div>
+    <a class="footer-link" href="#">ARCHISTについて</a>
+  </div>
+  <div class="footer-copy">
+    &copy; 2026 ARCHIST. All Rights Reserved.<br>
+    本ガイドはARCHISTハウスメーカー徹底解説として無償提供しています。無断転載・二次配布はご遠慮ください。
+  </div>
+</footer>
+
+</body>
+</html>
